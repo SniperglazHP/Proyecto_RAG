@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "text_preview": "Gatos naranjas: \u00bfSon realmente los m\u00e1s traviesos? La gen\u00e9tica podr\u00eda tener la respuesta \nLos mejores datos cient\u00edficos sobre el comportamiento de los felinos pelirrojos sugieren que, s\u00ed, \npuede que te",
+        "vector": [
+            -0.021289285272359848,
+            -0.03619784861803055,
+            -0.012318671680986881,
+            -0.03471790999174118,
+            0.0498812198638916,
+            0.03745943680405617,
+            0.0048795524053275585,
+            -0.017953356727957726
+        ]
+    },
+    {
+        "id": 1,
+        "text_preview": "\"Nuestra evaluaci\u00f3n se hizo a trav\u00e9s de preguntas enviadas a los propietarios. No se hizo \nmediante observaci\u00f3n directa\", detalla. \u201cCada vez que se utiliza un cuestionario, se asume \nel riesgo de sesg",
+        "vector": [
+            0.0009114161366596818,
+            -0.02421741746366024,
+            -0.009160139597952366,
+            -0.028548311442136765,
+            0.03569132462143898,
+            0.033650461584329605,
+            0.015413240529596806,
+            -0.022971542552113533
+        ]
+    },
+    {
+        "id": 2,
+        "text_preview": "\u201cEsto es lo que vemos en las cl\u00ednicas todos los d\u00edas\u201d, dice Siracusa, que comenta que los clientes le \ndicen con frecuencia que eligieron una mascota de determinada raza o color por su \ncomportamiento",
+        "vector": [
+            0.005971655249595642,
+            -0.021897131577134132,
+            -0.004932275041937828,
+            -0.028388477861881256,
+            0.03856547921895981,
+            0.041651736944913864,
+            0.024383993819355965,
+            -0.019180715084075928
+        ]
+    },
+    {
+        "id": 3,
+        "text_preview": "Las c\u00e9lulas \"especiales\" de los gatos \nComo parte de un protocolo de investigaci\u00f3n \u00e9ticamente aprobado, Barsh y sus colegas recogieron \ncasi mil embriones que de otro modo se habr\u00eda descartado de cl\u00edn",
+        "vector": [
+            0.00033936987165361643,
+            -0.027366245165467262,
+            -0.0003254057955928147,
+            -0.015572084113955498,
+            0.03293157368898392,
+            0.03312114626169205,
+            0.029356764629483223,
+            -0.0012711560120806098
+        ]
+    }
+]
