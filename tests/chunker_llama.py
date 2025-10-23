@@ -1,6 +1,6 @@
 """
-Este módulo se encarga de recibir texto o documentos (Markdown) de LlamaIndex y los divide
-en fragmentos (chunks) utilizando LlamaIndex.
+Este módulo se encarga de recibir texto o documentos Markdown de LlamaIndex y los divide
+en fragmentos chunks utilizando LlamaIndex.
 """
 #-->Importa librerías
 from llama_index.core import Document #Document representa el texto en formato interno compatible con LlamaIndex

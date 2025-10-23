@@ -51,4 +51,4 @@ def parse_document(file_path: str): #file_path es la ruta del archivo a procesar
     with open(md_path, "w", encoding="utf-8") as f: #Guarda el texto extraído en un archivo Markdown, w indica que se abre para escritura y encoding="utf-8" asegura que se guarden caracteres especiales correctamente
         f.write(md_text if md_text else "No se detectó texto en el documento.") #Si no se extrajo texto, guarda un mensaje indicando que no se detectó texto
 
-    return docs #Retorna la lista de documentos procesados (para el siguiente paso: chunking)
+    return docs #Retorna la lista de documentos procesados para el siguiente paso que es chunking
