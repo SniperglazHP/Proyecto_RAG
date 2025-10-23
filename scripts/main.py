@@ -3,9 +3,9 @@ Aqui es el FastAPI principal para ingesta de archivos, parsing, chunking y embed
 """
 #-->Importa librerías
 from fastapi import FastAPI, UploadFile, File #Importa FastAPI y clases para manejo de archivos subidos
-from tests.parser_llama import parse_document #Importa la función de parsing de documentos
-from tests.chunker_llama import chunk_text #Importa la función de chunking de texto
-from tests.embeddings_llama import generate_embeddings #Importa la función de generación de embeddings
+from scripts.parser_llama import parse_document #Importa la función de parsing de documentos
+from scripts.chunker_llama import chunk_text #Importa la función de chunking de texto
+from scripts.embeddings_llama import generate_embeddings #Importa la función de generación de embeddings
 import os #Maneja operaciones del sistema como rutas de archivos y variables de entorno
 
 #-->Crea la aplicación FastAPI con el nombre "app"
