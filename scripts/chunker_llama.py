@@ -1,24 +1,30 @@
 """
-Este módulo se encarga de recibir texto o documentos Markdown de LlamaIndex y los divide
-en fragmentos chunks utilizando LlamaIndex.
+Este módulo que recibe texto o documentos y los divide
+en fragmentos chunks para facilitar su procesamiento posterior.
 """
 #-->Importa librerías
-from llama_index.core import Document #Document representa el texto en formato interno compatible con LlamaIndex
-from llama_index.core.node_parser import SimpleNodeParser #SimpleNodeParser permite dividir un documento en secciones (chunks)
+from llama_index.core import Document #Clase de LlamaIndex que representa un documento de texto
+from llama_index.core.node_parser import SimpleNodeParser #Clase de LlamaIndex para dividir documentos en nodos/chunks
+from pathlib import Path #Maneja rutas de archivos de forma segura y de manera multiplataforma
 
-#-->Función principal para chunking
-def chunk_text(docs): #El docs dentro del parentesis puede ser una lista de Documentos o una cadena de texto y viene del parser_llama.py 
-    if isinstance(docs, list): #Si llega una lista de documentos, concatena su texto
-        full_text = "\n".join([doc.text for doc in docs if hasattr(doc, "text")]) #full_text une el texto de todos los documentos con saltos de línea
-    elif isinstance(docs, str): #Si llega una cadena, la usa directamente
-        full_text = docs #Aqui full_text es igual a docs para el caso de que docs sea un string
+#-->Función principal para dividir texto o documentos en chunks 
+def chunk_text(docs_or_path): #Recibe una lista de documentos, texto plano o una ruta a un archivo .md
+    # Si se pasa una ruta a archivo .md
+    if isinstance(docs_or_path, (str, Path)) and Path(docs_or_path).suffix == ".md":
+        with open(docs_or_path, "r", encoding="utf-8") as f:
+            full_text = f.read()
+
+    elif isinstance(docs_or_path, list):
+        full_text = "\n".join([doc.text for doc in docs_or_path if hasattr(doc, "text")])
+
+    elif isinstance(docs_or_path, str):
+        full_text = docs_or_path
+
     else:
-        raise TypeError("El parámetro 'docs' debe ser lista de documentos o string") #Si llega un tipo no válido, lanza un error
-    
-    document = Document(text=full_text) #Crea un documento con el texto completo usando la clase Document de LlamaIndex
+        raise TypeError("El parámetro debe ser lista de documentos, string o ruta .md válida.")
 
-    parser = SimpleNodeParser.from_defaults(chunk_size=1024, chunk_overlap=100) #Crea un parser que divide el texto en chunks de 1024 caracteres con 100 de superposición y las superposiciones sirven para mantener contexto entre chunks
-
-    nodes = parser.get_nodes_from_documents([document]) #Obtiene los nodos (chunks) a partir del documento
-
-    return nodes #Retorna la lista de chunks generados y los manda a embeddings_llama.py para generar embeddings
+    # Crear documento y dividirlo en chunks
+    document = Document(text=full_text)
+    parser = SimpleNodeParser.from_defaults(chunk_size=1024, chunk_overlap=100)
+    nodes = parser.get_nodes_from_documents([document])
+    return nodes
