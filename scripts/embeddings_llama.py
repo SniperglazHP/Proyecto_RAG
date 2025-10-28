@@ -3,6 +3,7 @@ Se encarga de generar embeddings a partir de los chunks creados en chunker_llama
 modelo definido en el .env, también guarda los embeddings generados en la carpeta /embeddings en formato JSON.
 """
 #-->Importa librerías
+from scripts.pinecone_client import upload_embeddings_to_pinecone #Importa la función para subir embeddings a Pinecone
 import os #Maneja operaciones del sistema como rutas de archivos y variables de entorno
 import json #Maneja la serialización y deserialización de datos en formato JSON
 from pathlib import Path #Maneja rutas de archivos de forma segura y multiplataforma
@@ -39,7 +40,7 @@ def generate_embeddings(chunks, filename="document"):
             embeddings.append({ #Guarda una vista previa del texto y el vector truncado
                 "id": i, #Identificador del chunk
                 "text_preview": chunk.text[:200], #Solo muestra los primeros 200 caracteres del texto
-                "vector": vector[:8] #Solo muestra los primeros 8 valores
+                "vector": vector #Solo muestra los primeros 8 valores
             })
         except Exception as e: #Captura errores en la generación de embeddings
             print(f"Error generando embedding en chunk {i}: {e}") #Muestra el error en consola
@@ -50,5 +51,7 @@ def generate_embeddings(chunks, filename="document"):
         json.dump(embeddings, f, indent=4) #Guarda los embeddings en formato JSON con una indentación de 4 espacios
 
     print(f"Embeddings guardados en: {output_path}") #Muestra en consola la ruta del archivo guardado
+
+    upload_embeddings_to_pinecone(embeddings)
 
     return embeddings #Devuelve los embeddings generados para su uso posterior en main.py
