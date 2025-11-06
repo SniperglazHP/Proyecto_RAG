@@ -1,45 +1,53 @@
 """
 Este codigo se encarga de la configuración e interacción con Pinecone,
-un servicio de base de datos vectorial en la nube, para almacenar y gestionar
 """
 #-->Importa librerías
 import os #Maneja operaciones del sistema como rutas de archivos y variables de entorno
+import uuid #Genera identificadores únicos para evitar reemplazos en Pinecone
 from dotenv import load_dotenv #Carga las variables de entorno desde un archivo .env
-from pinecone import Pinecone, ServerlessSpec #Librería oficial de Pinecone para interactuar con su servicio
+from pinecone import Pinecone, ServerlessSpec #Librería oficial de Pinecone
 
 #-->Carga las variables de entorno del archivo .env
-load_dotenv() #Asegúrate de tener esto ANTES de usar os.getenv
+load_dotenv()
 
-#-->Inicializa Pinecone con tu API Key
-pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY")) #Usa la clave API desde .env
+#-->Inicializa Pinecone con la API Key
+pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 
 #-->Obtiene el nombre del índice desde .env
-INDEX_NAME = os.getenv("INDEX_NAME", "rag-index") #Nombre del índice en Pinecone
+INDEX_NAME = os.getenv("INDEX_NAME", "rag-index")
 
 #-->Verifica si el índice ya existe
-if INDEX_NAME not in [index["name"] for index in pc.list_indexes()]: #Lista los índices existentes y verifica si el deseado ya está creado
-    print(f"-->Creando índice '{INDEX_NAME}' con dimensión 3072 (text-embedding-3-large)...") #Crea el índice si no existe
+if INDEX_NAME not in [index["name"] for index in pc.list_indexes()]: #Aqui se hace la verificación
+    print(f"-->Creando índice '{INDEX_NAME}' con dimensión 3072 (text-embedding-3-large)...")
     pc.create_index(
-        name=INDEX_NAME, #Nombre del índice
-        dimension=3072, #Modelo text-embedding-3-large
+        name=INDEX_NAME,
+        dimension=3072, #Dimensión para text-embedding-3-large
         metric="cosine", #Métrica de similitud
         spec=ServerlessSpec(cloud="aws", region=os.getenv("PINECONE_ENV", "us-east-1")) #Especificaciones del servidor
     )
 else:
-    print(f"-->Índice '{INDEX_NAME}' ya existe en Pinecone.") #Si no el índice ya existente
+    print(f"-->Índice '{INDEX_NAME}' ya existe en Pinecone.")
 
 #-->Conecta al índice existente o recién creado
-index = pc.Index(INDEX_NAME) #Crea una instancia del índice para operaciones posteriores
+index = pc.Index(INDEX_NAME)
 
 #-->Función para subir embeddings al índice en Pinecone
-def upload_embeddings_to_pinecone(embeddings): #Recibe una lista de embeddings generados
-    vectors = [] #Lista para almacenar los vectores formateados
-    for emb in embeddings: #Itera sobre cada embedding
-        vectors.append({ #Prepara el formato requerido por Pinecone
-            "id": str(emb["id"]), #Usa el ID como cadena
-            "values": emb["vector"],  #Usa el vector completo generado
-            "metadata": {"text_preview": emb["text_preview"]} #Incluye una vista previa del texto como metadato
+def upload_embeddings_to_pinecone(embeddings): #Esta función sube los embeddings generados al índice de Pinecone
+    vectors = [] #Lista para almacenar los vectores a subir
+    for emb in embeddings: #Itera sobre cada embedding generado
+        unique_id = f"{emb['id']}_{uuid.uuid4().hex[:8]}" #Genera un ID único para cada embedding
+        
+        #-->Prepara el formato requerido por Pinecone
+        vectors.append({
+            "id": unique_id,
+            "values": emb["vector"],
+            "metadata": {
+                "text_preview": emb.get("text_preview", "Sin vista previa")
+            }
         })
 
-    index.upsert(vectors=vectors) #Sube los vectores al índice en Pinecone
-    print(f"-->{len(vectors)} embeddings subidos correctamente al índice '{INDEX_NAME}' en Pinecone.") #Confirma la subida exitosa
+    #-->Sube los vectores al índice
+    index.upsert(vectors=vectors)
+
+    #-->Confirma la subida de embeddings
+    print(f"-->{len(vectors)} embeddings subidos correctamente al índice '{INDEX_NAME}' en Pinecone con IDs únicos.")
