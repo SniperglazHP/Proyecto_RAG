@@ -2,8 +2,8 @@
 En este archivo se crean los endpoints principales para trabajar con el sistema RAG usando FastAPI
 """
 #-->Importa librerías
-from fastapi import FastAPI, UploadFile, File, Form  # Maneja la creación de la API y la carga de archivos
-from fastapi.responses import JSONResponse  # Respuestas JSON personalizadas
+from fastapi import FastAPI, UploadFile, File, Form  #Maneja la creación de la API y la carga de archivos
+from fastapi.responses import JSONResponse  #Respuestas JSON personalizadas
 import os  # Operaciones del sistema
 from dotenv import load_dotenv  # Carga variables de entorno
 from openai import OpenAI  # Cliente oficial de OpenAI
@@ -15,18 +15,18 @@ from scripts.pinecone_client import pc, INDEX_NAME  # Cliente Pinecone y nombre 
 #-->Carga variables de entorno en el .env
 load_dotenv()
 
-#-->Inicializa FastAPI
+#-->Inicializa FastAPI esto es una instancia de la app
 app = FastAPI(title="Proyecto RAG")
 
 #-->Inicializa cliente OpenAI
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY")) #Este es mi cliente de OpenAI
 llm_model = os.getenv("LLM_MODEL", "gpt-5-mini")
 
 #--------
 #ingesta
 #--------
 @app.post("/ingesta/")
-async def process_document(file: UploadFile = File(...)):
+async def ingesta(file: UploadFile = File(...)):
     """
     Procesa un documento:
     - Lo convierte a texto markdown con Docling
@@ -69,89 +69,66 @@ async def process_document(file: UploadFile = File(...)):
 #----------
 #retrieval
 #----------
-@app.post("/retrieval/")
-async def retrieval(query: str = Form(...)):
-    """
-    Realiza una búsqueda semántica sobre los embeddings almacenados en Pinecone
-    y genera una respuesta contextual con el modelo GPT-5-mini.
-    """
+@app.post("/retrieval/") #Se crea el endpoint de retrieval de tipo post para recibir datos del usuario
+async def retrieval(query: str = Form(...)): #Creamos esta funcion asincrona que recibe un query de tipo string desde un formulario
     try:
-        #-->Genera el embedding de la consulta
-        embedding_response = client.embeddings.create(
-            model="text-embedding-3-large",
-            input=query
+        #-->Genera el embedding del query usando OpenAI
+        embedding_response = client.embeddings.create( #Llama a la API de OpenAI para generar el embedding del query
+            model="text-embedding-3-large", #Modelo de embeddings
+            input=query #Texto del query proporcionado por el usuario
         )
-        query_vector = embedding_response.data[0].embedding
+        query_vector = embedding_response.data[0].embedding #Obtiene el vector de embedding del query
 
-        #-->Consulta semántica en Pinecone
-        index = pc.Index(INDEX_NAME)
-        results = index.query(
-            vector=query_vector,
-            top_k=5,
-            include_metadata=True
+        #-->Consulta el índice de Pinecone para recuperar chunks similares
+        index = pc.Index(INDEX_NAME) #Conecta al índice de Pinecone
+        results = index.query( #Realiza la consulta en Pinecone usando el vector del query
+            vector=query_vector, #Vector del query que dio OpenAI del usuario
+            top_k=5, #Número de vectores similares de Pinecone a recuperar
+            include_metadata=True #Muestra la metadata asociada a cada vector recuperado
         )
 
-        #-->Construye contexto a partir de los textos recuperados
-        context = "\n\n".join([
-            match["metadata"]["text_preview"]
-            for match in results["matches"]
+        #-->Construye el contexto de la metadata a partir de los chunks (no olvidar, es una tecnica llamada comprension de listas en python)
+        context = "\n\n".join([ #Esta funcion une los textos de vista previa de los chunks recuperados
+            match["metadata"]["text_preview"] #Obtiene la vista previa del texto desde la metadata
+            for match in results["matches"] #Itera sobre los vectores recuperados
         ])
 
-        if not context.strip():
+        #-->Verifica si se encontró contexto, si es asi manda de respuesta error
+        if not context.strip(): #Verifica si el contexto está vacío
             return {
                 "query": query,
                 "answer": "No se encontró información relevante en la base vectorial.",
                 "matches_found": 0
             }
 
-        #-->Genera la respuesta usando GPT-5-mini
-        response = client.chat.completions.create(
-            model=llm_model,
-            messages=[
+        #-->Genera la respuesta usando Responses API (importante da contexto y menciona que es el reemplazo de Completions)
+        response = client.responses.create( #Llama a la API de OpenAI para generar la respuesta basada en el contexto
+            model=llm_model, #Modelo LLM definido en este caso gpt-5-mini
+            input=[
                 {
                     "role": "system",
                     "content": (
-                        "Eres un asistente que responde de forma breve y clara "
-                        "usando solo la información del contexto. "
-                        "Si el contexto no contiene la respuesta, responde: "
-                        "'No tengo información sobre eso en mis datos.'"
+                        "Eres un asistente que responde preguntas basadas en el contexto proporcionado. "
+                        "Si la información no está en el contexto, indica que no la conoces."
                     )
                 },
                 {
                     "role": "user",
-                    "content": f"Contexto:\n{context}\n\nPregunta:\n{query}"
+                    "content": f"Contexto:\n{context}\n\nPregunta: {query}"
                 }
             ],
-            max_completion_tokens=400
         )
 
-        #-->Extrae la respuesta del modelo (GPT-5-mini usa 'output' y 'content')
-        answer = None
-        if hasattr(response, "output"):
-            try:
-                answer = response.output[0].content[0].text
-            except Exception:
-                answer = None
-        elif hasattr(response, "choices") and len(response.choices) > 0:
-            message_obj = response.choices[0].message
-            answer = getattr(message_obj, "content", None)
+        #-->Obtiene la respuesta generada
+        answer = response.output_text #Obtiene el texto de la respuesta generada por OpenAI
 
+        #-->Devuelve la respuesta junto con el número de coincidencias encontradas
         return {
             "query": query,
-            "answer": answer if answer else "No se obtuvo respuesta del modelo.",
-            "matches_found": len(results["matches"]),
-            "retrieved_documents": [
-                {
-                    "id": match["id"],
-                    "similarity_score": match["score"],
-                    "text_excerpt": match["metadata"]["text_preview"][:200],
-                }
-                for match in results["matches"]
-            ],
+            "answer": answer,
+            "matches_found": len(results["matches"])
         }
 
+    #-->Captura errores durante el proceso de retrieval
     except Exception as e:
-        return JSONResponse(
-            status_code=500,
-            content={"error": f"Error durante el retrieval: {str(e)}"}
-        )
+        return JSONResponse(status_code=500, content={"error": f"Error durante retrieval: {str(e)}"})

@@ -22,7 +22,7 @@ if INDEX_NAME not in [index["name"] for index in pc.list_indexes()]: #Aqui se ha
     pc.create_index(
         name=INDEX_NAME,
         dimension=3072, #Dimensión para text-embedding-3-large
-        metric="cosine", #Métrica de similitud
+        metric="cosine", #cosine sirve para medir similitud angular de vectores
         spec=ServerlessSpec(cloud="aws", region=os.getenv("PINECONE_ENV", "us-east-1")) #Especificaciones del servidor
     )
 else:
@@ -34,15 +34,17 @@ index = pc.Index(INDEX_NAME)
 #-->Función para subir embeddings al índice en Pinecone
 def upload_embeddings_to_pinecone(embeddings): #Esta función sube los embeddings generados al índice de Pinecone
     vectors = [] #Lista para almacenar los vectores a subir
-    for emb in embeddings: #Itera sobre cada embedding generado
-        unique_id = f"{emb['id']}_{uuid.uuid4().hex[:8]}" #Genera un ID único para cada embedding
+    for emb in embeddings: #emb es una lista de vectores con sus IDs y datos asociados
+
+        #-->Genera un ID único para cada embedding para evitar reemplazos
+        unique_id = f"{emb['id']}_{uuid.uuid4().hex[:8]}"
         
-        #-->Prepara el formato requerido por Pinecone
-        vectors.append({
+        #-->Prepara el formato requerido para los vectores en Pinecone
+        vectors.append({ 
             "id": unique_id,
             "values": emb["vector"],
             "metadata": {
-                "text_preview": emb.get("text_preview", "Sin vista previa")
+                "text_preview": emb.get("text_preview", "Sin vista previa") #Agrega una vista previa del texto si está disponible
             }
         })
 
