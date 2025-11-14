@@ -1,10 +1,13 @@
-# scripts/streamlit_app.py
+"""
+Este script se encarga de gestionar la pagina principal de Streamlit
+"""
+
 import streamlit as st
 from pathlib import Path
 
 # Configuración general
 st.set_page_config(
-    page_title="RAG System",
+    page_title="Sistema RAG",
     layout="wide"
 )
 
