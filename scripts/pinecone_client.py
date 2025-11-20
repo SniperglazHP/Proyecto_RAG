@@ -44,8 +44,10 @@ def upload_embeddings_to_pinecone(embeddings): #Esta función sube los embedding
             "id": unique_id,
             "values": emb["vector"],
             "metadata": {
-                "text_preview": emb.get("text_preview", "Sin vista previa") #Agrega una vista previa del texto si está disponible
+                "text": emb.get("text", ""),       
+                "preview": emb.get("preview", "")
             }
+
         })
 
     #-->Sube los vectores al índice

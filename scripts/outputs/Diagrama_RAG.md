@@ -1,7 +1,0 @@
-## INGESTION
-
-<!-- image -->
-
-## RETRIEVAL
-
-<!-- image -->

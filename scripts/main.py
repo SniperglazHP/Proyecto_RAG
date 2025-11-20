@@ -27,13 +27,6 @@ llm_model = os.getenv("LLM_MODEL", "gpt-5-mini")
 #--------
 @app.post("/ingesta/")
 async def ingesta(file: UploadFile = File(...)):
-    """
-    Procesa un documento:
-    - Lo convierte a texto markdown con Docling
-    - Divide el texto en chunks
-    - Genera embeddings con OpenAI
-    - Sube los embeddings al índice de Pinecone
-    """
     try:
         #-->Guarda el archivo subido
         file_path = os.path.join("scripts", "uploads", file.filename)
@@ -88,10 +81,12 @@ async def retrieval(query: str = Form(...)): #Creamos esta funcion asincrona que
         )
 
         #-->Construye el contexto de la metadata a partir de los chunks (no olvidar, es una tecnica llamada comprension de listas en python)
-        context = "\n\n".join([ #Esta funcion une los textos de vista previa de los chunks recuperados
-            match["metadata"]["text_preview"] #Obtiene la vista previa del texto desde la metadata
-            for match in results["matches"] #Itera sobre los vectores recuperados
+        context = "\n\n".join([
+            match["metadata"].get("text") 
+            or match["metadata"].get("preview", "")
+            for match in results["matches"]
         ])
+
 
         #-->Verifica si se encontró contexto, si es asi manda de respuesta error
         if not context.strip(): #Verifica si el contexto está vacío
