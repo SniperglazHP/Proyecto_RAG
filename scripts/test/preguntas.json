@@ -1,0 +1,197 @@
+[
+  {
+    "seccion": "Tráfico Ilegal De Fauna Silvestre",
+    "subtemas": [
+      {
+        "tema": "Grupo más afectado",
+        "pregunta_original": "¿Qué grupo de animales fue el más afectado por el tráfico ilegal según las incautaciones?",
+        "variaciones": [
+          "¿Cuál fue el grupo de animales más afectado por el tráfico ilegal según las incautaciones?",
+          "¿Qué tipo de animales resultó ser el más impactado por el tráfico ilegal según los decomisos?",
+          "Según las incautaciones realizadas, ¿qué grupo animal fue el más traficado?"
+        ]
+      },
+      {
+        "tema": "Especies de aves más decomisadas",
+        "pregunta_original": "¿Qué especies de aves fueron de las más frecuentemente decomisadas?",
+        "variaciones": [
+          "¿Qué especies de aves aparecen como las más frecuentemente decomisadas?",
+          "¿Cuáles aves fueron de las más comunes dentro de las especies decomisadas?",
+          "¿Qué aves destacan entre las especies más decomisadas en el tráfico ilegal?"
+        ]
+      },
+      {
+        "tema": "Estado con mayor número de eventos",
+        "pregunta_original": "¿Cuál fue el estado con mayor número de eventos e individuos confiscados?",
+        "variaciones": [
+          "¿Qué estado registró el mayor número de eventos e individuos confiscados?",
+          "¿En qué estado se reportó la mayor cantidad de incautaciones y eventos?",
+          "¿Cuál entidad federativa acumuló más eventos e individuos decomisados?"
+        ]
+      },
+      {
+        "tema": "Total de especies confiscadas",
+        "pregunta_original": "¿Cuántas especies de vertebrados fueron decomisadas en México entre 2000 y 2020?",
+        "variaciones": [
+          "¿Cuántas especies de vertebrados fueron decomisadas entre 2000 y 2020?",
+          "¿Cuál fue el total de especies de vertebrados confiscadas entre los años 2000 y 2020?",
+          "¿Cuántas especies diferentes de vertebrados registró PROFEPA como confiscadas en esas dos décadas?"
+        ]
+      },
+      {
+        "tema": "Segundo grupo más traficado",
+        "pregunta_original": "¿Cuál fue el segundo grupo más traficado y cuántas especies incluye?",
+        "variaciones": [
+          "¿Cuál fue el segundo grupo de animales más traficado y cuántas especies incluye?",
+          "¿Qué grupo ocupó el segundo lugar en tráfico y de cuántas especies estuvo compuesto?",
+          "¿Qué grupo fue el segundo más afectado y cuántas especies lo integran?"
+        ]
+      },
+      {
+        "tema": "Reptiles destacados",
+        "pregunta_original": "¿Qué especies de reptiles destacan entre las incautaciones?",
+        "variaciones": [
+          "¿Qué especies de reptiles sobresalen entre las incautaciones?",
+          "¿Cuáles reptiles aparecen como los más incautados en los decomisos?",
+          "¿Qué reptiles fueron comúnmente encontrados entre las especies confiscadas?"
+        ]
+      },
+      {
+        "tema": "Axolote",
+        "pregunta_original": "¿Qué especie de anfibio en particular fue reportada en las incautaciones y por qué es tan relevante?",
+        "variaciones": [
+          "¿Qué especie de anfibio fue reportada en las incautaciones y por qué es relevante?",
+          "¿Qué anfibio aparece mencionado dentro de las incautaciones y cuál es su importancia?",
+          "¿Qué especie anfibia fue encontrada en el tráfico ilegal y por qué destaca?"
+        ]
+      }
+    ]
+  },
+  {
+    "seccion": "Avances Tecnológicos En México",
+    "subtemas": [
+      {
+        "tema": "Industria automotriz",
+        "pregunta_original": "¿Qué porcentaje de las importaciones totales captura la industria automotriz?",
+        "variaciones": [
+          "¿Qué porcentaje de las importaciones totales corresponde a la industria automotriz?",
+          "¿Cuánto representan las importaciones pertenecientes al sector automotriz?",
+          "¿Qué proporción de las importaciones del país captura la industria automotriz?"
+        ]
+      },
+      {
+        "tema": "Empresas aeroespaciales",
+        "pregunta_original": "¿Cuántas empresas aeroespaciales había en 2004 y cuántas a mediados de 2022?",
+        "variaciones": [
+          "¿Cuántas empresas aeroespaciales había en 2004 y cuántas en 2022?",
+          "¿Cuántas organizaciones del sector aeroespacial existían en 2004 y cuántas para 2022?",
+          "¿Cuál fue el crecimiento en número de empresas aeroespaciales entre 2004 y 2022?"
+        ]
+      },
+      {
+        "tema": "Inversión en infraestructura",
+        "pregunta_original": "¿Cuál fue la inversión anunciada en infraestructura en enero de 2025 según la UNESCO?",
+        "variaciones": [
+          "¿Cuál fue la inversión anunciada en infraestructura en enero de 2025 según la UNESCO?",
+          "¿Qué monto de inversión en infraestructura se anunció en enero de 2025?",
+          "Según la UNESCO, ¿cuánto se invirtió en infraestructura a inicios de 2025?"
+        ]
+      },
+      {
+        "tema": "Guadalajara",
+        "pregunta_original": "¿Cómo se describe a Guadalajara dentro del ecosistema tecnológico?",
+        "variaciones": [
+          "¿Cómo se describe Guadalajara dentro del ecosistema tecnológico nacional?",
+          "¿Cuál es el papel de Guadalajara en el ecosistema tecnológico?",
+          "¿Cómo se reconoce a Guadalajara dentro del ámbito tecnológico mexicano?"
+        ]
+      },
+      {
+        "tema": "Gastos en ciencia y tecnología",
+        "pregunta_original": "¿Cuánto gastó México en ciencia, tecnología e innovación en 2025 como porcentaje del PBI?",
+        "variaciones": [
+          "¿Cuánto destinó México a ciencia y tecnología en 2025 como porcentaje del PBI?",
+          "¿Cuál fue la inversión del país en ciencia y tecnología en 2025 respecto al PBI?",
+          "¿Qué porcentaje del PBI se asignó a ciencia y tecnología en 2025?"
+        ]
+      },
+      {
+        "tema": "Número de unicornios",
+        "pregunta_original": "¿Cuántas empresas unicornio tiene México actualmente?",
+        "variaciones": [
+          "¿Cuántas empresas unicornio tiene México actualmente?",
+          "¿Cuál es el número actual de unicornios en México?",
+          "¿Cuántas startups mexicanas han alcanzado categoría de unicornio?"
+        ]
+      },
+      {
+        "tema": "Unicornio líder",
+        "pregunta_original": "¿Qué empresa unicornio lidera actualmente?",
+        "variaciones": [
+          "¿Qué empresa unicornio lidera actualmente?",
+          "¿Qué unicornio mexicano encabeza el ecosistema tecnológico?",
+          "¿Cuál es la empresa unicornio con mayor valor en México?"
+        ]
+      }
+    ]
+  },
+  {
+    "seccion": "Desafíos Ambientales En México",
+    "subtemas": [
+      {
+        "tema": "Año 2025",
+        "pregunta_original": "¿Qué marca el año 2025 para el medio ambiente en México?",
+        "variaciones": [
+          "¿Qué representa el año 2025 para el medio ambiente en México?",
+          "¿Por qué 2025 es un año crítico para el medio ambiente en México?",
+          "¿Qué importancia ambiental tiene el año 2025 para México?"
+        ]
+      },
+      {
+        "tema": "Fenómenos intensificados",
+        "pregunta_original": "¿Qué fenómenos climáticos se han intensificado?",
+        "variaciones": [
+          "¿Qué fenómenos climáticos se han intensificado?",
+          "¿Cuáles fenómenos meteorológicos han aumentado en intensidad?",
+          "¿Qué eventos climáticos se han vuelto más extremos según el texto?"
+        ]
+      },
+      {
+        "tema": "Crisis delicadas",
+        "pregunta_original": "¿Cuáles son las crisis más delicadas mencionadas en el artículo?",
+        "variaciones": [
+          "¿Cuáles son las crisis más delicadas mencionadas en el artículo?",
+          "¿Qué problemáticas ambientales se consideran más delicadas?",
+          "¿Qué crisis ambientales se destacan como las más graves?"
+        ]
+      },
+      {
+        "tema": "Contaminación en Monterrey",
+        "pregunta_original": "¿Qué registró Monterrey durante este mes de febrero?",
+        "variaciones": [
+          "¿Qué registró Monterrey durante este mes de febrero?",
+          "¿Qué evento relacionado con la contaminación se reportó en Monterrey en febrero?",
+          "¿Qué ocurrió en Monterrey recientemente en términos de calidad del aire?"
+        ]
+      },
+      {
+        "tema": "Contradicción económica–ambiental",
+        "pregunta_original": "¿Qué describe el texto como una contradicción entre crecimiento económico y sostenibilidad?",
+        "variaciones": [
+          "¿Cuál es la contradicción descrita entre crecimiento económico y sostenibilidad?",
+          "¿Qué contradicción menciona el texto entre economía y sostenibilidad?",
+          "¿Qué conflicto se plantea entre el desarrollo económico y la sostenibilidad?"
+        ]
+      },
+      {
+        "tema": "Tecnologías alternativas",
+        "pregunta_original": "¿Qué tecnologías emergen como alternativas viables para reducir dependencia de combustibles fósiles?",
+        "variaciones": [
+          "¿Qué tecnologías emergen como alternativas viables para reducir la dependencia de combustibles fósiles?",
+          "¿Qué tecnologías se proponen para disminuir la dependencia energética?",
+          "¿Qué soluciones tecnológicas son mencionadas como opción para reducir el uso de combustibles fósiles?"
+        ]
+      }
+    ]
+  }
+]
