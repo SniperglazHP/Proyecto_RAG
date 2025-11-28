@@ -5,6 +5,7 @@
       {
         "tema": "Grupo más afectado",
         "pregunta_original": "¿Qué grupo de animales fue el más afectado por el tráfico ilegal según las incautaciones?",
+        "respuesta_original": "Las aves fue el grupo más confiscado, con 200 especies (42.28% del total) y 8,013 especímenes incautados.",
         "variaciones": [
           "¿Cuál fue el grupo de animales más afectado por el tráfico ilegal según las incautaciones?",
           "¿Qué tipo de animales resultó ser el más impactado por el tráfico ilegal según los decomisos?",
@@ -14,6 +15,7 @@
       {
         "tema": "Especies de aves más decomisadas",
         "pregunta_original": "¿Qué especies de aves fueron de las más frecuentemente decomisadas?",
+        "respuesta_original": "Las aves de los órdenes Passeriformes y Psittaciformes fueron las más comunes. Especies como Eupsittula canicularis y Cardinalis cardinalis se encuentran entre las más frecuentemente decomisadas.",
         "variaciones": [
           "¿Qué especies de aves aparecen como las más frecuentemente decomisadas?",
           "¿Cuáles aves fueron de las más comunes dentro de las especies decomisadas?",
@@ -23,6 +25,7 @@
       {
         "tema": "Estado con mayor número de eventos",
         "pregunta_original": "¿Cuál fue el estado con mayor número de eventos e individuos confiscados?",
+        "respuesta_original": "El estado de Oaxaca registró el mayor número de eventos (828) y confiscaciones (8,187). Este estado es uno de los más diversos biológicamente en México y su ubicación geográfica facilita las rutas comerciales, convirtiéndolo en un foco de tráfico.",
         "variaciones": [
           "¿Qué estado registró el mayor número de eventos e individuos confiscados?",
           "¿En qué estado se reportó la mayor cantidad de incautaciones y eventos?",
@@ -32,6 +35,7 @@
       {
         "tema": "Total de especies confiscadas",
         "pregunta_original": "¿Cuántas especies de vertebrados fueron decomisadas en México entre 2000 y 2020?",
+        "respuesta_original": "El análisis de las incautaciones realizado por la Procuraduría Federal de Protección al Ambiente (PROFEPA) durante dos décadas, del año 2000 a 2020, reveló que 473 especies diferentes de vertebrados fueron confiscadas.",
         "variaciones": [
           "¿Cuántas especies de vertebrados fueron decomisadas entre 2000 y 2020?",
           "¿Cuál fue el total de especies de vertebrados confiscadas entre los años 2000 y 2020?",
@@ -41,6 +45,7 @@
       {
         "tema": "Segundo grupo más traficado",
         "pregunta_original": "¿Cuál fue el segundo grupo más traficado y cuántas especies incluye?",
+        "respuesta_original": "El segundo grupo más traficado fue los reptiles, con 146 especies (30.86%) y 8,509 especímenes incautados. Los órdenes Squamata y Testudines predominaron.",
         "variaciones": [
           "¿Cuál fue el segundo grupo de animales más traficado y cuántas especies incluye?",
           "¿Qué grupo ocupó el segundo lugar en tráfico y de cuántas especies estuvo compuesto?",
@@ -50,6 +55,7 @@
       {
         "tema": "Reptiles destacados",
         "pregunta_original": "¿Qué especies de reptiles destacan entre las incautaciones?",
+        "respuesta_original": "Especies como la Iguana iguana, Ctenosaura pectinata y las tortugas marinas están entre las más incautadas.",
         "variaciones": [
           "¿Qué especies de reptiles sobresalen entre las incautaciones?",
           "¿Cuáles reptiles aparecen como los más incautados en los decomisos?",
@@ -59,6 +65,7 @@
       {
         "tema": "Axolote",
         "pregunta_original": "¿Qué especie de anfibio en particular fue reportada en las incautaciones y por qué es tan relevante?",
+        "respuesta_original": "Aunque se detectaron pocas incautaciones de anfibios (17 especies), el axolote (Ambystoma mexicanum), una especie endémica y en Peligro Crítico, fue reportado en las incautaciones, siendo popular en el comercio de mascotas y la medicina tradicional.",
         "variaciones": [
           "¿Qué especie de anfibio fue reportada en las incautaciones y por qué es relevante?",
           "¿Qué anfibio aparece mencionado dentro de las incautaciones y cuál es su importancia?",
@@ -73,6 +80,7 @@
       {
         "tema": "Industria automotriz",
         "pregunta_original": "¿Qué porcentaje de las importaciones totales captura la industria automotriz?",
+        "respuesta_original": "La actividad industrial en México es un sector de suma importancia para la economía nacional, siendo la automotriz una de las más importantes. Este pilar captura un 20% de las importaciones totales del país y aporta alrededor de un 5.1% del PBI según datos del INEGI.",
         "variaciones": [
           "¿Qué porcentaje de las importaciones totales corresponde a la industria automotriz?",
           "¿Cuánto representan las importaciones pertenecientes al sector automotriz?",
@@ -82,6 +90,7 @@
       {
         "tema": "Empresas aeroespaciales",
         "pregunta_original": "¿Cuántas empresas aeroespaciales había en 2004 y cuántas a mediados de 2022?",
+        "respuesta_original": "La Federación de la Industria Aeroespacial Mexicana, A.C. (FEMIA) indica que la industria espacial ha tenido un crecimiento sorprendente en los últimos años, pasando de de 100 empresas y organizaciones manufactureras en 2004 a 368 a mediados de 2022.",
         "variaciones": [
           "¿Cuántas empresas aeroespaciales había en 2004 y cuántas en 2022?",
           "¿Cuántas organizaciones del sector aeroespacial existían en 2004 y cuántas para 2022?",
@@ -91,6 +100,7 @@
       {
         "tema": "Inversión en infraestructura",
         "pregunta_original": "¿Cuál fue la inversión anunciada en infraestructura en enero de 2025 según la UNESCO?",
+        "respuesta_original": "Una inversión de US$ 500 mil millones en infraestructura.",
         "variaciones": [
           "¿Cuál fue la inversión anunciada en infraestructura en enero de 2025 según la UNESCO?",
           "¿Qué monto de inversión en infraestructura se anunció en enero de 2025?",
@@ -100,6 +110,7 @@
       {
         "tema": "Guadalajara",
         "pregunta_original": "¿Cómo se describe a Guadalajara dentro del ecosistema tecnológico?",
+        "respuesta_original": "Guadalajara, conocida como “el Silicon Valley mexicano”, es una de las regiones más dinámicas del ecosistema tecnológico nacional.",
         "variaciones": [
           "¿Cómo se describe Guadalajara dentro del ecosistema tecnológico nacional?",
           "¿Cuál es el papel de Guadalajara en el ecosistema tecnológico?",
@@ -109,6 +120,7 @@
       {
         "tema": "Gastos en ciencia y tecnología",
         "pregunta_original": "¿Cuánto gastó México en ciencia, tecnología e innovación en 2025 como porcentaje del PBI?",
+        "respuesta_original": "Para 2025, el gasto público destinado a ciencia, tecnología e innovación fue tan solo del 0.16% del PBI.",
         "variaciones": [
           "¿Cuánto destinó México a ciencia y tecnología en 2025 como porcentaje del PBI?",
           "¿Cuál fue la inversión del país en ciencia y tecnología en 2025 respecto al PBI?",
@@ -117,7 +129,8 @@
       },
       {
         "tema": "Número de unicornios",
-        "pregunta_original": "¿Cuántas empresas unicornio tiene México actualmente?",
+        "pregunta_original": "¿Con cuantas empresas unicornio cuenta México actualmente?",
+        "respuesta_original": "Actualmente, el país cuenta con nueve empresas unicornio, incluyendo a Kavak y Bitso, que destacan por su innovación y rápido crecimiento.",
         "variaciones": [
           "¿Cuántas empresas unicornio tiene México actualmente?",
           "¿Cuál es el número actual de unicornios en México?",
@@ -127,6 +140,7 @@
       {
         "tema": "Unicornio líder",
         "pregunta_original": "¿Qué empresa unicornio lidera actualmente?",
+        "respuesta_original": "Kavak lidera el ecosistema de unicornios mexicanos con un valor de $8,700 millones de dólares, reflejo del dinamismo tecnológico del país. Estos avances tecnológicos impulsan la innovación B2B en América Latina.",
         "variaciones": [
           "¿Qué empresa unicornio lidera actualmente?",
           "¿Qué unicornio mexicano encabeza el ecosistema tecnológico?",
@@ -141,6 +155,7 @@
       {
         "tema": "Año 2025",
         "pregunta_original": "¿Qué marca el año 2025 para el medio ambiente en México?",
+        "respuesta_original": "El año 2025 marca un punto crítico para el medio ambiente en México. La creciente crisis del agua, la contaminación del aire en las principales ciudades y la devastación de los principales ecosistemas son algunos de los desafíos más urgentes que requieren una respuesta inmediata. Sin embargo, más allá de los problemas, el país también se encuentra en una posición privilegiada para implementar soluciones innovadoras y de desarrollo sustentable.",
         "variaciones": [
           "¿Qué representa el año 2025 para el medio ambiente en México?",
           "¿Por qué 2025 es un año crítico para el medio ambiente en México?",
@@ -150,6 +165,7 @@
       {
         "tema": "Fenómenos intensificados",
         "pregunta_original": "¿Qué fenómenos climáticos se han intensificado?",
+        "respuesta_original": "Estos cambios climáticos ha intensificado fenómenos meteorológicos extremos como huracanes, olas de calor e incendios forestales, impactando la biodiversidad y la seguridad alimentaria. La deforestación y la erosión del suelo, impulsadas por la expansión agrícola y la urbanización, reducen la capacidad del planeta para absorber dióxido de carbono y mitigar el calentamiento global.",
         "variaciones": [
           "¿Qué fenómenos climáticos se han intensificado?",
           "¿Cuáles fenómenos meteorológicos han aumentado en intensidad?",
@@ -159,6 +175,7 @@
       {
         "tema": "Crisis delicadas",
         "pregunta_original": "¿Cuáles son las crisis más delicadas mencionadas en el artículo?",
+        "respuesta_original": "A nivel global y nacional, los desafíos ambientales continúan en ascenso, impulsados por el cambio climático, la expansión urbana descontrolada y la sobreexplotación de recursos. La crisis hídrica es una de las más delicadas, especialmente en regiones áridas y densamente pobladas, donde la sobreexplotación de acuíferos y la contaminación de fuentes hídricas amenazan la disponibilidad de agua potable.",
         "variaciones": [
           "¿Cuáles son las crisis más delicadas mencionadas en el artículo?",
           "¿Qué problemáticas ambientales se consideran más delicadas?",
@@ -168,6 +185,7 @@
       {
         "tema": "Contaminación en Monterrey",
         "pregunta_original": "¿Qué registró Monterrey durante este mes de febrero?",
+        "respuesta_original": "Monterrey registró records en niveles de contaminación en la calidad del aire generando una serie de campañas de protesta en redes sociales.",
         "variaciones": [
           "¿Qué registró Monterrey durante este mes de febrero?",
           "¿Qué evento relacionado con la contaminación se reportó en Monterrey en febrero?",
@@ -177,6 +195,7 @@
       {
         "tema": "Contradicción económica–ambiental",
         "pregunta_original": "¿Qué describe el texto como una contradicción entre crecimiento económico y sostenibilidad?",
+        "respuesta_original": "La fuerte dependencia del país en combustibles fósiles, como el petróleo y el gas. Esta contradicción entre crecimiento económico y sostenibilidad ha ralentizado la adopción de soluciones más limpias.",
         "variaciones": [
           "¿Cuál es la contradicción descrita entre crecimiento económico y sostenibilidad?",
           "¿Qué contradicción menciona el texto entre economía y sostenibilidad?",
@@ -186,6 +205,7 @@
       {
         "tema": "Tecnologías alternativas",
         "pregunta_original": "¿Qué tecnologías emergen como alternativas viables para reducir dependencia de combustibles fósiles?",
+        "respuesta_original": "Tecnologías como los paneles solares y los sistemas de almacenamiento de energía (BESS) están emergiendo como alternativas viables para reducir la dependencia de combustibles fósiles.",
         "variaciones": [
           "¿Qué tecnologías emergen como alternativas viables para reducir la dependencia de combustibles fósiles?",
           "¿Qué tecnologías se proponen para disminuir la dependencia energética?",

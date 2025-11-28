@@ -1,0 +1,1022 @@
+[
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Grupo más afectado",
+        "pregunta_original": "¿Qué grupo de animales fue el más afectado por el tráfico ilegal según las incautaciones?",
+        "pregunta_variante": "¿Cuál fue el grupo de animales más afectado por el tráfico ilegal según las incautaciones?",
+        "ground_truth": "Las aves fue el grupo más confiscado, con 200 especies (42.28% del total) y 8,013 especímenes incautados.",
+        "respuesta_generada": "El grupo más afectado fueron las aves: 200 especies (42.28% del total) y 8,013 especímenes incautados.",
+        "metricas": {
+            "levenshtein": 0.6761904761904762,
+            "sentence_similarity": 0.9044084966127326,
+            "bertscore": {
+                "precision": 0.9418768286705017,
+                "recall": 0.9294848442077637,
+                "f1": 0.9356397986412048
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Grupo más afectado",
+        "pregunta_original": "¿Qué grupo de animales fue el más afectado por el tráfico ilegal según las incautaciones?",
+        "pregunta_variante": "¿Qué tipo de animales resultó ser el más impactado por el tráfico ilegal según los decomisos?",
+        "ground_truth": "Las aves fue el grupo más confiscado, con 200 especies (42.28% del total) y 8,013 especímenes incautados.",
+        "respuesta_generada": "Las aves. Fueron el grupo más confiscado: 200 especies (42.28% del total) y 8,013 especímenes incautados.",
+        "metricas": {
+            "levenshtein": 0.9047619047619048,
+            "sentence_similarity": 0.9533983145882946,
+            "bertscore": {
+                "precision": 0.9490377902984619,
+                "recall": 0.9551845788955688,
+                "f1": 0.9521012306213379
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Grupo más afectado",
+        "pregunta_original": "¿Qué grupo de animales fue el más afectado por el tráfico ilegal según las incautaciones?",
+        "pregunta_variante": "Según las incautaciones realizadas, ¿qué grupo animal fue el más traficado?",
+        "ground_truth": "Las aves fue el grupo más confiscado, con 200 especies (42.28% del total) y 8,013 especímenes incautados.",
+        "respuesta_generada": "Las aves: fueron el grupo más confiscado, con 200 especies (42.28%) y 8,013 especímenes incautados.",
+        "metricas": {
+            "levenshtein": 0.8666666666666667,
+            "sentence_similarity": 0.9597490638068477,
+            "bertscore": {
+                "precision": 0.9666121006011963,
+                "recall": 0.9556811451911926,
+                "f1": 0.9611155390739441
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Especies de aves más decomisadas",
+        "pregunta_original": "¿Qué especies de aves fueron de las más frecuentemente decomisadas?",
+        "pregunta_variante": "¿Qué especies de aves aparecen como las más frecuentemente decomisadas?",
+        "ground_truth": "Las aves de los órdenes Passeriformes y Psittaciformes fueron las más comunes. Especies como Eupsittula canicularis y Cardinalis cardinalis se encuentran entre las más frecuentemente decomisadas.",
+        "respuesta_generada": "Las especies mencionadas son Eupsittula canicularis y Cardinalis cardinalis.",
+        "metricas": {
+            "levenshtein": 0.3589743589743589,
+            "sentence_similarity": 0.6873592287164166,
+            "bertscore": {
+                "precision": 0.8715822696685791,
+                "recall": 0.7429879903793335,
+                "f1": 0.8021640777587891
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Especies de aves más decomisadas",
+        "pregunta_original": "¿Qué especies de aves fueron de las más frecuentemente decomisadas?",
+        "pregunta_variante": "¿Cuáles aves fueron de las más comunes dentro de las especies decomisadas?",
+        "ground_truth": "Las aves de los órdenes Passeriformes y Psittaciformes fueron las más comunes. Especies como Eupsittula canicularis y Cardinalis cardinalis se encuentran entre las más frecuentemente decomisadas.",
+        "respuesta_generada": "Entre las más comunes estuvieron Eupsittula canicularis y Cardinalis cardinalis. En general, las aves de los órdenes Passeriformes y Psittaciformes fueron las más frecuentes entre las especies decomisadas.",
+        "metricas": {
+            "levenshtein": 0.3268292682926829,
+            "sentence_similarity": 0.9556988592256634,
+            "bertscore": {
+                "precision": 0.8814685940742493,
+                "recall": 0.8887748718261719,
+                "f1": 0.8851066827774048
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Especies de aves más decomisadas",
+        "pregunta_original": "¿Qué especies de aves fueron de las más frecuentemente decomisadas?",
+        "pregunta_variante": "¿Qué aves destacan entre las especies más decomisadas en el tráfico ilegal?",
+        "ground_truth": "Las aves de los órdenes Passeriformes y Psittaciformes fueron las más comunes. Especies como Eupsittula canicularis y Cardinalis cardinalis se encuentran entre las más frecuentemente decomisadas.",
+        "respuesta_generada": "Destacan Eupsittula canicularis y Cardinalis cardinalis. También se mencionan loros muy traficados como Amazona auropalliata y Ara militaris.",
+        "metricas": {
+            "levenshtein": 0.2512820512820513,
+            "sentence_similarity": 0.7208698480428026,
+            "bertscore": {
+                "precision": 0.7921979427337646,
+                "recall": 0.7395443916320801,
+                "f1": 0.7649661898612976
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Estado con mayor número de eventos",
+        "pregunta_original": "¿Cuál fue el estado con mayor número de eventos e individuos confiscados?",
+        "pregunta_variante": "¿Qué estado registró el mayor número de eventos e individuos confiscados?",
+        "ground_truth": "El estado de Oaxaca registró el mayor número de eventos (828) y confiscaciones (8,187). Este estado es uno de los más diversos biológicamente en México y su ubicación geográfica facilita las rutas comerciales, convirtiéndolo en un foco de tráfico.",
+        "respuesta_generada": "Oaxaca: registró 828 eventos y 8,187 individuos confiscados.",
+        "metricas": {
+            "levenshtein": 0.20242914979757087,
+            "sentence_similarity": 0.7784445494296215,
+            "bertscore": {
+                "precision": 0.8043420910835266,
+                "recall": 0.6454182267189026,
+                "f1": 0.7161694765090942
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Estado con mayor número de eventos",
+        "pregunta_original": "¿Cuál fue el estado con mayor número de eventos e individuos confiscados?",
+        "pregunta_variante": "¿En qué estado se reportó la mayor cantidad de incautaciones y eventos?",
+        "ground_truth": "El estado de Oaxaca registró el mayor número de eventos (828) y confiscaciones (8,187). Este estado es uno de los más diversos biológicamente en México y su ubicación geográfica facilita las rutas comerciales, convirtiéndolo en un foco de tráfico.",
+        "respuesta_generada": "El estado de Oaxaca: registró el mayor número de eventos (828) y la mayor cantidad de confiscaciones (8,187).",
+        "metricas": {
+            "levenshtein": 0.36032388663967607,
+            "sentence_similarity": 0.8575750436787556,
+            "bertscore": {
+                "precision": 0.8937085866928101,
+                "recall": 0.7347389459609985,
+                "f1": 0.806464433670044
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Estado con mayor número de eventos",
+        "pregunta_original": "¿Cuál fue el estado con mayor número de eventos e individuos confiscados?",
+        "pregunta_variante": "¿Cuál entidad federativa acumuló más eventos e individuos decomisados?",
+        "ground_truth": "El estado de Oaxaca registró el mayor número de eventos (828) y confiscaciones (8,187). Este estado es uno de los más diversos biológicamente en México y su ubicación geográfica facilita las rutas comerciales, convirtiéndolo en un foco de tráfico.",
+        "respuesta_generada": "Oaxaca: registró 828 eventos y 8,187 individuos (especímenes) decomisados.",
+        "metricas": {
+            "levenshtein": 0.22267206477732793,
+            "sentence_similarity": 0.7869976801576869,
+            "bertscore": {
+                "precision": 0.7229927778244019,
+                "recall": 0.6401042938232422,
+                "f1": 0.6790283918380737
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Total de especies confiscadas",
+        "pregunta_original": "¿Cuántas especies de vertebrados fueron decomisadas en México entre 2000 y 2020?",
+        "pregunta_variante": "¿Cuántas especies de vertebrados fueron decomisadas entre 2000 y 2020?",
+        "ground_truth": "El análisis de las incautaciones realizado por la Procuraduría Federal de Protección al Ambiente (PROFEPA) durante dos décadas, del año 2000 a 2020, reveló que 473 especies diferentes de vertebrados fueron confiscadas.",
+        "respuesta_generada": "473 especies.",
+        "metricas": {
+            "levenshtein": 0.059633027522935755,
+            "sentence_similarity": 0.4721559530798689,
+            "bertscore": {
+                "precision": 0.711921215057373,
+                "recall": 0.506827712059021,
+                "f1": 0.5921176671981812
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Total de especies confiscadas",
+        "pregunta_original": "¿Cuántas especies de vertebrados fueron decomisadas en México entre 2000 y 2020?",
+        "pregunta_variante": "¿Cuál fue el total de especies de vertebrados confiscadas entre los años 2000 y 2020?",
+        "ground_truth": "El análisis de las incautaciones realizado por la Procuraduría Federal de Protección al Ambiente (PROFEPA) durante dos décadas, del año 2000 a 2020, reveló que 473 especies diferentes de vertebrados fueron confiscadas.",
+        "respuesta_generada": "Fueron 473 especies de vertebrados confiscadas entre 2000 y 2020.",
+        "metricas": {
+            "levenshtein": 0.17889908256880738,
+            "sentence_similarity": 0.8213463548408696,
+            "bertscore": {
+                "precision": 0.8723190426826477,
+                "recall": 0.6816026568412781,
+                "f1": 0.7652573585510254
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Total de especies confiscadas",
+        "pregunta_original": "¿Cuántas especies de vertebrados fueron decomisadas en México entre 2000 y 2020?",
+        "pregunta_variante": "¿Cuántas especies diferentes de vertebrados registró PROFEPA como confiscadas en esas dos décadas?",
+        "ground_truth": "El análisis de las incautaciones realizado por la Procuraduría Federal de Protección al Ambiente (PROFEPA) durante dos décadas, del año 2000 a 2020, reveló que 473 especies diferentes de vertebrados fueron confiscadas.",
+        "respuesta_generada": "PROFEPA registró 473 especies diferentes de vertebrados confiscadas entre 2000 y 2020.",
+        "metricas": {
+            "levenshtein": 0.2155963302752294,
+            "sentence_similarity": 0.8729568605690233,
+            "bertscore": {
+                "precision": 0.8652231097221375,
+                "recall": 0.7331423163414001,
+                "f1": 0.7937254905700684
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Segundo grupo más traficado",
+        "pregunta_original": "¿Cuál fue el segundo grupo más traficado y cuántas especies incluye?",
+        "pregunta_variante": "¿Cuál fue el segundo grupo de animales más traficado y cuántas especies incluye?",
+        "ground_truth": "El segundo grupo más traficado fue los reptiles, con 146 especies (30.86%) y 8,509 especímenes incautados. Los órdenes Squamata y Testudines predominaron.",
+        "respuesta_generada": "El segundo grupo más traficado fueron los reptiles, con 146 especies.",
+        "metricas": {
+            "levenshtein": 0.40909090909090906,
+            "sentence_similarity": 0.8896418170794615,
+            "bertscore": {
+                "precision": 0.9452744722366333,
+                "recall": 0.7299591898918152,
+                "f1": 0.823779821395874
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Segundo grupo más traficado",
+        "pregunta_original": "¿Cuál fue el segundo grupo más traficado y cuántas especies incluye?",
+        "pregunta_variante": "¿Qué grupo ocupó el segundo lugar en tráfico y de cuántas especies estuvo compuesto?",
+        "ground_truth": "El segundo grupo más traficado fue los reptiles, con 146 especies (30.86%) y 8,509 especímenes incautados. Los órdenes Squamata y Testudines predominaron.",
+        "respuesta_generada": "El segundo lugar lo ocuparon los reptiles, con 146 especies.",
+        "metricas": {
+            "levenshtein": 0.30519480519480524,
+            "sentence_similarity": 0.7019129418602847,
+            "bertscore": {
+                "precision": 0.8256278038024902,
+                "recall": 0.6691332459449768,
+                "f1": 0.7391884326934814
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Segundo grupo más traficado",
+        "pregunta_original": "¿Cuál fue el segundo grupo más traficado y cuántas especies incluye?",
+        "pregunta_variante": "¿Qué grupo fue el segundo más afectado y cuántas especies lo integran?",
+        "ground_truth": "El segundo grupo más traficado fue los reptiles, con 146 especies (30.86%) y 8,509 especímenes incautados. Los órdenes Squamata y Testudines predominaron.",
+        "respuesta_generada": "El segundo grupo más afectado fueron los reptiles, con 146 especies.",
+        "metricas": {
+            "levenshtein": 0.3831168831168831,
+            "sentence_similarity": 0.7317286733779295,
+            "bertscore": {
+                "precision": 0.9190715551376343,
+                "recall": 0.7185962796211243,
+                "f1": 0.8065632581710815
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Reptiles destacados",
+        "pregunta_original": "¿Qué especies de reptiles destacan entre las incautaciones?",
+        "pregunta_variante": "¿Qué especies de reptiles sobresalen entre las incautaciones?",
+        "ground_truth": "Especies como la Iguana iguana, Ctenosaura pectinata y las tortugas marinas están entre las más incautadas.",
+        "respuesta_generada": "Sobresalen la Iguana iguana, Ctenosaura pectinata y las tortugas marinas.",
+        "metricas": {
+            "levenshtein": 0.6074766355140186,
+            "sentence_similarity": 0.7490174373004401,
+            "bertscore": {
+                "precision": 0.9360121488571167,
+                "recall": 0.8667252659797668,
+                "f1": 0.9000371694564819
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Reptiles destacados",
+        "pregunta_original": "¿Qué especies de reptiles destacan entre las incautaciones?",
+        "pregunta_variante": "¿Cuáles reptiles aparecen como los más incautados en los decomisos?",
+        "ground_truth": "Especies como la Iguana iguana, Ctenosaura pectinata y las tortugas marinas están entre las más incautadas.",
+        "respuesta_generada": "Las más incautadas fueron la Iguana iguana, Ctenosaura pectinata y las tortugas marinas.",
+        "metricas": {
+            "levenshtein": 0.5233644859813085,
+            "sentence_similarity": 0.8978766075940189,
+            "bertscore": {
+                "precision": 0.9368647933006287,
+                "recall": 0.9068657159805298,
+                "f1": 0.9216212630271912
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Reptiles destacados",
+        "pregunta_original": "¿Qué especies de reptiles destacan entre las incautaciones?",
+        "pregunta_variante": "¿Qué reptiles fueron comúnmente encontrados entre las especies confiscadas?",
+        "ground_truth": "Especies como la Iguana iguana, Ctenosaura pectinata y las tortugas marinas están entre las más incautadas.",
+        "respuesta_generada": "Se encontraron comúnmente Iguana iguana, Ctenosaura pectinata y tortugas marinas; en general predominaron los órdenes Squamata y Testudines.",
+        "metricas": {
+            "levenshtein": 0.5428571428571429,
+            "sentence_similarity": 0.7018973008202759,
+            "bertscore": {
+                "precision": 0.8163325786590576,
+                "recall": 0.8322010040283203,
+                "f1": 0.8241904377937317
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Axolote",
+        "pregunta_original": "¿Qué especie de anfibio en particular fue reportada en las incautaciones y por qué es tan relevante?",
+        "pregunta_variante": "¿Qué especie de anfibio fue reportada en las incautaciones y por qué es relevante?",
+        "ground_truth": "Aunque se detectaron pocas incautaciones de anfibios (17 especies), el axolote (Ambystoma mexicanum), una especie endémica y en Peligro Crítico, fue reportado en las incautaciones, siendo popular en el comercio de mascotas y la medicina tradicional.",
+        "respuesta_generada": "El axolote (Ambystoma mexicanum). Es relevante porque es una especie de anfibio endémica y catalogada en Peligro Crítico, y además es popular en el comercio de mascotas y la medicina tradicional.",
+        "metricas": {
+            "levenshtein": 0.4698795180722891,
+            "sentence_similarity": 0.824347884626532,
+            "bertscore": {
+                "precision": 0.8782203197479248,
+                "recall": 0.8241419196128845,
+                "f1": 0.8503221273422241
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Axolote",
+        "pregunta_original": "¿Qué especie de anfibio en particular fue reportada en las incautaciones y por qué es tan relevante?",
+        "pregunta_variante": "¿Qué anfibio aparece mencionado dentro de las incautaciones y cuál es su importancia?",
+        "ground_truth": "Aunque se detectaron pocas incautaciones de anfibios (17 especies), el axolote (Ambystoma mexicanum), una especie endémica y en Peligro Crítico, fue reportado en las incautaciones, siendo popular en el comercio de mascotas y la medicina tradicional.",
+        "respuesta_generada": "El axolote (Ambystoma mexicanum). Según el texto aparece en las incautaciones y es importante porque es una especie endémica y catalogada en Peligro Crítico; además es popular en el comercio de mascotas y en la medicina tradicional.",
+        "metricas": {
+            "levenshtein": 0.4457831325301205,
+            "sentence_similarity": 0.8502572873886791,
+            "bertscore": {
+                "precision": 0.8619763255119324,
+                "recall": 0.8422242999076843,
+                "f1": 0.8519858717918396
+            }
+        }
+    },
+    {
+        "seccion": "Tráfico Ilegal De Fauna Silvestre",
+        "tema": "Axolote",
+        "pregunta_original": "¿Qué especie de anfibio en particular fue reportada en las incautaciones y por qué es tan relevante?",
+        "pregunta_variante": "¿Qué especie anfibia fue encontrada en el tráfico ilegal y por qué destaca?",
+        "ground_truth": "Aunque se detectaron pocas incautaciones de anfibios (17 especies), el axolote (Ambystoma mexicanum), una especie endémica y en Peligro Crítico, fue reportado en las incautaciones, siendo popular en el comercio de mascotas y la medicina tradicional.",
+        "respuesta_generada": "Se trató del ajolote (Ambystoma mexicanum). Destaca porque es una especie anfibia endémica y catalogada como en Peligro Crítico, además de ser muy demandada en el comercio de mascotas y en la medicina tradicional.",
+        "metricas": {
+            "levenshtein": 0.4257028112449799,
+            "sentence_similarity": 0.8286049684345328,
+            "bertscore": {
+                "precision": 0.8458415269851685,
+                "recall": 0.8149384260177612,
+                "f1": 0.8301024436950684
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Industria automotriz",
+        "pregunta_original": "¿Qué porcentaje de las importaciones totales captura la industria automotriz?",
+        "pregunta_variante": "¿Qué porcentaje de las importaciones totales corresponde a la industria automotriz?",
+        "ground_truth": "La actividad industrial en México es un sector de suma importancia para la economía nacional, siendo la automotriz una de las más importantes. Este pilar captura un 20% de las importaciones totales del país y aporta alrededor de un 5.1% del PBI según datos del INEGI.",
+        "respuesta_generada": "Según el contexto proporcionado, captura el 20% de las importaciones totales. (El texto indica que \"este pilar\" captura 20%; si te refieres a la industria automotriz y el pilar es esa industria, entonces sería 20%.)",
+        "metricas": {
+            "levenshtein": 0.27340823970037453,
+            "sentence_similarity": 0.5728559098684523,
+            "bertscore": {
+                "precision": 0.7090623378753662,
+                "recall": 0.7063571810722351,
+                "f1": 0.7077071666717529
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Industria automotriz",
+        "pregunta_original": "¿Qué porcentaje de las importaciones totales captura la industria automotriz?",
+        "pregunta_variante": "¿Cuánto representan las importaciones pertenecientes al sector automotriz?",
+        "ground_truth": "La actividad industrial en México es un sector de suma importancia para la economía nacional, siendo la automotriz una de las más importantes. Este pilar captura un 20% de las importaciones totales del país y aporta alrededor de un 5.1% del PBI según datos del INEGI.",
+        "respuesta_generada": "Según el contexto, el sector automotriz captura alrededor del 20% de las importaciones totales del país (dato referido por INEGI).",
+        "metricas": {
+            "levenshtein": 0.3595505617977528,
+            "sentence_similarity": 0.7080968385726374,
+            "bertscore": {
+                "precision": 0.8525377511978149,
+                "recall": 0.7832725644111633,
+                "f1": 0.8164386749267578
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Industria automotriz",
+        "pregunta_original": "¿Qué porcentaje de las importaciones totales captura la industria automotriz?",
+        "pregunta_variante": "¿Qué proporción de las importaciones del país captura la industria automotriz?",
+        "ground_truth": "La actividad industrial en México es un sector de suma importancia para la economía nacional, siendo la automotriz una de las más importantes. Este pilar captura un 20% de las importaciones totales del país y aporta alrededor de un 5.1% del PBI según datos del INEGI.",
+        "respuesta_generada": "Según el contexto proporcionado, captura el 20% de las importaciones totales del país.",
+        "metricas": {
+            "levenshtein": 0.27715355805243447,
+            "sentence_similarity": 0.45751237003598955,
+            "bertscore": {
+                "precision": 0.8371264934539795,
+                "recall": 0.7264379262924194,
+                "f1": 0.7778642773628235
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Empresas aeroespaciales",
+        "pregunta_original": "¿Cuántas empresas aeroespaciales había en 2004 y cuántas a mediados de 2022?",
+        "pregunta_variante": "¿Cuántas empresas aeroespaciales había en 2004 y cuántas en 2022?",
+        "ground_truth": "La Federación de la Industria Aeroespacial Mexicana, A.C. (FEMIA) indica que la industria espacial ha tenido un crecimiento sorprendente en los últimos años, pasando de de 100 empresas y organizaciones manufactureras en 2004 a 368 a mediados de 2022.",
+        "respuesta_generada": "Según el contexto, en 2004 había 100 empresas y organizaciones manufactureras, y a mediados de 2022 eran 368.",
+        "metricas": {
+            "levenshtein": 0.30400000000000005,
+            "sentence_similarity": 0.5837206078753755,
+            "bertscore": {
+                "precision": 0.8183778524398804,
+                "recall": 0.6942777037620544,
+                "f1": 0.751237154006958
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Empresas aeroespaciales",
+        "pregunta_original": "¿Cuántas empresas aeroespaciales había en 2004 y cuántas a mediados de 2022?",
+        "pregunta_variante": "¿Cuántas organizaciones del sector aeroespacial existían en 2004 y cuántas para 2022?",
+        "ground_truth": "La Federación de la Industria Aeroespacial Mexicana, A.C. (FEMIA) indica que la industria espacial ha tenido un crecimiento sorprendente en los últimos años, pasando de de 100 empresas y organizaciones manufactureras en 2004 a 368 a mediados de 2022.",
+        "respuesta_generada": "Según el contexto (FEMIA): había 100 empresas/organizaciones manufactureras en 2004 y 368 a mediados de 2022.",
+        "metricas": {
+            "levenshtein": 0.384,
+            "sentence_similarity": 0.6551510191984823,
+            "bertscore": {
+                "precision": 0.8480417132377625,
+                "recall": 0.7306649088859558,
+                "f1": 0.7849898338317871
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Empresas aeroespaciales",
+        "pregunta_original": "¿Cuántas empresas aeroespaciales había en 2004 y cuántas a mediados de 2022?",
+        "pregunta_variante": "¿Cuál fue el crecimiento en número de empresas aeroespaciales entre 2004 y 2022?",
+        "ground_truth": "La Federación de la Industria Aeroespacial Mexicana, A.C. (FEMIA) indica que la industria espacial ha tenido un crecimiento sorprendente en los últimos años, pasando de de 100 empresas y organizaciones manufactureras en 2004 a 368 a mediados de 2022.",
+        "respuesta_generada": "El crecimiento fue de 268 empresas/organizaciones (de 100 en 2004 a 368 a mediados de 2022), es decir un aumento del 268%.",
+        "metricas": {
+            "levenshtein": 0.23199999999999998,
+            "sentence_similarity": 0.51067229324738,
+            "bertscore": {
+                "precision": 0.7899886965751648,
+                "recall": 0.6966769695281982,
+                "f1": 0.7404044270515442
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Inversión en infraestructura",
+        "pregunta_original": "¿Cuál fue la inversión anunciada en infraestructura en enero de 2025 según la UNESCO?",
+        "pregunta_variante": "¿Cuál fue la inversión anunciada en infraestructura en enero de 2025 según la UNESCO?",
+        "ground_truth": "Una inversión de US$ 500 mil millones en infraestructura.",
+        "respuesta_generada": "Según la UNESCO, fue una inversión de US$ 500 mil millones.",
+        "metricas": {
+            "levenshtein": 0.3220338983050848,
+            "sentence_similarity": 0.6915410871836917,
+            "bertscore": {
+                "precision": 0.8491108417510986,
+                "recall": 0.885571300983429,
+                "f1": 0.8669579029083252
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Inversión en infraestructura",
+        "pregunta_original": "¿Cuál fue la inversión anunciada en infraestructura en enero de 2025 según la UNESCO?",
+        "pregunta_variante": "¿Qué monto de inversión en infraestructura se anunció en enero de 2025?",
+        "ground_truth": "Una inversión de US$ 500 mil millones en infraestructura.",
+        "respuesta_generada": "Según el contexto (UNESCO), anunciaron una inversión de US$ 500 mil millones en infraestructura en enero de 2025.",
+        "metricas": {
+            "levenshtein": 0.504424778761062,
+            "sentence_similarity": 0.7291495331014506,
+            "bertscore": {
+                "precision": 0.7934790253639221,
+                "recall": 0.9142167568206787,
+                "f1": 0.8495797514915466
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Inversión en infraestructura",
+        "pregunta_original": "¿Cuál fue la inversión anunciada en infraestructura en enero de 2025 según la UNESCO?",
+        "pregunta_variante": "Según la UNESCO, ¿cuánto se invirtió en infraestructura a inicios de 2025?",
+        "ground_truth": "Una inversión de US$ 500 mil millones en infraestructura.",
+        "respuesta_generada": "Según la UNESCO, se anunciaron US$ 500 mil millones en infraestructura a inicios de 2025 (US$ 500,000,000,000).",
+        "metricas": {
+            "levenshtein": 0.4144144144144144,
+            "sentence_similarity": 0.7002820051057869,
+            "bertscore": {
+                "precision": 0.7560065984725952,
+                "recall": 0.8538603782653809,
+                "f1": 0.8019595146179199
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Guadalajara",
+        "pregunta_original": "¿Cómo se describe a Guadalajara dentro del ecosistema tecnológico?",
+        "pregunta_variante": "¿Cómo se describe Guadalajara dentro del ecosistema tecnológico nacional?",
+        "ground_truth": "Guadalajara, conocida como “el Silicon Valley mexicano”, es una de las regiones más dinámicas del ecosistema tecnológico nacional.",
+        "respuesta_generada": "Se describe como \"el Silicon Valley mexicano\": un centro de liderazgo en desarrollo de software y una de las regiones más dinámicas del ecosistema tecnológico nacional.",
+        "metricas": {
+            "levenshtein": 0.5892857142857143,
+            "sentence_similarity": 0.7328951504084531,
+            "bertscore": {
+                "precision": 0.8299264907836914,
+                "recall": 0.8537324666976929,
+                "f1": 0.8416611552238464
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Guadalajara",
+        "pregunta_original": "¿Cómo se describe a Guadalajara dentro del ecosistema tecnológico?",
+        "pregunta_variante": "¿Cuál es el papel de Guadalajara en el ecosistema tecnológico?",
+        "ground_truth": "Guadalajara, conocida como “el Silicon Valley mexicano”, es una de las regiones más dinámicas del ecosistema tecnológico nacional.",
+        "respuesta_generada": "Guadalajara funciona como uno de los principales polos del ecosistema tecnológico: es conocida como \"el Silicon Valley mexicano\" y es un nodo estratégico para el desarrollo de software. Atrae a startups y empresas globales, aprovecha tecnologías avanzadas y apoya el talento local mediante incubadoras y aceleradoras que conectan a las emergentes con inversionistas, contribuyendo a atraer inversión extranjera.",
+        "metricas": {
+            "levenshtein": 0.25547445255474455,
+            "sentence_similarity": 0.8497508908192067,
+            "bertscore": {
+                "precision": 0.6715729832649231,
+                "recall": 0.7982271313667297,
+                "f1": 0.7294431328773499
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Guadalajara",
+        "pregunta_original": "¿Cómo se describe a Guadalajara dentro del ecosistema tecnológico?",
+        "pregunta_variante": "¿Cómo se reconoce a Guadalajara dentro del ámbito tecnológico mexicano?",
+        "ground_truth": "Guadalajara, conocida como “el Silicon Valley mexicano”, es una de las regiones más dinámicas del ecosistema tecnológico nacional.",
+        "respuesta_generada": "Se la reconoce como \"el Silicon Valley mexicano\": un nodo estratégico y uno de los polos más dinámicos del ecosistema tecnológico nacional, atractivo para startups y empresas y focalizado en el desarrollo de software.",
+        "metricas": {
+            "levenshtein": 0.4377880184331797,
+            "sentence_similarity": 0.7292061235970226,
+            "bertscore": {
+                "precision": 0.7332891821861267,
+                "recall": 0.8056780099868774,
+                "f1": 0.767781138420105
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Gastos en ciencia y tecnología",
+        "pregunta_original": "¿Cuánto gastó México en ciencia, tecnología e innovación en 2025 como porcentaje del PBI?",
+        "pregunta_variante": "¿Cuánto destinó México a ciencia y tecnología en 2025 como porcentaje del PBI?",
+        "ground_truth": "Para 2025, el gasto público destinado a ciencia, tecnología e innovación fue tan solo del 0.16% del PBI.",
+        "respuesta_generada": "México destinó 0.16% del PBI a ciencia y tecnología en 2025.",
+        "metricas": {
+            "levenshtein": 0.3076923076923077,
+            "sentence_similarity": 0.7722365570666001,
+            "bertscore": {
+                "precision": 0.8443119525909424,
+                "recall": 0.8170925974845886,
+                "f1": 0.8304792642593384
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Gastos en ciencia y tecnología",
+        "pregunta_original": "¿Cuánto gastó México en ciencia, tecnología e innovación en 2025 como porcentaje del PBI?",
+        "pregunta_variante": "¿Cuál fue la inversión del país en ciencia y tecnología en 2025 respecto al PBI?",
+        "ground_truth": "Para 2025, el gasto público destinado a ciencia, tecnología e innovación fue tan solo del 0.16% del PBI.",
+        "respuesta_generada": "La inversión fue del 0.16% del PBI en 2025.",
+        "metricas": {
+            "levenshtein": 0.22115384615384615,
+            "sentence_similarity": 0.722479366755317,
+            "bertscore": {
+                "precision": 0.8970274925231934,
+                "recall": 0.7855067849159241,
+                "f1": 0.8375713229179382
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Gastos en ciencia y tecnología",
+        "pregunta_original": "¿Cuánto gastó México en ciencia, tecnología e innovación en 2025 como porcentaje del PBI?",
+        "pregunta_variante": "¿Qué porcentaje del PBI se asignó a ciencia y tecnología en 2025?",
+        "ground_truth": "Para 2025, el gasto público destinado a ciencia, tecnología e innovación fue tan solo del 0.16% del PBI.",
+        "respuesta_generada": "Se asignó el 0.16% del PBI a ciencia y tecnología en 2025.",
+        "metricas": {
+            "levenshtein": 0.32692307692307687,
+            "sentence_similarity": 0.8155350652072372,
+            "bertscore": {
+                "precision": 0.8583388328552246,
+                "recall": 0.8383937478065491,
+                "f1": 0.848249077796936
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Número de unicornios",
+        "pregunta_original": "¿Con cuantas empresas unicornio cuenta México actualmente?",
+        "pregunta_variante": "¿Cuántas empresas unicornio tiene México actualmente?",
+        "ground_truth": "Actualmente, el país cuenta con nueve empresas unicornio, incluyendo a Kavak y Bitso, que destacan por su innovación y rápido crecimiento.",
+        "respuesta_generada": "Según el contexto proporcionado, México cuenta actualmente con nueve empresas unicornio.",
+        "metricas": {
+            "levenshtein": 0.2681159420289855,
+            "sentence_similarity": 0.7543282680286487,
+            "bertscore": {
+                "precision": 0.8360190391540527,
+                "recall": 0.7474098801612854,
+                "f1": 0.7892352342605591
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Número de unicornios",
+        "pregunta_original": "¿Con cuantas empresas unicornio cuenta México actualmente?",
+        "pregunta_variante": "¿Cuál es el número actual de unicornios en México?",
+        "ground_truth": "Actualmente, el país cuenta con nueve empresas unicornio, incluyendo a Kavak y Bitso, que destacan por su innovación y rápido crecimiento.",
+        "respuesta_generada": "Según el contexto proporcionado, actualmente México cuenta con nueve empresas unicornio.",
+        "metricas": {
+            "levenshtein": 0.28260869565217395,
+            "sentence_similarity": 0.7609950206964169,
+            "bertscore": {
+                "precision": 0.8295084238052368,
+                "recall": 0.7459074258804321,
+                "f1": 0.7854897379875183
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Número de unicornios",
+        "pregunta_original": "¿Con cuantas empresas unicornio cuenta México actualmente?",
+        "pregunta_variante": "¿Cuántas startups mexicanas han alcanzado categoría de unicornio?",
+        "ground_truth": "Actualmente, el país cuenta con nueve empresas unicornio, incluyendo a Kavak y Bitso, que destacan por su innovación y rápido crecimiento.",
+        "respuesta_generada": "Nueve. Según el contexto, el país cuenta actualmente con nueve empresas unicornio, entre ellas Kavak y Bitso.",
+        "metricas": {
+            "levenshtein": 0.3115942028985508,
+            "sentence_similarity": 0.9071379334695048,
+            "bertscore": {
+                "precision": 0.8797485828399658,
+                "recall": 0.8440513610839844,
+                "f1": 0.8615303635597229
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Unicornio líder",
+        "pregunta_original": "¿Qué empresa unicornio lidera actualmente?",
+        "pregunta_variante": "¿Qué empresa unicornio lidera actualmente?",
+        "ground_truth": "Kavak lidera el ecosistema de unicornios mexicanos con un valor de $8,700 millones de dólares, reflejo del dinamismo tecnológico del país. Estos avances tecnológicos impulsan la innovación B2B en América Latina.",
+        "respuesta_generada": "Kavak. Según el contexto, Kavak lidera el ecosistema de unicornios mexicanos (valorada en US$8,700 millones).",
+        "metricas": {
+            "levenshtein": 0.2511848341232228,
+            "sentence_similarity": 0.8711936492597258,
+            "bertscore": {
+                "precision": 0.8492720723152161,
+                "recall": 0.7572934031486511,
+                "f1": 0.8006497621536255
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Unicornio líder",
+        "pregunta_original": "¿Qué empresa unicornio lidera actualmente?",
+        "pregunta_variante": "¿Qué unicornio mexicano encabeza el ecosistema tecnológico?",
+        "ground_truth": "Kavak lidera el ecosistema de unicornios mexicanos con un valor de $8,700 millones de dólares, reflejo del dinamismo tecnológico del país. Estos avances tecnológicos impulsan la innovación B2B en América Latina.",
+        "respuesta_generada": "Kavak. Según el contexto, Kavak lidera el ecosistema de unicornios mexicanos con un valor de $8,700 millones de dólares.",
+        "metricas": {
+            "levenshtein": 0.3222748815165877,
+            "sentence_similarity": 0.8885140013986539,
+            "bertscore": {
+                "precision": 0.8942227959632874,
+                "recall": 0.7818484306335449,
+                "f1": 0.8342685103416443
+            }
+        }
+    },
+    {
+        "seccion": "Avances Tecnológicos En México",
+        "tema": "Unicornio líder",
+        "pregunta_original": "¿Qué empresa unicornio lidera actualmente?",
+        "pregunta_variante": "¿Cuál es la empresa unicornio con mayor valor en México?",
+        "ground_truth": "Kavak lidera el ecosistema de unicornios mexicanos con un valor de $8,700 millones de dólares, reflejo del dinamismo tecnológico del país. Estos avances tecnológicos impulsan la innovación B2B en América Latina.",
+        "respuesta_generada": "Kavak — es la que lidera el ecosistema, con un valor de aproximadamente $8,700 millones de dólares.",
+        "metricas": {
+            "levenshtein": 0.27014218009478674,
+            "sentence_similarity": 0.8045023592735943,
+            "bertscore": {
+                "precision": 0.8622878789901733,
+                "recall": 0.7324515581130981,
+                "f1": 0.7920843958854675
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Año 2025",
+        "pregunta_original": "¿Qué marca el año 2025 para el medio ambiente en México?",
+        "pregunta_variante": "¿Qué representa el año 2025 para el medio ambiente en México?",
+        "ground_truth": "El año 2025 marca un punto crítico para el medio ambiente en México. La creciente crisis del agua, la contaminación del aire en las principales ciudades y la devastación de los principales ecosistemas son algunos de los desafíos más urgentes que requieren una respuesta inmediata. Sin embargo, más allá de los problemas, el país también se encuentra en una posición privilegiada para implementar soluciones innovadoras y de desarrollo sustentable.",
+        "respuesta_generada": "Representa un punto crítico: una señal de que México debe abandonar soluciones reactivas y adoptar una estrategia preventiva, aprovechando la oportunidad para replantear cómo construimos, habitamos y preservamos el entorno con una visión más ambiciosa y coordinada.",
+        "metricas": {
+            "levenshtein": 0.2930648769574944,
+            "sentence_similarity": 0.6003173498443294,
+            "bertscore": {
+                "precision": 0.687942385673523,
+                "recall": 0.6698553562164307,
+                "f1": 0.6787784099578857
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Año 2025",
+        "pregunta_original": "¿Qué marca el año 2025 para el medio ambiente en México?",
+        "pregunta_variante": "¿Por qué 2025 es un año crítico para el medio ambiente en México?",
+        "ground_truth": "El año 2025 marca un punto crítico para el medio ambiente en México. La creciente crisis del agua, la contaminación del aire en las principales ciudades y la devastación de los principales ecosistemas son algunos de los desafíos más urgentes que requieren una respuesta inmediata. Sin embargo, más allá de los problemas, el país también se encuentra en una posición privilegiada para implementar soluciones innovadoras y de desarrollo sustentable.",
+        "respuesta_generada": "Según el contexto proporcionado, 2025 es crítico porque en ese año los problemas ambientales en México alcanzan un punto que exige:\n\n- Pasar de soluciones reactivas a una estrategia preventiva.  \n- Replantear cómo construimos, habitamos y preservamos el entorno.  \n- Adoptar una visión ambiciosa y coordinada que incluya manejo forestal, monitoreo satelital, adopción masiva de energías limpias y optimización del uso del agua en industria y agro.  \n- Implicar a actores más allá del gobierno para enfrentar la crisis.",
+        "metricas": {
+            "levenshtein": 0.2799227799227799,
+            "sentence_similarity": 0.8183456411318734,
+            "bertscore": {
+                "precision": 0.6810495257377625,
+                "recall": 0.6961348652839661,
+                "f1": 0.6885095834732056
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Año 2025",
+        "pregunta_original": "¿Qué marca el año 2025 para el medio ambiente en México?",
+        "pregunta_variante": "¿Qué importancia ambiental tiene el año 2025 para México?",
+        "ground_truth": "El año 2025 marca un punto crítico para el medio ambiente en México. La creciente crisis del agua, la contaminación del aire en las principales ciudades y la devastación de los principales ecosistemas son algunos de los desafíos más urgentes que requieren una respuesta inmediata. Sin embargo, más allá de los problemas, el país también se encuentra en una posición privilegiada para implementar soluciones innovadoras y de desarrollo sustentable.",
+        "respuesta_generada": "El año 2025 es presentado como un punto crítico para el medio ambiente en México: una señal clara de que es necesario dejar las soluciones reactivas y adoptar una estrategia preventiva. Representa a la vez una crisis y una oportunidad para repensar cómo construimos, habitamos y preservamos el entorno. Requiere una visión ambiciosa y coordinada —desde la gestión forestal y el monitoreo satelital hasta la adopción masiva de energías limpias y la optimización del uso del agua— y no es solo tarea del gobierno.",
+        "metricas": {
+            "levenshtein": 0.36594911937377694,
+            "sentence_similarity": 0.8739060720272127,
+            "bertscore": {
+                "precision": 0.7043347358703613,
+                "recall": 0.7241910696029663,
+                "f1": 0.7141249179840088
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Fenómenos intensificados",
+        "pregunta_original": "¿Qué fenómenos climáticos se han intensificado?",
+        "pregunta_variante": "¿Qué fenómenos climáticos se han intensificado?",
+        "ground_truth": "Estos cambios climáticos ha intensificado fenómenos meteorológicos extremos como huracanes, olas de calor e incendios forestales, impactando la biodiversidad y la seguridad alimentaria. La deforestación y la erosión del suelo, impulsadas por la expansión agrícola y la urbanización, reducen la capacidad del planeta para absorber dióxido de carbono y mitigar el calentamiento global.",
+        "respuesta_generada": "Se han intensificado: huracanes, olas de calor, incendios forestales, la escasez de agua y el incremento de temperaturas extremas.",
+        "metricas": {
+            "levenshtein": 0.2819843342036553,
+            "sentence_similarity": 0.7070352000815677,
+            "bertscore": {
+                "precision": 0.8170729279518127,
+                "recall": 0.7310395836830139,
+                "f1": 0.771665632724762
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Fenómenos intensificados",
+        "pregunta_original": "¿Qué fenómenos climáticos se han intensificado?",
+        "pregunta_variante": "¿Cuáles fenómenos meteorológicos han aumentado en intensidad?",
+        "ground_truth": "Estos cambios climáticos ha intensificado fenómenos meteorológicos extremos como huracanes, olas de calor e incendios forestales, impactando la biodiversidad y la seguridad alimentaria. La deforestación y la erosión del suelo, impulsadas por la expansión agrícola y la urbanización, reducen la capacidad del planeta para absorber dióxido de carbono y mitigar el calentamiento global.",
+        "respuesta_generada": "Según el contexto, han aumentado en intensidad los huracanes, las olas de calor y los incendios forestales (junto con un incremento de temperaturas extremas).",
+        "metricas": {
+            "levenshtein": 0.2610966057441253,
+            "sentence_similarity": 0.7022871375787008,
+            "bertscore": {
+                "precision": 0.7803454995155334,
+                "recall": 0.7232129573822021,
+                "f1": 0.7506937980651855
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Fenómenos intensificados",
+        "pregunta_original": "¿Qué fenómenos climáticos se han intensificado?",
+        "pregunta_variante": "¿Qué eventos climáticos se han vuelto más extremos según el texto?",
+        "ground_truth": "Estos cambios climáticos ha intensificado fenómenos meteorológicos extremos como huracanes, olas de calor e incendios forestales, impactando la biodiversidad y la seguridad alimentaria. La deforestación y la erosión del suelo, impulsadas por la expansión agrícola y la urbanización, reducen la capacidad del planeta para absorber dióxido de carbono y mitigar el calentamiento global.",
+        "respuesta_generada": "Según el texto, se han vuelto más extremos: incendios forestales, la escasez de agua, el incremento de temperaturas extremas (especialmente olas de calor) y huracanes.",
+        "metricas": {
+            "levenshtein": 0.27415143603133163,
+            "sentence_similarity": 0.6783505801276755,
+            "bertscore": {
+                "precision": 0.7643520832061768,
+                "recall": 0.7176191210746765,
+                "f1": 0.7402486801147461
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Crisis delicadas",
+        "pregunta_original": "¿Cuáles son las crisis más delicadas mencionadas en el artículo?",
+        "pregunta_variante": "¿Cuáles son las crisis más delicadas mencionadas en el artículo?",
+        "ground_truth": "A nivel global y nacional, los desafíos ambientales continúan en ascenso, impulsados por el cambio climático, la expansión urbana descontrolada y la sobreexplotación de recursos. La crisis hídrica es una de las más delicadas, especialmente en regiones áridas y densamente pobladas, donde la sobreexplotación de acuíferos y la contaminación de fuentes hídricas amenazan la disponibilidad de agua potable.",
+        "respuesta_generada": "Según el texto, las crisis más delicadas mencionadas son:\n- La crisis hídrica (crisis del agua, incluida la sobreexplotación de acuíferos y contaminación de fuentes).  \n- La contaminación del aire en las principales ciudades.  \n- La devastación de los principales ecosistemas.",
+        "metricas": {
+            "levenshtein": 0.315136476426799,
+            "sentence_similarity": 0.6572909205488103,
+            "bertscore": {
+                "precision": 0.761752724647522,
+                "recall": 0.7335613965988159,
+                "f1": 0.7473913431167603
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Crisis delicadas",
+        "pregunta_original": "¿Cuáles son las crisis más delicadas mencionadas en el artículo?",
+        "pregunta_variante": "¿Qué problemáticas ambientales se consideran más delicadas?",
+        "ground_truth": "A nivel global y nacional, los desafíos ambientales continúan en ascenso, impulsados por el cambio climático, la expansión urbana descontrolada y la sobreexplotación de recursos. La crisis hídrica es una de las más delicadas, especialmente en regiones áridas y densamente pobladas, donde la sobreexplotación de acuíferos y la contaminación de fuentes hídricas amenazan la disponibilidad de agua potable.",
+        "respuesta_generada": "Principalmente la crisis hídrica —señalada en el texto como una de las más delicadas, sobre todo en regiones áridas y densamente pobladas por la sobreexplotación de acuíferos y la contaminación de fuentes hídricas—. También se mencionan como problemáticas críticas la contaminación del aire en las principales ciudades, la devastación de ecosistemas y la deforestación.",
+        "metricas": {
+            "levenshtein": 0.3052109181141439,
+            "sentence_similarity": 0.7026673259904023,
+            "bertscore": {
+                "precision": 0.8034934997558594,
+                "recall": 0.7977454662322998,
+                "f1": 0.8006091713905334
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Crisis delicadas",
+        "pregunta_original": "¿Cuáles son las crisis más delicadas mencionadas en el artículo?",
+        "pregunta_variante": "¿Qué crisis ambientales se destacan como las más graves?",
+        "ground_truth": "A nivel global y nacional, los desafíos ambientales continúan en ascenso, impulsados por el cambio climático, la expansión urbana descontrolada y la sobreexplotación de recursos. La crisis hídrica es una de las más delicadas, especialmente en regiones áridas y densamente pobladas, donde la sobreexplotación de acuíferos y la contaminación de fuentes hídricas amenazan la disponibilidad de agua potable.",
+        "respuesta_generada": "Según el contexto, las crisis ambientales más graves que se destacan son:\n- La crisis hídrica (señalada como una de las más delicadas, sobre todo en regiones áridas y densamente pobladas por la sobreexplotación de acuíferos y contaminación de fuentes).  \n- La contaminación del aire en las principales ciudades.  \n- La devastación de los principales ecosistemas.\n\nAdemás, el texto señala que el cambio climático, la expansión urbana descontrolada y la sobreexplotación de recursos impulsan estos problemas.",
+        "metricas": {
+            "levenshtein": 0.308300395256917,
+            "sentence_similarity": 0.7354580837719306,
+            "bertscore": {
+                "precision": 0.7683243751525879,
+                "recall": 0.7923176288604736,
+                "f1": 0.7801365852355957
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Contaminación en Monterrey",
+        "pregunta_original": "¿Qué registró Monterrey durante este mes de febrero?",
+        "pregunta_variante": "¿Qué registró Monterrey durante este mes de febrero?",
+        "ground_truth": "Monterrey registró records en niveles de contaminación en la calidad del aire generando una serie de campañas de protesta en redes sociales.",
+        "respuesta_generada": "Monterrey registró récords en niveles de contaminación de la calidad del aire.",
+        "metricas": {
+            "levenshtein": 0.5357142857142857,
+            "sentence_similarity": 0.8621472428220529,
+            "bertscore": {
+                "precision": 0.9276423454284668,
+                "recall": 0.8398326635360718,
+                "f1": 0.8815562725067139
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Contaminación en Monterrey",
+        "pregunta_original": "¿Qué registró Monterrey durante este mes de febrero?",
+        "pregunta_variante": "¿Qué evento relacionado con la contaminación se reportó en Monterrey en febrero?",
+        "ground_truth": "Monterrey registró records en niveles de contaminación en la calidad del aire generando una serie de campañas de protesta en redes sociales.",
+        "respuesta_generada": "En febrero Monterrey registró récords en los niveles de contaminación del aire, lo que provocó campañas de protesta en redes sociales pidiendo la intervención del gobierno.",
+        "metricas": {
+            "levenshtein": 0.4941860465116279,
+            "sentence_similarity": 0.889057078559992,
+            "bertscore": {
+                "precision": 0.8447813391685486,
+                "recall": 0.8896750211715698,
+                "f1": 0.8666471838951111
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Contaminación en Monterrey",
+        "pregunta_original": "¿Qué registró Monterrey durante este mes de febrero?",
+        "pregunta_variante": "¿Qué ocurrió en Monterrey recientemente en términos de calidad del aire?",
+        "ground_truth": "Monterrey registró records en niveles de contaminación en la calidad del aire generando una serie de campañas de protesta en redes sociales.",
+        "respuesta_generada": "Recientemente, en febrero Monterrey registró niveles récord de contaminación del aire. Esos picos en la mala calidad del aire provocaron protestas y campañas en redes sociales para exigir la intervención del gobierno, afectando a miles de nuevoleoneses.",
+        "metricas": {
+            "levenshtein": 0.3675889328063241,
+            "sentence_similarity": 0.8759672068061298,
+            "bertscore": {
+                "precision": 0.7598656415939331,
+                "recall": 0.8398314118385315,
+                "f1": 0.7978498339653015
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Contradicción económica–ambiental",
+        "pregunta_original": "¿Qué describe el texto como una contradicción entre crecimiento económico y sostenibilidad?",
+        "pregunta_variante": "¿Cuál es la contradicción descrita entre crecimiento económico y sostenibilidad?",
+        "ground_truth": "La fuerte dependencia del país en combustibles fósiles, como el petróleo y el gas. Esta contradicción entre crecimiento económico y sostenibilidad ha ralentizado la adopción de soluciones más limpias.",
+        "respuesta_generada": "Que el impulso al crecimiento económico suele aumentar la explotación de recursos, la contaminación y la demanda energética —por ejemplo urbanización desordenada y centros de datos energéticos— lo que choca con la protección ambiental y por ello dificulta/ralentiza la adopción de soluciones más limpias.",
+        "metricas": {
+            "levenshtein": 0.368421052631579,
+            "sentence_similarity": 0.6669363080463261,
+            "bertscore": {
+                "precision": 0.7463247776031494,
+                "recall": 0.7894493341445923,
+                "f1": 0.7672815918922424
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Contradicción económica–ambiental",
+        "pregunta_original": "¿Qué describe el texto como una contradicción entre crecimiento económico y sostenibilidad?",
+        "pregunta_variante": "¿Qué contradicción menciona el texto entre economía y sostenibilidad?",
+        "ground_truth": "La fuerte dependencia del país en combustibles fósiles, como el petróleo y el gas. Esta contradicción entre crecimiento económico y sostenibilidad ha ralentizado la adopción de soluciones más limpias.",
+        "respuesta_generada": "Menciona la contradicción entre el crecimiento económico y la sostenibilidad —es decir, la tensión entre perseguir crecimiento económico y aplicar prácticas sostenibles, lo que ha ralentizado la adopción de soluciones más limpias.",
+        "metricas": {
+            "levenshtein": 0.4782608695652174,
+            "sentence_similarity": 0.7121439134732941,
+            "bertscore": {
+                "precision": 0.8096838593482971,
+                "recall": 0.823501467704773,
+                "f1": 0.816534161567688
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Contradicción económica–ambiental",
+        "pregunta_original": "¿Qué describe el texto como una contradicción entre crecimiento económico y sostenibilidad?",
+        "pregunta_variante": "¿Qué conflicto se plantea entre el desarrollo económico y la sostenibilidad?",
+        "ground_truth": "La fuerte dependencia del país en combustibles fósiles, como el petróleo y el gas. Esta contradicción entre crecimiento económico y sostenibilidad ha ralentizado la adopción de soluciones más limpias.",
+        "respuesta_generada": "Se plantea una contradicción o tensión: el impulso por el crecimiento económico choca con la sostenibilidad. Según el contexto, esa prioridad al crecimiento ha ralentizado la adopción de soluciones más limpias, poniendo en riesgo la protección de ecosistemas y la gestión ambiental.",
+        "metricas": {
+            "levenshtein": 0.3226950354609929,
+            "sentence_similarity": 0.6862632447179133,
+            "bertscore": {
+                "precision": 0.7724248170852661,
+                "recall": 0.8086978197097778,
+                "f1": 0.7901452779769897
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Tecnologías alternativas",
+        "pregunta_original": "¿Qué tecnologías emergen como alternativas viables para reducir dependencia de combustibles fósiles?",
+        "pregunta_variante": "¿Qué tecnologías emergen como alternativas viables para reducir la dependencia de combustibles fósiles?",
+        "ground_truth": "Tecnologías como los paneles solares y los sistemas de almacenamiento de energía (BESS) están emergiendo como alternativas viables para reducir la dependencia de combustibles fósiles.",
+        "respuesta_generada": "Paneles solares y sistemas de almacenamiento de energía (BESS), es decir, sistemas fotovoltaicos integrados con almacenamiento.",
+        "metricas": {
+            "levenshtein": 0.4699453551912568,
+            "sentence_similarity": 0.741775551507592,
+            "bertscore": {
+                "precision": 0.8091133236885071,
+                "recall": 0.7494587898254395,
+                "f1": 0.7781444191932678
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Tecnologías alternativas",
+        "pregunta_original": "¿Qué tecnologías emergen como alternativas viables para reducir dependencia de combustibles fósiles?",
+        "pregunta_variante": "¿Qué tecnologías se proponen para disminuir la dependencia energética?",
+        "ground_truth": "Tecnologías como los paneles solares y los sistemas de almacenamiento de energía (BESS) están emergiendo como alternativas viables para reducir la dependencia de combustibles fósiles.",
+        "respuesta_generada": "Según el contexto, se proponen principalmente:\n- Energía solar (paneles solares / sistemas fotovoltaicos).  \n- Sistemas de almacenamiento de energía (BESS) y soluciones que integran solar con almacenamiento (sistemas solares con almacenamiento).  \nTambién se menciona de forma general la adopción de tecnologías limpias y fuentes renovables para reducir la dependencia energética.",
+        "metricas": {
+            "levenshtein": 0.3447368421052631,
+            "sentence_similarity": 0.7558587783294632,
+            "bertscore": {
+                "precision": 0.7362529039382935,
+                "recall": 0.7912050485610962,
+                "f1": 0.7627405524253845
+            }
+        }
+    },
+    {
+        "seccion": "Desafíos Ambientales En México",
+        "tema": "Tecnologías alternativas",
+        "pregunta_original": "¿Qué tecnologías emergen como alternativas viables para reducir dependencia de combustibles fósiles?",
+        "pregunta_variante": "¿Qué soluciones tecnológicas son mencionadas como opción para reducir el uso de combustibles fósiles?",
+        "ground_truth": "Tecnologías como los paneles solares y los sistemas de almacenamiento de energía (BESS) están emergiendo como alternativas viables para reducir la dependencia de combustibles fósiles.",
+        "respuesta_generada": "Se mencionan los paneles solares y los sistemas de almacenamiento de energía (BESS), es decir, sistemas solares con almacenamiento.",
+        "metricas": {
+            "levenshtein": 0.53551912568306,
+            "sentence_similarity": 0.7317016712695191,
+            "bertscore": {
+                "precision": 0.8228286504745483,
+                "recall": 0.7623459100723267,
+                "f1": 0.7914333939552307
+            }
+        }
+    }
+]

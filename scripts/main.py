@@ -121,7 +121,8 @@ async def retrieval(query: str = Form(...)): #Creamos esta funcion asincrona que
         return {
             "query": query,
             "answer": answer,
-            "matches_found": len(results["matches"])
+            "matches_found": len(results["matches"]),
+            "context": context  
         }
 
     #-->Captura errores durante el proceso de retrieval
