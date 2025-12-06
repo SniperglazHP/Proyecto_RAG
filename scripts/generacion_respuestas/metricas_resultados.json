@@ -8,7 +8,7 @@
         "respuesta_generada": "El grupo más afectado fueron las aves: 200 especies (42.28% del total) y 8,013 especímenes incautados.",
         "metricas": {
             "levenshtein": 0.6761904761904762,
-            "sentence_similarity": 0.9044084966127326,
+            "sentence_similarity": 0.9044550101939163,
             "bertscore": {
                 "precision": 0.9418768286705017,
                 "recall": 0.9294848442077637,
@@ -25,7 +25,7 @@
         "respuesta_generada": "Las aves. Fueron el grupo más confiscado: 200 especies (42.28% del total) y 8,013 especímenes incautados.",
         "metricas": {
             "levenshtein": 0.9047619047619048,
-            "sentence_similarity": 0.9533983145882946,
+            "sentence_similarity": 0.9533821137717393,
             "bertscore": {
                 "precision": 0.9490377902984619,
                 "recall": 0.9551845788955688,
@@ -59,7 +59,7 @@
         "respuesta_generada": "Las especies mencionadas son Eupsittula canicularis y Cardinalis cardinalis.",
         "metricas": {
             "levenshtein": 0.3589743589743589,
-            "sentence_similarity": 0.6873592287164166,
+            "sentence_similarity": 0.6873944053315936,
             "bertscore": {
                 "precision": 0.8715822696685791,
                 "recall": 0.7429879903793335,
@@ -76,7 +76,7 @@
         "respuesta_generada": "Entre las más comunes estuvieron Eupsittula canicularis y Cardinalis cardinalis. En general, las aves de los órdenes Passeriformes y Psittaciformes fueron las más frecuentes entre las especies decomisadas.",
         "metricas": {
             "levenshtein": 0.3268292682926829,
-            "sentence_similarity": 0.9556988592256634,
+            "sentence_similarity": 0.9557542839884818,
             "bertscore": {
                 "precision": 0.8814685940742493,
                 "recall": 0.8887748718261719,
@@ -93,7 +93,7 @@
         "respuesta_generada": "Destacan Eupsittula canicularis y Cardinalis cardinalis. También se mencionan loros muy traficados como Amazona auropalliata y Ara militaris.",
         "metricas": {
             "levenshtein": 0.2512820512820513,
-            "sentence_similarity": 0.7208698480428026,
+            "sentence_similarity": 0.7209993783661237,
             "bertscore": {
                 "precision": 0.7921979427337646,
                 "recall": 0.7395443916320801,
@@ -110,7 +110,7 @@
         "respuesta_generada": "Oaxaca: registró 828 eventos y 8,187 individuos confiscados.",
         "metricas": {
             "levenshtein": 0.20242914979757087,
-            "sentence_similarity": 0.7784445494296215,
+            "sentence_similarity": 0.7784985270708977,
             "bertscore": {
                 "precision": 0.8043420910835266,
                 "recall": 0.6454182267189026,
@@ -127,7 +127,7 @@
         "respuesta_generada": "El estado de Oaxaca: registró el mayor número de eventos (828) y la mayor cantidad de confiscaciones (8,187).",
         "metricas": {
             "levenshtein": 0.36032388663967607,
-            "sentence_similarity": 0.8575750436787556,
+            "sentence_similarity": 0.8574459916322027,
             "bertscore": {
                 "precision": 0.8937085866928101,
                 "recall": 0.7347389459609985,
@@ -144,7 +144,7 @@
         "respuesta_generada": "Oaxaca: registró 828 eventos y 8,187 individuos (especímenes) decomisados.",
         "metricas": {
             "levenshtein": 0.22267206477732793,
-            "sentence_similarity": 0.7869976801576869,
+            "sentence_similarity": 0.7863074319083916,
             "bertscore": {
                 "precision": 0.7229927778244019,
                 "recall": 0.6401042938232422,
@@ -161,7 +161,7 @@
         "respuesta_generada": "473 especies.",
         "metricas": {
             "levenshtein": 0.059633027522935755,
-            "sentence_similarity": 0.4721559530798689,
+            "sentence_similarity": 0.4700865682848824,
             "bertscore": {
                 "precision": 0.711921215057373,
                 "recall": 0.506827712059021,
@@ -178,7 +178,7 @@
         "respuesta_generada": "Fueron 473 especies de vertebrados confiscadas entre 2000 y 2020.",
         "metricas": {
             "levenshtein": 0.17889908256880738,
-            "sentence_similarity": 0.8213463548408696,
+            "sentence_similarity": 0.8207585768078487,
             "bertscore": {
                 "precision": 0.8723190426826477,
                 "recall": 0.6816026568412781,
@@ -212,7 +212,7 @@
         "respuesta_generada": "El segundo grupo más traficado fueron los reptiles, con 146 especies.",
         "metricas": {
             "levenshtein": 0.40909090909090906,
-            "sentence_similarity": 0.8896418170794615,
+            "sentence_similarity": 0.8896149587835122,
             "bertscore": {
                 "precision": 0.9452744722366333,
                 "recall": 0.7299591898918152,
@@ -229,7 +229,7 @@
         "respuesta_generada": "El segundo lugar lo ocuparon los reptiles, con 146 especies.",
         "metricas": {
             "levenshtein": 0.30519480519480524,
-            "sentence_similarity": 0.7019129418602847,
+            "sentence_similarity": 0.7018525066847128,
             "bertscore": {
                 "precision": 0.8256278038024902,
                 "recall": 0.6691332459449768,
@@ -246,7 +246,7 @@
         "respuesta_generada": "El segundo grupo más afectado fueron los reptiles, con 146 especies.",
         "metricas": {
             "levenshtein": 0.3831168831168831,
-            "sentence_similarity": 0.7317286733779295,
+            "sentence_similarity": 0.7353378072181629,
             "bertscore": {
                 "precision": 0.9190715551376343,
                 "recall": 0.7185962796211243,
@@ -280,7 +280,7 @@
         "respuesta_generada": "Las más incautadas fueron la Iguana iguana, Ctenosaura pectinata y las tortugas marinas.",
         "metricas": {
             "levenshtein": 0.5233644859813085,
-            "sentence_similarity": 0.8978766075940189,
+            "sentence_similarity": 0.8980745846679056,
             "bertscore": {
                 "precision": 0.9368647933006287,
                 "recall": 0.9068657159805298,
@@ -297,7 +297,7 @@
         "respuesta_generada": "Se encontraron comúnmente Iguana iguana, Ctenosaura pectinata y tortugas marinas; en general predominaron los órdenes Squamata y Testudines.",
         "metricas": {
             "levenshtein": 0.5428571428571429,
-            "sentence_similarity": 0.7018973008202759,
+            "sentence_similarity": 0.701913861642716,
             "bertscore": {
                 "precision": 0.8163325786590576,
                 "recall": 0.8322010040283203,
@@ -314,7 +314,7 @@
         "respuesta_generada": "El axolote (Ambystoma mexicanum). Es relevante porque es una especie de anfibio endémica y catalogada en Peligro Crítico, y además es popular en el comercio de mascotas y la medicina tradicional.",
         "metricas": {
             "levenshtein": 0.4698795180722891,
-            "sentence_similarity": 0.824347884626532,
+            "sentence_similarity": 0.8242869009324446,
             "bertscore": {
                 "precision": 0.8782203197479248,
                 "recall": 0.8241419196128845,
@@ -331,7 +331,7 @@
         "respuesta_generada": "El axolote (Ambystoma mexicanum). Según el texto aparece en las incautaciones y es importante porque es una especie endémica y catalogada en Peligro Crítico; además es popular en el comercio de mascotas y en la medicina tradicional.",
         "metricas": {
             "levenshtein": 0.4457831325301205,
-            "sentence_similarity": 0.8502572873886791,
+            "sentence_similarity": 0.8502622113506231,
             "bertscore": {
                 "precision": 0.8619763255119324,
                 "recall": 0.8422242999076843,
@@ -348,7 +348,7 @@
         "respuesta_generada": "Se trató del ajolote (Ambystoma mexicanum). Destaca porque es una especie anfibia endémica y catalogada como en Peligro Crítico, además de ser muy demandada en el comercio de mascotas y en la medicina tradicional.",
         "metricas": {
             "levenshtein": 0.4257028112449799,
-            "sentence_similarity": 0.8286049684345328,
+            "sentence_similarity": 0.8282377129258177,
             "bertscore": {
                 "precision": 0.8458415269851685,
                 "recall": 0.8149384260177612,
@@ -365,7 +365,7 @@
         "respuesta_generada": "Según el contexto proporcionado, captura el 20% de las importaciones totales. (El texto indica que \"este pilar\" captura 20%; si te refieres a la industria automotriz y el pilar es esa industria, entonces sería 20%.)",
         "metricas": {
             "levenshtein": 0.27340823970037453,
-            "sentence_similarity": 0.5728559098684523,
+            "sentence_similarity": 0.5727956357184016,
             "bertscore": {
                 "precision": 0.7090623378753662,
                 "recall": 0.7063571810722351,
@@ -382,7 +382,7 @@
         "respuesta_generada": "Según el contexto, el sector automotriz captura alrededor del 20% de las importaciones totales del país (dato referido por INEGI).",
         "metricas": {
             "levenshtein": 0.3595505617977528,
-            "sentence_similarity": 0.7080968385726374,
+            "sentence_similarity": 0.7086024204161031,
             "bertscore": {
                 "precision": 0.8525377511978149,
                 "recall": 0.7832725644111633,
@@ -399,7 +399,7 @@
         "respuesta_generada": "Según el contexto proporcionado, captura el 20% de las importaciones totales del país.",
         "metricas": {
             "levenshtein": 0.27715355805243447,
-            "sentence_similarity": 0.45751237003598955,
+            "sentence_similarity": 0.45381959972989394,
             "bertscore": {
                 "precision": 0.8371264934539795,
                 "recall": 0.7264379262924194,
@@ -416,7 +416,7 @@
         "respuesta_generada": "Según el contexto, en 2004 había 100 empresas y organizaciones manufactureras, y a mediados de 2022 eran 368.",
         "metricas": {
             "levenshtein": 0.30400000000000005,
-            "sentence_similarity": 0.5837206078753755,
+            "sentence_similarity": 0.5838426817727328,
             "bertscore": {
                 "precision": 0.8183778524398804,
                 "recall": 0.6942777037620544,
@@ -433,7 +433,7 @@
         "respuesta_generada": "Según el contexto (FEMIA): había 100 empresas/organizaciones manufactureras en 2004 y 368 a mediados de 2022.",
         "metricas": {
             "levenshtein": 0.384,
-            "sentence_similarity": 0.6551510191984823,
+            "sentence_similarity": 0.6549025231556073,
             "bertscore": {
                 "precision": 0.8480417132377625,
                 "recall": 0.7306649088859558,
@@ -450,7 +450,7 @@
         "respuesta_generada": "El crecimiento fue de 268 empresas/organizaciones (de 100 en 2004 a 368 a mediados de 2022), es decir un aumento del 268%.",
         "metricas": {
             "levenshtein": 0.23199999999999998,
-            "sentence_similarity": 0.51067229324738,
+            "sentence_similarity": 0.5106907410829766,
             "bertscore": {
                 "precision": 0.7899886965751648,
                 "recall": 0.6966769695281982,
@@ -467,7 +467,7 @@
         "respuesta_generada": "Según la UNESCO, fue una inversión de US$ 500 mil millones.",
         "metricas": {
             "levenshtein": 0.3220338983050848,
-            "sentence_similarity": 0.6915410871836917,
+            "sentence_similarity": 0.6913639278371175,
             "bertscore": {
                 "precision": 0.8491108417510986,
                 "recall": 0.885571300983429,
@@ -484,7 +484,7 @@
         "respuesta_generada": "Según el contexto (UNESCO), anunciaron una inversión de US$ 500 mil millones en infraestructura en enero de 2025.",
         "metricas": {
             "levenshtein": 0.504424778761062,
-            "sentence_similarity": 0.7291495331014506,
+            "sentence_similarity": 0.7291899208093846,
             "bertscore": {
                 "precision": 0.7934790253639221,
                 "recall": 0.9142167568206787,
@@ -501,7 +501,7 @@
         "respuesta_generada": "Según la UNESCO, se anunciaron US$ 500 mil millones en infraestructura a inicios de 2025 (US$ 500,000,000,000).",
         "metricas": {
             "levenshtein": 0.4144144144144144,
-            "sentence_similarity": 0.7002820051057869,
+            "sentence_similarity": 0.6988685501079149,
             "bertscore": {
                 "precision": 0.7560065984725952,
                 "recall": 0.8538603782653809,
@@ -518,7 +518,7 @@
         "respuesta_generada": "Se describe como \"el Silicon Valley mexicano\": un centro de liderazgo en desarrollo de software y una de las regiones más dinámicas del ecosistema tecnológico nacional.",
         "metricas": {
             "levenshtein": 0.5892857142857143,
-            "sentence_similarity": 0.7328951504084531,
+            "sentence_similarity": 0.7330065040259341,
             "bertscore": {
                 "precision": 0.8299264907836914,
                 "recall": 0.8537324666976929,
@@ -535,7 +535,7 @@
         "respuesta_generada": "Guadalajara funciona como uno de los principales polos del ecosistema tecnológico: es conocida como \"el Silicon Valley mexicano\" y es un nodo estratégico para el desarrollo de software. Atrae a startups y empresas globales, aprovecha tecnologías avanzadas y apoya el talento local mediante incubadoras y aceleradoras que conectan a las emergentes con inversionistas, contribuyendo a atraer inversión extranjera.",
         "metricas": {
             "levenshtein": 0.25547445255474455,
-            "sentence_similarity": 0.8497508908192067,
+            "sentence_similarity": 0.8497970343696633,
             "bertscore": {
                 "precision": 0.6715729832649231,
                 "recall": 0.7982271313667297,
@@ -552,7 +552,7 @@
         "respuesta_generada": "Se la reconoce como \"el Silicon Valley mexicano\": un nodo estratégico y uno de los polos más dinámicos del ecosistema tecnológico nacional, atractivo para startups y empresas y focalizado en el desarrollo de software.",
         "metricas": {
             "levenshtein": 0.4377880184331797,
-            "sentence_similarity": 0.7292061235970226,
+            "sentence_similarity": 0.7291793378882461,
             "bertscore": {
                 "precision": 0.7332891821861267,
                 "recall": 0.8056780099868774,
@@ -569,7 +569,7 @@
         "respuesta_generada": "México destinó 0.16% del PBI a ciencia y tecnología en 2025.",
         "metricas": {
             "levenshtein": 0.3076923076923077,
-            "sentence_similarity": 0.7722365570666001,
+            "sentence_similarity": 0.7722178161714822,
             "bertscore": {
                 "precision": 0.8443119525909424,
                 "recall": 0.8170925974845886,
@@ -603,7 +603,7 @@
         "respuesta_generada": "Se asignó el 0.16% del PBI a ciencia y tecnología en 2025.",
         "metricas": {
             "levenshtein": 0.32692307692307687,
-            "sentence_similarity": 0.8155350652072372,
+            "sentence_similarity": 0.8155352681953666,
             "bertscore": {
                 "precision": 0.8583388328552246,
                 "recall": 0.8383937478065491,
@@ -620,7 +620,7 @@
         "respuesta_generada": "Según el contexto proporcionado, México cuenta actualmente con nueve empresas unicornio.",
         "metricas": {
             "levenshtein": 0.2681159420289855,
-            "sentence_similarity": 0.7543282680286487,
+            "sentence_similarity": 0.7542212592786888,
             "bertscore": {
                 "precision": 0.8360190391540527,
                 "recall": 0.7474098801612854,
@@ -637,7 +637,7 @@
         "respuesta_generada": "Según el contexto proporcionado, actualmente México cuenta con nueve empresas unicornio.",
         "metricas": {
             "levenshtein": 0.28260869565217395,
-            "sentence_similarity": 0.7609950206964169,
+            "sentence_similarity": 0.7606084345941923,
             "bertscore": {
                 "precision": 0.8295084238052368,
                 "recall": 0.7459074258804321,
@@ -654,7 +654,7 @@
         "respuesta_generada": "Nueve. Según el contexto, el país cuenta actualmente con nueve empresas unicornio, entre ellas Kavak y Bitso.",
         "metricas": {
             "levenshtein": 0.3115942028985508,
-            "sentence_similarity": 0.9071379334695048,
+            "sentence_similarity": 0.9072259061393284,
             "bertscore": {
                 "precision": 0.8797485828399658,
                 "recall": 0.8440513610839844,
@@ -705,7 +705,7 @@
         "respuesta_generada": "Kavak — es la que lidera el ecosistema, con un valor de aproximadamente $8,700 millones de dólares.",
         "metricas": {
             "levenshtein": 0.27014218009478674,
-            "sentence_similarity": 0.8045023592735943,
+            "sentence_similarity": 0.8045398374936408,
             "bertscore": {
                 "precision": 0.8622878789901733,
                 "recall": 0.7324515581130981,
@@ -722,7 +722,7 @@
         "respuesta_generada": "Representa un punto crítico: una señal de que México debe abandonar soluciones reactivas y adoptar una estrategia preventiva, aprovechando la oportunidad para replantear cómo construimos, habitamos y preservamos el entorno con una visión más ambiciosa y coordinada.",
         "metricas": {
             "levenshtein": 0.2930648769574944,
-            "sentence_similarity": 0.6003173498443294,
+            "sentence_similarity": 0.600751293280727,
             "bertscore": {
                 "precision": 0.687942385673523,
                 "recall": 0.6698553562164307,
@@ -739,7 +739,7 @@
         "respuesta_generada": "Según el contexto proporcionado, 2025 es crítico porque en ese año los problemas ambientales en México alcanzan un punto que exige:\n\n- Pasar de soluciones reactivas a una estrategia preventiva.  \n- Replantear cómo construimos, habitamos y preservamos el entorno.  \n- Adoptar una visión ambiciosa y coordinada que incluya manejo forestal, monitoreo satelital, adopción masiva de energías limpias y optimización del uso del agua en industria y agro.  \n- Implicar a actores más allá del gobierno para enfrentar la crisis.",
         "metricas": {
             "levenshtein": 0.2799227799227799,
-            "sentence_similarity": 0.8183456411318734,
+            "sentence_similarity": 0.818218649473578,
             "bertscore": {
                 "precision": 0.6810495257377625,
                 "recall": 0.6961348652839661,
@@ -756,7 +756,7 @@
         "respuesta_generada": "El año 2025 es presentado como un punto crítico para el medio ambiente en México: una señal clara de que es necesario dejar las soluciones reactivas y adoptar una estrategia preventiva. Representa a la vez una crisis y una oportunidad para repensar cómo construimos, habitamos y preservamos el entorno. Requiere una visión ambiciosa y coordinada —desde la gestión forestal y el monitoreo satelital hasta la adopción masiva de energías limpias y la optimización del uso del agua— y no es solo tarea del gobierno.",
         "metricas": {
             "levenshtein": 0.36594911937377694,
-            "sentence_similarity": 0.8739060720272127,
+            "sentence_similarity": 0.8743431750527517,
             "bertscore": {
                 "precision": 0.7043347358703613,
                 "recall": 0.7241910696029663,
@@ -790,7 +790,7 @@
         "respuesta_generada": "Según el contexto, han aumentado en intensidad los huracanes, las olas de calor y los incendios forestales (junto con un incremento de temperaturas extremas).",
         "metricas": {
             "levenshtein": 0.2610966057441253,
-            "sentence_similarity": 0.7022871375787008,
+            "sentence_similarity": 0.7022912639829605,
             "bertscore": {
                 "precision": 0.7803454995155334,
                 "recall": 0.7232129573822021,
@@ -807,7 +807,7 @@
         "respuesta_generada": "Según el texto, se han vuelto más extremos: incendios forestales, la escasez de agua, el incremento de temperaturas extremas (especialmente olas de calor) y huracanes.",
         "metricas": {
             "levenshtein": 0.27415143603133163,
-            "sentence_similarity": 0.6783505801276755,
+            "sentence_similarity": 0.678450034364181,
             "bertscore": {
                 "precision": 0.7643520832061768,
                 "recall": 0.7176191210746765,
@@ -824,7 +824,7 @@
         "respuesta_generada": "Según el texto, las crisis más delicadas mencionadas son:\n- La crisis hídrica (crisis del agua, incluida la sobreexplotación de acuíferos y contaminación de fuentes).  \n- La contaminación del aire en las principales ciudades.  \n- La devastación de los principales ecosistemas.",
         "metricas": {
             "levenshtein": 0.315136476426799,
-            "sentence_similarity": 0.6572909205488103,
+            "sentence_similarity": 0.6582338727326085,
             "bertscore": {
                 "precision": 0.761752724647522,
                 "recall": 0.7335613965988159,
@@ -841,7 +841,7 @@
         "respuesta_generada": "Principalmente la crisis hídrica —señalada en el texto como una de las más delicadas, sobre todo en regiones áridas y densamente pobladas por la sobreexplotación de acuíferos y la contaminación de fuentes hídricas—. También se mencionan como problemáticas críticas la contaminación del aire en las principales ciudades, la devastación de ecosistemas y la deforestación.",
         "metricas": {
             "levenshtein": 0.3052109181141439,
-            "sentence_similarity": 0.7026673259904023,
+            "sentence_similarity": 0.7021151920221861,
             "bertscore": {
                 "precision": 0.8034934997558594,
                 "recall": 0.7977454662322998,
@@ -858,7 +858,7 @@
         "respuesta_generada": "Según el contexto, las crisis ambientales más graves que se destacan son:\n- La crisis hídrica (señalada como una de las más delicadas, sobre todo en regiones áridas y densamente pobladas por la sobreexplotación de acuíferos y contaminación de fuentes).  \n- La contaminación del aire en las principales ciudades.  \n- La devastación de los principales ecosistemas.\n\nAdemás, el texto señala que el cambio climático, la expansión urbana descontrolada y la sobreexplotación de recursos impulsan estos problemas.",
         "metricas": {
             "levenshtein": 0.308300395256917,
-            "sentence_similarity": 0.7354580837719306,
+            "sentence_similarity": 0.735223371995073,
             "bertscore": {
                 "precision": 0.7683243751525879,
                 "recall": 0.7923176288604736,
@@ -892,7 +892,7 @@
         "respuesta_generada": "En febrero Monterrey registró récords en los niveles de contaminación del aire, lo que provocó campañas de protesta en redes sociales pidiendo la intervención del gobierno.",
         "metricas": {
             "levenshtein": 0.4941860465116279,
-            "sentence_similarity": 0.889057078559992,
+            "sentence_similarity": 0.8893363982771395,
             "bertscore": {
                 "precision": 0.8447813391685486,
                 "recall": 0.8896750211715698,
@@ -909,7 +909,7 @@
         "respuesta_generada": "Recientemente, en febrero Monterrey registró niveles récord de contaminación del aire. Esos picos en la mala calidad del aire provocaron protestas y campañas en redes sociales para exigir la intervención del gobierno, afectando a miles de nuevoleoneses.",
         "metricas": {
             "levenshtein": 0.3675889328063241,
-            "sentence_similarity": 0.8759672068061298,
+            "sentence_similarity": 0.8759981781132294,
             "bertscore": {
                 "precision": 0.7598656415939331,
                 "recall": 0.8398314118385315,
@@ -926,7 +926,7 @@
         "respuesta_generada": "Que el impulso al crecimiento económico suele aumentar la explotación de recursos, la contaminación y la demanda energética —por ejemplo urbanización desordenada y centros de datos energéticos— lo que choca con la protección ambiental y por ello dificulta/ralentiza la adopción de soluciones más limpias.",
         "metricas": {
             "levenshtein": 0.368421052631579,
-            "sentence_similarity": 0.6669363080463261,
+            "sentence_similarity": 0.6669601644803711,
             "bertscore": {
                 "precision": 0.7463247776031494,
                 "recall": 0.7894493341445923,
@@ -943,7 +943,7 @@
         "respuesta_generada": "Menciona la contradicción entre el crecimiento económico y la sostenibilidad —es decir, la tensión entre perseguir crecimiento económico y aplicar prácticas sostenibles, lo que ha ralentizado la adopción de soluciones más limpias.",
         "metricas": {
             "levenshtein": 0.4782608695652174,
-            "sentence_similarity": 0.7121439134732941,
+            "sentence_similarity": 0.7131341597310745,
             "bertscore": {
                 "precision": 0.8096838593482971,
                 "recall": 0.823501467704773,
@@ -960,7 +960,7 @@
         "respuesta_generada": "Se plantea una contradicción o tensión: el impulso por el crecimiento económico choca con la sostenibilidad. Según el contexto, esa prioridad al crecimiento ha ralentizado la adopción de soluciones más limpias, poniendo en riesgo la protección de ecosistemas y la gestión ambiental.",
         "metricas": {
             "levenshtein": 0.3226950354609929,
-            "sentence_similarity": 0.6862632447179133,
+            "sentence_similarity": 0.6863007657108441,
             "bertscore": {
                 "precision": 0.7724248170852661,
                 "recall": 0.8086978197097778,
@@ -977,7 +977,7 @@
         "respuesta_generada": "Paneles solares y sistemas de almacenamiento de energía (BESS), es decir, sistemas fotovoltaicos integrados con almacenamiento.",
         "metricas": {
             "levenshtein": 0.4699453551912568,
-            "sentence_similarity": 0.741775551507592,
+            "sentence_similarity": 0.7417783475789571,
             "bertscore": {
                 "precision": 0.8091133236885071,
                 "recall": 0.7494587898254395,
@@ -994,7 +994,7 @@
         "respuesta_generada": "Según el contexto, se proponen principalmente:\n- Energía solar (paneles solares / sistemas fotovoltaicos).  \n- Sistemas de almacenamiento de energía (BESS) y soluciones que integran solar con almacenamiento (sistemas solares con almacenamiento).  \nTambién se menciona de forma general la adopción de tecnologías limpias y fuentes renovables para reducir la dependencia energética.",
         "metricas": {
             "levenshtein": 0.3447368421052631,
-            "sentence_similarity": 0.7558587783294632,
+            "sentence_similarity": 0.7557155714610331,
             "bertscore": {
                 "precision": 0.7362529039382935,
                 "recall": 0.7912050485610962,
@@ -1011,7 +1011,7 @@
         "respuesta_generada": "Se mencionan los paneles solares y los sistemas de almacenamiento de energía (BESS), es decir, sistemas solares con almacenamiento.",
         "metricas": {
             "levenshtein": 0.53551912568306,
-            "sentence_similarity": 0.7317016712695191,
+            "sentence_similarity": 0.7317567287805561,
             "bertscore": {
                 "precision": 0.8228286504745483,
                 "recall": 0.7623459100723267,

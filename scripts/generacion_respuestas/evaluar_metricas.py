@@ -13,6 +13,7 @@ from openai import OpenAI #Cliente OpenAI
 from rapidfuzz.distance import Levenshtein #libreria encargada de calcular la distancia de Levenshtein
 from scipy.spatial.distance import cosine #libreria para calcular la distancia coseno
 from bert_score import score as bert_score #libreria para calcular BERTScore
+import matplotlib.pyplot as plt #libreria para la grafica de boxplot
 
 #-->Cargar .env
 load_dotenv()
@@ -23,7 +24,6 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 #-->Rutas de archivos json
 INPUT_PATH = Path(__file__).resolve().parent / "resultados_respuestas.json"
 OUTPUT_PATH = Path(__file__).resolve().parent / "metricas_resultados.json"
-
 
 #----------------------------------
 #-->Metrica 1: Levenshtein Distance
@@ -61,7 +61,7 @@ def sentence_similarity(a, b):
 #-----------------------
 def bertscore_metric(a, b):
     try:
-        P, R, F1 = bert_score([a], [b], lang="es", verbose=False)
+        P, R, F1 = bert_score([a], [b], lang="es", verbose=False) #Calcular BERTScore con listas de un solo elemento y utilizando español
         return {
             "precision": float(P[0]),
             "recall": float(R[0]),
@@ -111,7 +111,32 @@ def main():
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(metricas, f, indent=4, ensure_ascii=False)
 
+    #------------------------------------
+    #-->Generar gráfica de caja (Boxplot)
+    #------------------------------------
+    #Extraer listas de cada métrica
+    lev_scores = [m["metricas"]["levenshtein"] for m in metricas]
+    sent_scores = [m["metricas"]["sentence_similarity"] for m in metricas]
+    f1_scores = [m["metricas"]["bertscore"]["f1"] for m in metricas]
+
+    #Preparar datos para el boxplot
+    data_box = [lev_scores, sent_scores, f1_scores]
+    labels = ["Levenshtein", "Sentence Similarity", "BERTScore F1"]
+
+    plt.figure(figsize=(10, 6))
+    plt.boxplot(data_box, labels=labels, patch_artist=True)
+
+    plt.title("Distribución de Métricas de Evaluación")
+    plt.ylabel("Puntaje (0 - 1)")
+    plt.grid(True, linestyle="--", alpha=0.5)
+
+    #Guardar imagen
+    boxplot_path = Path(__file__).resolve().parent / "metricas_boxplot.png"
+    plt.savefig(boxplot_path, dpi=300)
+    plt.close()
+
     print("\n=== PROCESO COMPLETADO ===")
+    print(f"--> Gráfica de caja guardada en: {boxplot_path}")
     print(f"-->Métricas guardadas en: {OUTPUT_PATH}")
 
 #-->Ejecutar el proceso principal

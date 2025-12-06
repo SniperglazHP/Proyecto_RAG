@@ -1,0 +1,1226 @@
+[
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 1,
+        "pregunta": "¿Qué palabra aparece como tema en el texto?",
+        "respuesta": "Ciberseguridad"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 1,
+        "pregunta": "¿Qué título relacionado con México se muestra en el texto?",
+        "respuesta": "Avances tecnológicos actuales en México"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 1,
+        "pregunta": "¿Qué etiquetas o temas secundarios se listan en el texto?",
+        "respuesta": "Ciberseguridad, Infraestructura, Empresas, Inteligencia Artificial"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 1,
+        "pregunta": "¿Qué encabezado relacionado con gestión de TI aparece?",
+        "respuesta": "IT Management y Seguridad"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 2,
+        "pregunta": "¿Cuál es la sección o título principal del texto?",
+        "respuesta": "Home Inteligencia Artificial"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 2,
+        "pregunta": "¿Qué invita a explorar el texto?",
+        "respuesta": "Explora las tendencias que están redefiniendo la industria y cómo tu empresa puede sumarse al cambio."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 2,
+        "pregunta": "¿Cuándo fue actualizado el contenido?",
+        "respuesta": "Actualizado el 8 ago 2025"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 2,
+        "pregunta": "¿Quién aparece como autor y qué temática se menciona?",
+        "respuesta": "Alberto Torres; Infraestructura"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 3,
+        "pregunta": "¿Qué sectores se mencionan como generadores de miles de millones en exportaciones anuales?",
+        "respuesta": "Sectores como el automotriz y aeroespacial."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 3,
+        "pregunta": "¿Qué porcentaje de las importaciones totales captura la industria automotriz y cuál es su aporte al PBI según el INEGI?",
+        "respuesta": "Captura un 20% de las importaciones totales y aporta alrededor de un 5.1% del PBI, según datos del INEGI."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 3,
+        "pregunta": "Según la Federación de la Industria Aeroespacial Mexicana (FEMIA), ¿cómo cambió el número de empresas y organizaciones manufactureras en la industria aeroespacial entre 2004 y mediados de 2022?",
+        "respuesta": "Pasó de 100 empresas y organizaciones manufactureras en 2004 a 368 a mediados de 2022."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 3,
+        "pregunta": "¿Cuáles fueron las exportaciones totales para 2023, cuánto perteneció a Estados Unidos y qué predicción hace Tijuana EDC para 2025?",
+        "respuesta": "Para 2023, las exportaciones totales fueron de US$ 9,4 millones, de los cuales US$ 4,8 pertenecen a Estados Unidos. Según el sitio Tijuana EDC, para 2025 este número superará los US$ 9 mil millones anuales de años anteriores."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 4,
+        "pregunta": "¿Qué innovaciones históricas menciona el texto como ejemplos del legado tecnológico de México?",
+        "respuesta": "El calendario maya, desarrollos en nanomedicina y software libre."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 4,
+        "pregunta": "Según la UNESCO, ¿qué anunciaron en enero de 2025 las principales empresas de tecnología?",
+        "respuesta": "Anunciaron una inversión de US$ 500 mil millones en infraestructura."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 4,
+        "pregunta": "¿Qué ciudad se describe como 'el Silicon Valley mexicano' y qué papel juega en el desarrollo de software?",
+        "respuesta": "Guadalajara; es una de las regiones más dinámicas del ecosistema tecnológico nacional y un nodo estratégico para el desarrollo de software donde muchas start-ups y empresas globales desembarcan."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 4,
+        "pregunta": "Según estimaciones del Banco de México, ¿qué resultado registraron los bienes y servicios en el primer trimestre de 2025?",
+        "respuesta": "Registraron un superávit de US$ 1,539 millones."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 5,
+        "pregunta": "¿Qué permite la Ingeniería de plataformas según el texto?",
+        "respuesta": "Permite implementar arquitecturas escalables y automatizar procesos para acelerar la entrega de productos."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 5,
+        "pregunta": "¿Qué estima Gartner para 2026 respecto a los equipos de ingeniería de plataformas?",
+        "respuesta": "Gartner estima que un 80% de las organizaciones de ingeniería de software establecerán equipos de ingeniería de plataformas como proveedores internos de servicios, componentes y herramientas reutilizables para la entrega de aplicaciones."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 5,
+        "pregunta": "¿Qué papel desempeñan los centros de datos en la infraestructura de estas plataformas?",
+        "respuesta": "Los centros de datos desempeñan un papel esencial; permiten una gestión eficiente de los recursos digitales y ser más independientes."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 5,
+        "pregunta": "¿Qué es el proyecto Fábrica de Software desarrollado en 2025 y qué busca?",
+        "respuesta": "En 2025 la Agencia de Transformación Digital y Telecomunicaciones desarrolló el proyecto nacional llamado Fábrica de Software que fomenta la ingeniería de plataformas y busca fomentar la participación de profesionales especializados en ingeniería y sistemas tecnológicos."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 6,
+        "pregunta": "¿Qué se propone diseñar y desarrollar según el texto?",
+        "respuesta": "Software, herramientas y aplicaciones enfocadas a digitalizar, integrar y optimizar la mayor cantidad de trámites y procesos administrativos en México."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 6,
+        "pregunta": "¿Qué dice Clemente Ruiz Durán sobre el nearshoring en México?",
+        "respuesta": "Que hoy en día están llegando a México más inversiones que antes y que éste ya se convirtió en la nación líder en exportaciones a Estados Unidos."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 6,
+        "pregunta": "¿Qué industria lidera el nearshoring en México según el texto?",
+        "respuesta": "La industria automotriz."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 6,
+        "pregunta": "¿Cuánto fue la IED en fabricación de autos y camiones en México en 2024 y qué estados lideraron la producción bruta?",
+        "respuesta": "En 2024 la IED en fabricación de autos y camiones alcanzó US$6.925 millones; Coahuila y Puebla lideraron la producción bruta."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 7,
+        "pregunta": "¿Cuánto fue la inversión extranjera directa (IED) de fabricación de automóviles y camiones en el periodo enero a diciembre de 2024?",
+        "respuesta": "US$6.925 millones."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 7,
+        "pregunta": "¿En qué se distribuyeron esos US$6.925 millones de IED y cuáles fueron los montos?",
+        "respuesta": "Reinversión de utilidades (US$ 4.056 millones); Cuentas entre compañías (US$ 2.486 millones); Nuevas inversiones (US$ 383 millones)."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 7,
+        "pregunta": "¿Qué estados registraron la mayor producción bruta total en la industria automotriz y cuáles fueron sus montos, según Data México?",
+        "respuesta": "Coahuila de Zaragoza (MX$ 262,319 millones) y Puebla (MX$ 204,751 millones)."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 7,
+        "pregunta": "¿Cuántas empresas unicornio tiene actualmente México, cuáles se mencionan y qué empresa lidera con qué valoración?",
+        "respuesta": "México cuenta con nueve empresas unicornio, incluyendo a Kavak y Bitso. Kavak lidera el ecosistema con un valor de $8,700 millones de dólares."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 8,
+        "pregunta": "¿Qué sectores está transformando la adopción del Internet de las Cosas (IoT) en México según el texto?",
+        "respuesta": "La manufactura, la salud y la logística."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 8,
+        "pregunta": "¿Qué infraestructura respalda el avance del IoT y qué empresa privada se menciona como beneficiaria para desarrollar aplicaciones en el país?",
+        "respuesta": "El despliegue de redes 5G respalda el avance del IoT, y se menciona a privados como AT&T para desarrollar aplicaciones en el país."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 8,
+        "pregunta": "Según la Organización Mundial de la Propiedad Intelectual, ¿cómo se posiciona México respecto a la conversión de inversiones en innovación?",
+        "respuesta": "México se posiciona como uno de los países que mejor convierte sus inversiones en innovación con resultados tangibles."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 8,
+        "pregunta": "¿Qué posiciones ocupa México en el global innovation index 2024, en manufactura de alta tecnología y en exportaciones de bienes tecnológicos según el texto?",
+        "respuesta": "56° entre 133 economías en el global innovation index 2024; 15° en manufactura de alta tecnología; y 11° en exportaciones de bienes tecnológicos."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 9,
+        "pregunta": "Según el texto, ¿qué áreas están generando empleo calificado en México por los avances tecnológicos?",
+        "respuesta": "Desarrollo de software, ciberseguridad y análisis de datos."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 9,
+        "pregunta": "En la tabla, ¿qué otro indicador del comercio total aparece junto a \"Exportaciones de bienes creativos (% del comercio total)\"?",
+        "respuesta": "Exportaciones de servicios TIC (% del comercio total)."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 9,
+        "pregunta": "Menciona dos indicadores relacionados con alta tecnología que aparecen en el texto.",
+        "respuesta": "Exportaciones de alta tecnología (% del comercio total) e Importaciones de alta tecnología (% del comercio total)."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 9,
+        "pregunta": "¿Qué indicador con el número 30 está relacionado con la educación en la tabla?",
+        "respuesta": "Ranking QS de universidades (top 3)."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 10,
+        "pregunta": "¿Qué porcentaje del PBI destinó México a ciencia y tecnología en 2025 y qué significado tuvo ese nivel según el texto?",
+        "respuesta": "En 2025 México destinó el 0.16% del PBI a ciencia y tecnología, su nivel más bajo en 17 años (desde 2008), lo que limita su proyección como potencia regional según México Evalúa."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 10,
+        "pregunta": "¿Cuál fue el monto presupuestado en pesos y cuál fue el recorte real mencionado?",
+        "respuesta": "El presupuesto fue de MX$ 57,8 mil millones y representó un recorte del 7.4% en términos reales."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 10,
+        "pregunta": "¿Qué recomienda la UNESCO respecto al porcentaje del PBI para ciencia y tecnología y cuál es el promedio en Latinoamérica mencionado?",
+        "respuesta": "La UNESCO recomienda invertir al menos 1% del PBI en ciencia y tecnología, mientras que el promedio en Latinoamérica es del 0.6%."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 10,
+        "pregunta": "¿Qué datos sobre solicitudes y concesión de patentes en 2023 se reportan en el texto?",
+        "respuesta": "En 2023 se solicitaron 119 patentes por millón de personas (por encima del promedio regional de 86), por debajo de Chile (163) y Brasil (120); se concedieron 10,471 patentes, el 67% de las solicitudes."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 11,
+        "pregunta": "¿Qué incentivos fiscales existen en México para impulsar proyectos de innovación tecnológica?",
+        "respuesta": "El gobierno ofrece beneficios como deducciones fiscales por I+D, estímulos a través del Programa Nacional de Innovación y esquemas de cofinanciamiento mediante CONACYT y NAFIN."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 11,
+        "pregunta": "¿Cómo pueden las empresas tecnológicas mexicanas proteger su propiedad intelectual al internacionalizarse?",
+        "respuesta": "Se recomienda registrar patentes y marcas tanto en el IMPI como en tratados internacionales como el PCT o la OMPI; además de usar NDA, acuerdos de licencia y estrategias de defensa digital."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 11,
+        "pregunta": "¿Qué ROI pueden esperar las empresas industriales mexicanas al implementar ingeniería de plataformas?",
+        "respuesta": "Las compañías que adoptan ingeniería de plataformas reportan mejoras de hasta 30% en eficiencia operativa y reducciones de costos del 20% al automatizar pipelines y gestionar infraestructuras escalables."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 11,
+        "pregunta": "¿Qué desafíos regulatorios enfrentan las startups mexicanas que operan con inteligencia artificial?",
+        "respuesta": "El texto proporcionado no incluye una respuesta a esta pregunta; solo aparece planteada en las preguntas frecuentes sin desarrollo."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 12,
+        "pregunta": "¿Cuáles son las principales barreras mencionadas?",
+        "respuesta": "La ausencia de marcos legales claros sobre datos, sesgos algorítmicos y transparencia en IA."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 12,
+        "pregunta": "¿Qué se recomienda para mitigar esas barreras?",
+        "respuesta": "Cumplir con principios de ética digital, privacidad y seguir estándares como los de la OCDE."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 12,
+        "pregunta": "¿Cuándo fue publicado originalmente el artículo?",
+        "respuesta": "Publicado originalmente en 27 abr 2023."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 12,
+        "pregunta": "¿Qué está prohibido respecto al artículo?",
+        "respuesta": "Su reproducción total o parcial está prohibida."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 13,
+        "pregunta": "¿Cuántos elementos aparecen en la sección 'Leer también'?",
+        "respuesta": "Cuatro elementos."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 13,
+        "pregunta": "Nombra uno de los temas listados en 'Leer también'.",
+        "respuesta": "Patrones de diseño, descripciones estandarizadas para problemas repetitivos."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 13,
+        "pregunta": "¿Quién es Alberto Torres según el texto?",
+        "respuesta": "Periodista y creador de contenidos digitales egresado de la Universidad Nacional Autónoma de México con experiencia en medios de comunicación digitales y producción de contenido multimedia."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 13,
+        "pregunta": "¿En qué temas está interesado Alberto Torres?",
+        "respuesta": "Tecnología, negocio y ciencia."
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 14,
+        "pregunta": "¿Cuál es el título del texto?",
+        "respuesta": "Del low-code a la AI de agentes, el futuro de la innovación empresarial"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 14,
+        "pregunta": "¿Qué fecha aparece en el texto?",
+        "respuesta": "09 Oct 2025"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 14,
+        "pregunta": "¿Qué frase invita a descargar el contenido?",
+        "respuesta": "¡Descárguelo gratis!"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 14,
+        "pregunta": "¿Qué palabra aparece bajo la sección 'Temas'?",
+        "respuesta": "principal"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 15,
+        "pregunta": "¿Qué frase aparece como encabezado principal del texto?",
+        "respuesta": "Inteligencia Artificial"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 15,
+        "pregunta": "¿Qué palabra en mayúsculas relacionada con obtener contenido aparece en el texto?",
+        "respuesta": "DESCARGAR"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 15,
+        "pregunta": "¿Cuál es el título del artículo relacionado sobre logística que aparece en el texto?",
+        "respuesta": "Tecnología en logística: así el IoT, la analítica y la nube transforman al sector"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 15,
+        "pregunta": "¿Qué fecha aparece en el texto junto al artículo?",
+        "respuesta": "24 Abr 2024"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 16,
+        "pregunta": "¿Cuál es el encabezado principal que aparece al inicio del texto?",
+        "respuesta": "Transformación digital"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 16,
+        "pregunta": "¿Cuál es el título del artículo mencionado en el texto?",
+        "respuesta": "Estrategia CRM: ¿qué es, para qué sirve y qué ventajas ofrece?"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 16,
+        "pregunta": "¿Qué fecha aparece en el texto?",
+        "respuesta": "21 Nov 2024"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 16,
+        "pregunta": "¿Qué acción en mayúsculas se muestra en el texto?",
+        "respuesta": "DESCARGAR"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 17,
+        "pregunta": "¿Cuál es el título del artículo?",
+        "respuesta": "La guía completa para implementar Scrum: beneficios, roles y mejoras para equipos ágiles"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 17,
+        "pregunta": "¿Cuál es la fecha de publicación del artículo?",
+        "respuesta": "10 Jul 2025"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 17,
+        "pregunta": "¿Quién es la autora del artículo?",
+        "respuesta": "por Marcela Padua"
+    },
+    {
+        "documento": "Avances tecnológicos actuales en México 2024-2025.pdf",
+        "pagina": 17,
+        "pregunta": "¿Cuál es el título y la fecha del white paper mencionado?",
+        "respuesta": "Tecnología en logística: así el IoT, la analítica y la nube transforman al sector - 24 Abr 2024"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 1,
+        "pregunta": "¿Cuál es el título del artículo?",
+        "respuesta": "Los Desafíos Ambientales Más Urgentes de México en 2025"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 1,
+        "pregunta": "¿Qué etiquetas o categorías aparecen en el texto?",
+        "respuesta": "NOTICIAS, AHORRO ENERGÉTICO"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 1,
+        "pregunta": "¿Cuál es la fecha y hora de publicación indicado?",
+        "respuesta": "Apr 11, 2025 11:27:11 AM"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 1,
+        "pregunta": "¿Cuál es el encabezado o nombre que aparece en el texto?",
+        "respuesta": "LUXUN"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 2,
+        "pregunta": "¿Qué año marca un punto crítico para el medio ambiente en México según el texto?",
+        "respuesta": "El año 2025."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 2,
+        "pregunta": "¿Cuáles son algunos de los desafíos ambientales urgentes mencionados?",
+        "respuesta": "La creciente crisis del agua, la contaminación del aire en las principales ciudades y la devastación de los principales ecosistemas."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 2,
+        "pregunta": "¿Qué ventajas y potencial ofrece México para implementar soluciones sustentables?",
+        "respuesta": "Una biodiversidad excepcional, abundantes recursos naturales y un potencial inmenso en energías renovables; además, México es el tercer país con mayor irradiación solar diaria en el mundo."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 2,
+        "pregunta": "¿Qué factores impulsan los desafíos ambientales y qué se dice sobre la crisis hídrica?",
+        "respuesta": "Los desafíos están impulsados por el cambio climático, la expansión urbana descontrolada y la sobreexplotación de recursos. La crisis hídrica es una de las más delicadas, especialmente en regiones áridas y densamente pobladas, donde hay sobreexplotación de acuíferos y contaminación."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 3,
+        "pregunta": "¿Qué afecta a los ecosistemas marinos y terrestres según el texto?",
+        "respuesta": "La mala gestión de residuos y la contaminación plástica."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 3,
+        "pregunta": "¿Qué factor en Monterrey agrava la contaminación del aire y qué consecuencias menciona el texto?",
+        "respuesta": "El crecimiento del parque vehicular agrava la contaminación del aire, generando problemas de salud pública por la exposición a partículas finas y emisiones tóxicas; en febrero Monterrey registró récords de contaminación y protestas en redes sociales para que el gobierno nacional se involucre."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 3,
+        "pregunta": "¿Qué fenómenos han intensificado los cambios climáticos y qué actividades reducen la capacidad del planeta para absorber dióxido de carbono?",
+        "respuesta": "Los cambios climáticos han intensificado huracanes, olas de calor e incendios forestales, afectando la biodiversidad y la seguridad alimentaria; la deforestación y la erosión del suelo, impulsadas por la expansión agrícola y la urbanización, reducen la capacidad del planeta para absorber dióxido de carbono."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 3,
+        "pregunta": "¿Qué soluciones y actores destaca el texto para cambiar la trayectoria ambiental del país?",
+        "respuesta": "La transición hacia fuentes de energía limpia, modelos de movilidad sustentable e inversión en infraestructura verde; empresas, gobiernos y ciudadanos deben adoptar prácticas responsables y exigir regulaciones, además de impulsar la educación ambiental, ciudades inteligentes y la optimización del uso de recursos naturales."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 4,
+        "pregunta": "¿Qué transformación ambiental enfrenta México según el texto?",
+        "respuesta": "México enfrenta una transformación marcada por fenómenos climáticos extremos, crisis hídricas y contaminación del aire, cuyos impactos muchas veces ocurren de manera silenciosa hasta niveles críticos."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 4,
+        "pregunta": "¿En qué consisten las disparidades en las regulaciones ambientales mencionadas?",
+        "respuesta": "Mientras que las normas de calidad del aire han mejorado en las últimas décadas, las políticas sobre el uso del agua, la contaminación del suelo y la gestión de residuos siguen siendo laxas, permitiendo que esos problemas crezcan sin control efectivo."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 4,
+        "pregunta": "¿Qué acciones internacionales ha tomado México y qué obstáculo enfrenta en su implementación?",
+        "respuesta": "México ha firmado acuerdos como el Acuerdo de Escazú y se ha comprometido a la reducción de emisiones; sin embargo, la implementación es un reto debido a la fuerte dependencia del país en combustibles fósiles, como el petróleo y el gas, y la contradicción entre crecimiento económico y sostenibilidad."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 4,
+        "pregunta": "¿Cómo está respondiendo la sociedad mexicana a los retos ambientales?",
+        "respuesta": "La conciencia ambiental ha aumentado significativamente, especialmente entre las nuevas generaciones, y empresas, ciudadanos e inversionistas están presionando por soluciones más sostenibles, desde regulaciones más estrictas hasta modelos de negocio basados en la eficiencia energética."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 5,
+        "pregunta": "¿Qué tecnologías se mencionan como alternativas viables para reducir la dependencia de combustibles fósiles?",
+        "respuesta": "Paneles solares y sistemas de almacenamiento de energía (BESS)."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 5,
+        "pregunta": "¿Cuáles son los beneficios clave de las energías renovables en México según el texto?",
+        "respuesta": "No requieren agua para su operación (reduciendo el estrés hídrico), disminuyen la contaminación y las emisiones de carbono, y garantizan estabilidad energética, especialmente en zonas con redes eléctricas poco confiables."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 5,
+        "pregunta": "¿Qué se indica sobre la transición energética en México y qué podría acelerarla?",
+        "respuesta": "La transición energética en México sigue siendo un término muy nuevo; con incentivos adecuados y mayor financiamiento, el país podría acelerar la adopción de tecnologías limpias."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 5,
+        "pregunta": "¿Qué oferta se menciona para ayudar a las empresas a ser parte del cambio?",
+        "respuesta": "Se ofrece una asesoría gratuita: \"Solicita tu asesoria gratuita hoy mismo y descubre cómo transformar tu empresa\"."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 6,
+        "pregunta": "¿Cuántas personas mueren anualmente en México por enfermedades relacionadas con la exposición a contaminantes en el aire, según el texto?",
+        "respuesta": "Se estima que en México mueren anualmente más de 20 mil personas por enfermedades relacionadas con la exposición a contaminantes en el aire."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 6,
+        "pregunta": "¿Cuáles son las principales causas de la contaminación del aire mencionadas en el texto?",
+        "respuesta": "El incremento de vehículos particulares, la concentración de actividades industriales y las fuentes de generación eléctrica basadas en combustibles fósiles, incluyendo la quema de gasolina, diésel y gas natural."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 6,
+        "pregunta": "¿Qué ciudades encabezan la lista de urbes con los índices más altos de contaminación atmosférica?",
+        "respuesta": "La Ciudad de México, Monterrey y Guadalajara encabezan la lista, frecuentemente superando los límites recomendados por la Organización Mundial de la Salud."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 6,
+        "pregunta": "Según el texto, ¿qué se necesita para reducir de manera sostenible la contaminación del aire?",
+        "respuesta": "Avanzar hacia un modelo energético limpio y descentralizado en el que empresas y hogares generen su propia electricidad utilizando fuentes renovables, como la solar, ya que las contingencias y restricciones vehiculares son respuestas temporales que no resuelven la dependencia de combustibles fósiles."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 7,
+        "pregunta": "¿Qué ventaja tienen los sistemas fotovoltaicos integrados con almacenamiento de energía (BESS) según el texto?",
+        "respuesta": "No generan emisiones durante su operación y pueden cubrir la demanda eléctrica de empresas e industrias sin recurrir a la red tradicional, que aún depende en gran parte de combustibles fósiles."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 7,
+        "pregunta": "¿Por qué la transición energética en México se considera una urgencia de salud pública en el texto?",
+        "respuesta": "Porque mejorar la calidad del aire, reducir la huella de carbono y garantizar un suministro energético limpio son objetivos inseparables si se quiere un futuro donde respirar sea un derecho y no un riesgo."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 7,
+        "pregunta": "¿Qué ocurrió con los incendios forestales en México en 2024 y qué factores señala el texto como causas?",
+        "respuesta": "En 2024 más de un millón y medio de hectáreas quedaron arrasadas por incendios forestales; el texto señala el aumento de temperaturas, las sequías prolongadas y la falta de manejo forestal adecuado como factores que crean un cóctel perfecto para la devastación ambiental, y advierte que estos desastres forman parte de un patrón que puede intensificarse."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 7,
+        "pregunta": "¿Por qué las restricciones vehiculares y las alertas ambientales no son suficientes y qué medidas integrales propone el texto para enfrentar los desafíos ambientales en 2025?",
+        "respuesta": "Porque son medidas reactivas y no soluciones estructurales; el texto propone una visión ambiciosa y coordinada que integre gestión forestal, monitoreo satelital, adopción masiva de energías limpias y optimización del uso del agua en sectores como la industria y el agro."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 8,
+        "pregunta": "¿Por qué el sector industrial es considerado pieza clave en la solución para la sustentabilidad según el texto?",
+        "respuesta": "Porque es uno de los grandes consumidores de recursos y generadores de emisiones, y empresas que adopten tecnologías limpias como sistemas solares con almacenamiento no solo reducen su impacto ambiental, sino que aumentan su resiliencia frente a crisis energéticas y climáticas."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 8,
+        "pregunta": "¿Qué tipo de colaboración indica el texto que es necesaria para enfrentar los desafíos ambientales en México 2025?",
+        "respuesta": "La colaboración entre sector público, privado y sociedad, como la única vía para dejar atrás la cultura de la reacción y construir un modelo de prevención y resiliencia ambiental."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 8,
+        "pregunta": "¿A qué se atribuyen los desafíos ambientales acumulados en México según el texto?",
+        "respuesta": "Al resultado de décadas de decisiones cortoplacistas, expansión urbana sin control y políticas ambientales inconsistentes, que han convertido eventos aislados en un patrón que amenaza comunidades, ecosistemas y sectores productivos."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 8,
+        "pregunta": "¿Qué ejemplo de fenómeno extremo menciona el texto y cuáles son sus efectos?",
+        "respuesta": "Menciona las olas de calor cada vez más intensas y frecuentes; regiones como Sonora, Chihuahua y Nuevo León han registrado temperaturas récord superiores a los 48°C, desencadenando crisis sanitarias por deshidratación y enfermedades cardiovasculares y poniendo en jaque la red eléctrica al elevar la demanda de energía para refrigeración a niveles insostenibles."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 9,
+        "pregunta": "¿Cuáles son las causas de la deforestación mencionadas en el texto?",
+        "respuesta": "La tala ilegal y el cambio de uso de suelo para agricultura intensiva y ganadería, además de los megaproyectos."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 9,
+        "pregunta": "¿Qué estados han visto avanzar la frontera agrícola a costa de ecosistemas clave?",
+        "respuesta": "Chiapas, Michoacán y Campeche."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 9,
+        "pregunta": "¿Cómo evidenciaron las heladas en el sur de Estados Unidos una vulnerabilidad energética en México?",
+        "respuesta": "Mostraron que la fuerte dependencia de importaciones de gas natural para la generación eléctrica hace que cualquier disrupción ponga en riesgo la estabilidad de la red y la actividad industrial, indicando la necesidad de una matriz energética más diversificada y sustentable."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 9,
+        "pregunta": "¿Qué problema relacionado con el agua se destacó en 2024 y cuál fue el ejemplo reciente citado?",
+        "respuesta": "La escasez de agua se consolidó como un problema crítico que afectó consumo doméstico, industrial y agrícola; como ejemplo, la presa El Cuchillo en Nuevo León registró niveles históricamente bajos, generando restricciones en el suministro para millones de habitantes y para industrias."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 10,
+        "pregunta": "Además de El Cuchillo, qué otros sistemas enfrentan una disminución significativa en sus niveles de almacenamiento?",
+        "respuesta": "Otros sistemas hídricos clave del país."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 10,
+        "pregunta": "Qué combinación de factores ha llevado a una presión sin precedentes sobre los recursos hídricos?",
+        "respuesta": "La combinación de altas temperaturas, falta de lluvias y una creciente demanda de agua."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 10,
+        "pregunta": "Qué medidas urgentes indicó la crisis hídrica de 2024 para la gestión sostenible del agua?",
+        "respuesta": "La modernización de la infraestructura, la promoción de tecnologías para el uso eficiente del recurso y la creación de políticas públicas que fomenten la conservación."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 10,
+        "pregunta": "Además del cambio climático y las olas de calor, qué aspectos menciona el texto como relevantes en la crisis ambiental multifactorial de México?",
+        "respuesta": "La movilidad, el consumo de agua y la gestión del crecimiento urbano, que son tan relevantes como la transición energética."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 11,
+        "pregunta": "¿Cuántos vehículos de combustión interna se estima que habrá en México para 2030?",
+        "respuesta": "Se estima que habrá alrededor de 44.4 millones de vehículos de combustión interna circulando en el país para 2030."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 11,
+        "pregunta": "¿Qué problemas genera el crecimiento descontrolado del parque vehicular según el texto?",
+        "respuesta": "Genera la saturación de la infraestructura existente y niveles alarmantes de contaminación del aire."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 11,
+        "pregunta": "¿Qué oportunidades ofrece la movilidad y cómo puede impulsarlas México?",
+        "respuesta": "La movilidad representa una ventana de oportunidad; con la Estrategia Nacional de Movilidad Eléctrica México puede acelerar la adopción de vehículos eléctricos y repensar la infraestructura urbana para favorecer modos de transporte más sostenibles, como el transporte público eficiente, el uso de bicicletas y la movilidad compartida."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 11,
+        "pregunta": "¿Hacia qué modelo de ciudades necesita evolucionar México y qué medidas contempla ese modelo?",
+        "respuesta": "Necesita evolucionar hacia un modelo de ciudades sostenibles donde el ordenamiento territorial contemple la conservación de áreas verdes, la eficiencia energética en edificios y un enfoque de movilidad centrado en las personas, no en los autos."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 12,
+        "pregunta": "¿Qué año aparece en el texto?",
+        "respuesta": "1850"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 12,
+        "pregunta": "¿Cuál es el encabezado que menciona un punto de inflexión?",
+        "respuesta": "EL PUNTO DE INFLEXION DE LA TIERRA"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 12,
+        "pregunta": "Copia la línea que habla de medidas urgentes para combatir el cambio climático y sus efectos.",
+        "respuesta": "ADUPTARMEDIUASURGENTESPARACUMBATIR ELCAMBIOCLIMATICOYSUSEFECTOS"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 12,
+        "pregunta": "Escribe la cadena que enumera escalas numéricas en el texto.",
+        "respuesta": "DEMILESDEMILLONESABILLONES"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 13,
+        "pregunta": "¿Cuál fue el promedio anual mencionado en el texto para 2019-2020?",
+        "respuesta": "UNPROMEDI0ANUALDE803.000MILLONESDEDOLARES EN 2019-2020"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 13,
+        "pregunta": "Según el texto, ¿cuánto necesitan los países en desarrollo para 2030?",
+        "respuesta": "Cerca de6 billones de dólares para 2030"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 13,
+        "pregunta": "¿Qué periodo aparece repetido en el texto en relación con el promedio anual?",
+        "respuesta": "2019-2020 (CPROMEDIO ANUAL)"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 13,
+        "pregunta": "¿Qué encabezado relacionado con vulnerabilidad aparece al final del texto?",
+        "respuesta": "LASREGIONESALTAMENTEVULNERABLES"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 14,
+        "pregunta": "Según el encabezado, cuánto mayores son las tasas de mortalidad por desastres en esas regiones entre 2010 y 2020?",
+        "respuesta": "15 veces superiores."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 14,
+        "pregunta": "¿Qué organización aparece como fuente de la infografía?",
+        "respuesta": "Acción Por El Clima - ONU."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 14,
+        "pregunta": "¿Qué ley aprobó México y qué metas estableció según el texto?",
+        "respuesta": "La Ley General de Cambio Climático; estableció metas como mitigar y regular las emisiones de gases de efecto invernadero para 2030."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 14,
+        "pregunta": "¿Qué señala el texto sobre los planes climáticos estatales y la traducción de compromisos en acciones?",
+        "respuesta": "Menos de la mitad de los estados mexicanos cuentan con un plan climático sólido y solo una fracción ha traducido esos compromisos en acciones tangibles."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 15,
+        "pregunta": "¿Qué demuestra la participación de México en foros internacionales como la COP28?",
+        "respuesta": "Que el país quiere proyectarse como un actor responsable en la agenda climática global."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 15,
+        "pregunta": "¿Cuáles son los retos en casa que frenan el progreso ambiental en México según el texto?",
+        "respuesta": "La falta de coordinación entre niveles de gobierno, el rezago en la modernización de la infraestructura y la dependencia económica de sectores contaminantes."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 15,
+        "pregunta": "¿Por qué la transición energética es importante para las empresas mexicanas y qué beneficios aporta la adopción de sistemas fotovoltaicos con BESS?",
+        "respuesta": "Porque se convierte en un pilar estratégico para la competitividad y la resiliencia; la adopción de fotovoltaicos con almacenamiento reduce costos operativos y protege a las industrias de cortes de suministro y fluctuaciones de precios de combustibles fósiles."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 15,
+        "pregunta": "¿Qué aportan las microrredes energéticas y cómo influyen en la posición de las empresas frente a nuevas regulaciones y mercados globales?",
+        "respuesta": "Las microrredes descentralizan la generación eléctrica y fortalecen la autonomía de parques industriales, cadenas de suministro y comunidades; al combinar eficiencia operativa con reducción de huella de carbono, las empresas cumplen con nuevas regulaciones, mejoran su reputación y abren oportunidades en mercados globales exigentes con la sostenibilidad."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 16,
+        "pregunta": "¿Cuál es uno de los títulos de los posts mencionados?",
+        "respuesta": "La Importancia del Desarrollo Sustentable"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 16,
+        "pregunta": "¿Qué otra entrada sobre energía aparece en el texto?",
+        "respuesta": "Las 8 Tecnologías Innovadoras para Consumir Energía"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 16,
+        "pregunta": "¿Qué palabra relacionada con redes sociales aparece en el texto?",
+        "respuesta": "T witter"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 16,
+        "pregunta": "¿Cuántas etiquetas de imagen ('<!-- image -->') hay en el texto?",
+        "respuesta": "3"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 17,
+        "pregunta": "¿Qué hace LUXUN para que las empresas ahorren con energía limpia?",
+        "respuesta": "Financia e implementa paneles solares para que tu empresa ahorre con energía limpia sin tener que desembolsar su capital."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 17,
+        "pregunta": "¿Qué oferta gratuita se menciona en el texto?",
+        "respuesta": "CONSULTA GRATIS CON NOSOTROS."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 17,
+        "pregunta": "¿Qué invitación al contacto aparece en el texto?",
+        "respuesta": "PLATICA CON NOSOTROS."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 17,
+        "pregunta": "¿Qué categorías aparecen en la sección 'Related posts'?",
+        "respuesta": "NOTICIAS, ENERGÍA, MICROREDES"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 18,
+        "pregunta": "¿Cuál es el título del artículo?",
+        "respuesta": "Microrredes: La Clave para la Resiliencia"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 18,
+        "pregunta": "¿Qué tema relacionado aparece como encabezado en el texto?",
+        "respuesta": "Energética en la Industria Mexicana"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 18,
+        "pregunta": "¿Quién figura como autor y cuál es la fecha y hora de publicación?",
+        "respuesta": "Autor: adminluxun. Fecha y hora: Oct 15, 2025 9:27:55 AM"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 18,
+        "pregunta": "¿Cuál es la duración estimada de lectura que aparece en el texto?",
+        "respuesta": "9 min read."
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 19,
+        "pregunta": "¿Cuál es el título del artículo?",
+        "respuesta": "Mega Apagón en la Península de Yucatán: Lección para Empresas Mexicanas"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 19,
+        "pregunta": "¿Quién figura como autor del texto?",
+        "respuesta": "adminluxun"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 19,
+        "pregunta": "¿Qué fecha y hora aparecen en el texto?",
+        "respuesta": "Sep 29, 2025 1:33:15 PM"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 19,
+        "pregunta": "¿Qué categorías están listadas en el texto?",
+        "respuesta": "NOTICIAS ,  ENERGÍA ,  CFE"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 20,
+        "pregunta": "¿Cuál es el título del artículo mencionado en el texto?",
+        "respuesta": "Energía Fotovoltaica en México: La Revolución Solar para Empresas"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 20,
+        "pregunta": "¿Quién figura como autor del artículo?",
+        "respuesta": "adminluxun"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 20,
+        "pregunta": "¿Cuál es la fecha y hora de publicación que aparece en el texto?",
+        "respuesta": "Apr 9, 2025 1:28:53 PM"
+    },
+    {
+        "documento": "Los Desafíos Ambientales Más Urgentes de México en 2025.pdf",
+        "pagina": 20,
+        "pregunta": "¿Qué otras indicaciones o secciones aparecen en el texto?",
+        "respuesta": "14 min read., READ MORE, AGENDA TU CONSULTA GRATUITA, LUXUN, Diccionario Energético"
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 1,
+        "pregunta": "¿Cuántas especies de vertebrados fueron decomisadas en México durante 2000-2020 según el texto?",
+        "respuesta": "473 especies de vertebrados fueron decomisadas por autoridades durante 2000-2020."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 1,
+        "pregunta": "¿Qué grupos de animales encabezan la lista de víctimas del tráfico ilegal mencionados en el texto?",
+        "respuesta": "Las aves y reptiles encabezan la lista de víctimas del tráfico ilegal."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 1,
+        "pregunta": "¿Qué mercados impulsan el tráfico de fauna en México según el texto?",
+        "respuesta": "El tráfico está impulsado por mercados variados: el de mascotas, colecciones, para alimento o decoración, y usos tradicionales."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 1,
+        "pregunta": "¿Cómo describe el texto el papel de México en el comercio ilegal de fauna silvestre?",
+        "respuesta": "México desempeña un papel crucial: funciona como un centro para el tráfico de especies nativas y el transbordo de especies no nativas."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 2,
+        "pregunta": "¿Quiénes realizaron la investigación y qué datos analizaron?",
+        "respuesta": "Martha Anahí Güizado-Rodríguez (Instituto Tecnológico Superior de Zacapoaxtla), Osvaldo Eric Ramírez Bravo (Centro de Agroecología de la BUAP) e Inés Arroyo-Quiroz (Centro Regional de Investigaciones Multidisciplinarias de la UNAM); publicaron en el Journal for Nature Conservation y analizaron los datos de aplicación de la ley por parte de PROFEPA sobre el comercio de vida silvestre entre 2000 y 2020."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 2,
+        "pregunta": "¿Cuántas especies de vertebrados fueron incautadas según el estudio?",
+        "respuesta": "473 especies diferentes de vertebrados fueron confiscadas."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 2,
+        "pregunta": "¿Qué grupos taxonómicos fueron los más afectados y en qué orden?",
+        "respuesta": "Los grupos más afectados fueron las aves, los reptiles y los mamíferos, en ese orden."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 2,
+        "pregunta": "¿Qué datos específicos proporciona el estudio sobre las aves confiscadas?",
+        "respuesta": "Las aves fueron el grupo más confiscado: 200 especies (42.28% del total) y 8,013 especímenes incautados; las aves de los órdenes Passeriformes y Psittaciformes fueron las más comunes; ejemplos frecuentemente decomisados incluyen Eupsittula canicularis y Cardinalis cardinalis; el alto volumen se relaciona con la demanda como mascotas en México, EE. UU. y Europa."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 3,
+        "pregunta": "¿Qué especies se mencionan como las más frecuentemente decomisadas?",
+        "respuesta": "Eupsittula canicularis y Cardinalis cardinalis."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 3,
+        "pregunta": "¿Cuál fue el segundo grupo más traficado y cuántas especies y especímenes fueron incautados?",
+        "respuesta": "El segundo grupo más traficado fue los reptiles, con 146 especies (30.86%) y 8,509 especímenes incautados."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 3,
+        "pregunta": "¿Qué órdenes de reptiles predominaron en las incautaciones?",
+        "respuesta": "Los órdenes Squamata y Testudines predominaron."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 3,
+        "pregunta": "¿Qué especies de reptiles se mencionan entre las más incautadas y qué factores impulsan su tráfico?",
+        "respuesta": "Se mencionan Iguana iguana, Ctenosaura pectinata y las tortugas marinas; el tráfico se impulsa por la demanda de mascotas, pieles, carne, medicina tradicional y ornamentos."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 4,
+        "pregunta": "¿Cuántas especies de mamíferos se confiscaron y de qué grupos provinieron principalmente?",
+        "respuesta": "Se confiscaron 110 especies de mamíferos, principalmente de los grupos Artiodactyla y Carnivora."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 4,
+        "pregunta": "¿Qué grandes felinos se mencionan y para qué se usan como mascotas exóticas en México?",
+        "respuesta": "Se mencionan el tigre (Panthera tigris) y el león (Panthera leo); se usan como mascotas exóticas para representar estatus social y poder."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 4,
+        "pregunta": "¿Cuántas especies de anfibios se detectaron en las incautaciones y qué especie endémica y en Peligro Crítico fue reportada?",
+        "respuesta": "Se detectaron 17 especies de anfibios; el axolote (Ambystoma mexicanum), especie endémica y en Peligro Crítico, fue reportado."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 4,
+        "pregunta": "¿Cuántas de las especies confiscadas eran nativas, cuántas endémicas y cuántas no nativas?",
+        "respuesta": "En total, 358 de las especies confiscadas eran nativas (incluyendo 52 especies endémicas) y 115 eran no nativas."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 5,
+        "pregunta": "¿Cuántas especies confiscadas están en la Lista Roja de la IUCN y qué porcentaje representan?",
+        "respuesta": "453 de las 473 especies confiscadas, lo que representa 95.97%."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 5,
+        "pregunta": "¿Qué especies de tortugas se mencionan en el texto?",
+        "respuesta": "La tortuga carey (Eretmochelys imbricata) y la tortuga lora (Lepidochelys kempii)."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 5,
+        "pregunta": "¿Quién es Alejandro Peña según el texto?",
+        "respuesta": "Alejandro Peña es el biólogo mexicano que lleva 40 años salvando a las tortugas del Pacífico mexicano."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 5,
+        "pregunta": "¿Por qué son explotadas las tortugas según el texto?",
+        "respuesta": "Son explotadas por sus huevos, carne y caparazones utilizados en el comercio ilegal de souvenirs y ornamentos."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 6,
+        "pregunta": "¿Quién es Alejandro Peña y qué logros se mencionan en el texto sobre su trabajo?",
+        "respuesta": "Es un biólogo nacido y criado en el Pacífico mexicano que ha dedicado su vida al programa de preservación de tortugas marinas; en Playa Teopa anidan anualmente unas 2.000 tortugas y hasta la fecha se han liberado de forma segura más de 2 millones de tortugas en el océano."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 6,
+        "pregunta": "¿Qué especies de loros se mencionan como altamente traficadas y por qué?",
+        "respuesta": "Amazona auropalliata y Ara militaris son altamente traficadas debido a sus colores vibrantes y a su capacidad de imitar la voz humana, lo que las hace deseables como mascotas."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 6,
+        "pregunta": "¿Por qué está la vaquita marina al borde de la extinción según el texto?",
+        "respuesta": "La vaquita está al borde de la extinción principalmente debido a la captura incidental en la pesca ilegal de totoaba."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 6,
+        "pregunta": "¿Qué resultados obtuvo la última exploración científica sobre la vaquita marina?",
+        "respuesta": "La exploración registró 61 detecciones acústicas y 16 avistamientos, contabilizando de 10 a 13 vaquitas marinas y entre 1 y 2 crías; estas cifras son mayores con respecto a 2021."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 7,
+        "pregunta": "¿Cómo se comparan el número de eventos y especímenes confiscados entre los estados del sur y del norte de México?",
+        "respuesta": "Los estados del sur reportaron 1,936 eventos y 12,877 especímenes confiscados, mientras que los estados del norte registraron 425 eventos y 1,669 especímenes."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 7,
+        "pregunta": "¿Qué estado registró el mayor número de eventos y confiscaciones y por qué es relevante según el texto?",
+        "respuesta": "Oaxaca registró el mayor número de eventos (828) y confiscaciones (8,187); es relevante porque es muy diverso biológicamente y su ubicación facilita rutas comerciales, convirtiéndolo en un foco de tráfico."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 7,
+        "pregunta": "¿Qué tipos de animales son más prominentes en las incautaciones del norte comparados con las del sur y las zonas costeras?",
+        "respuesta": "En el norte hubo mayor prominencia en la incautación de mamíferos (relacionados con la caza en ranchos cinegéticos), mientras que en los estados costeros y del sur predomina el tráfico de reptiles (tortugas, iguanas) y aves."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 7,
+        "pregunta": "¿En qué años y meses se registraron los picos temporales de incautaciones de animales vivos según el texto?",
+        "respuesta": "El mayor número de eventos de incautación de animales vivos se registró en 2010 (203 incidentes) y el mayor número de individuos confiscados fue en 2011 (2,158 especímenes). También se observaron picos estacionales en marzo y octubre, involucrando principalmente especies nativas."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 8,
+        "pregunta": "¿Qué requieren las disparidades regionales en los patrones de comercio y las diferencias en el tráfico de animales vivos versus productos?",
+        "respuesta": "Requieren estrategias de aplicación de la ley dirigidas, compromiso comunitario y esfuerzos de conservación adaptados al contexto de cada región, grupo taxonómico y mercado."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 8,
+        "pregunta": "¿Por qué es preocupante que exista comercio ilegal de especies no nativas en México?",
+        "respuesta": "Porque estas especies pueden ser vectores de enfermedades o volverse invasivas, compitiendo con la fauna local."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 8,
+        "pregunta": "¿Cómo se describe el tráfico en México y cuáles son sus implicaciones para la conservación?",
+        "respuesta": "Se describe como un desafío complejo y evolutivo con profundas implicaciones para la conservación de la biodiversidad."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 8,
+        "pregunta": "¿Qué es esencial para que México desempeñe un papel de liderazgo en la lucha contra la pérdida de biodiversidad y el tráfico de vida silvestre?",
+        "respuesta": "Abordar las variaciones regionales y priorizar las especies en mayor riesgo."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 9,
+        "pregunta": "Según el texto, cuáles fueron los primeros animales que aparecieron en la Tierra?",
+        "respuesta": "Las esponjas marinas."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 9,
+        "pregunta": "Qué grupo de investigadores consiguió dar respuesta a una de las cuestiones más debatidas?",
+        "respuesta": "Investigadores del Instituto Tecnológico de Massachusetts."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 9,
+        "pregunta": "Gracias a qué métodos dieron respuesta a la cuestión debatida?",
+        "respuesta": "Gracias a técnicas químicas."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 9,
+        "pregunta": "Quién es la autora del texto?",
+        "respuesta": "Marta Musso."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 10,
+        "pregunta": "¿Cuál es el tema principal del artículo?",
+        "respuesta": "La increíble capacidad de movimiento de los tentáculos de los pulpos."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 10,
+        "pregunta": "¿Qué reveló el nuevo estudio sobre los tentáculos de los pulpos?",
+        "respuesta": "Reveló una clara división de tareas entre los tentáculos frontales y los posteriores."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 10,
+        "pregunta": "¿Qué aspecto de los tentáculos fue catalogado en detalle por el estudio?",
+        "respuesta": "Su impresionante flexibilidad motora."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 10,
+        "pregunta": "¿Quién firma el artículo?",
+        "respuesta": "Simone Valesini."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 11,
+        "pregunta": "Según la Comisión EAT-Lancet 2025, ¿qué proporción de la población mundial tiene dificultades para acceder a una alimentación saludable?",
+        "respuesta": "Más de la mitad de la población mundial."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 11,
+        "pregunta": "¿Qué consecuencias menciona la Comisión EAT-Lancet 2025 respecto a la dificultad de acceder a una alimentación saludable?",
+        "respuesta": "Consecuencias devastadoras para la salud pública, la equidad social y el medio ambiente."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 11,
+        "pregunta": "¿Quién es la autora del texto sobre la dieta y la equidad social?",
+        "respuesta": "Fernanda González."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 11,
+        "pregunta": "Según el texto, ¿qué animal aparece a la venta en Facebook y en qué país opera ese tráfico ilegal?",
+        "respuesta": "Jaguares, y el tráfico ilegal opera en México."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 12,
+        "pregunta": "¿Qué país fue identificado como el hotspot mundial del comercio en línea de jaguares?",
+        "respuesta": "México."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 12,
+        "pregunta": "¿Quién es la autora del texto?",
+        "respuesta": "Geraldine Castro."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 12,
+        "pregunta": "¿Qué confirma la CONANP sobre el Lago de Texcoco?",
+        "respuesta": "Que las lluvias han elevado drásticamente el nivel del agua del antiguo lago."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 12,
+        "pregunta": "¿Qué hizo WIRED en relación con el Parque Ecológico Lago de Texcoco y con quién fue la visita?",
+        "respuesta": "WIRED visitó el Parque Ecológico Lago de Texcoco junto a su arquitecto, Iñaki Echeverría."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 13,
+        "pregunta": "¿Cuál es el tema principal indicado en el texto?",
+        "respuesta": "Medio ambiente."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 13,
+        "pregunta": "Según el texto, ¿qué porcentaje de las especies de aves del planeta están en declive?",
+        "respuesta": "Más del 60%."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 13,
+        "pregunta": "¿Qué papel desempeñan las aves según el texto?",
+        "respuesta": "Son indicadores clave de la salud ambiental y cumplen funciones esenciales para la sostenibilidad de los ecosistemas."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 13,
+        "pregunta": "¿Qué autores aparecen en el texto?",
+        "respuesta": "Anna Lagos y Fernanda González."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 14,
+        "pregunta": "¿Cuál es el mayor enemigo del drenaje en la Ciudad de México según el texto?",
+        "respuesta": "La basura."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 14,
+        "pregunta": "¿Qué medidas se señalan como clave para mejorar el manejo del drenaje?",
+        "respuesta": "Educación cívica, mayor recolección y manejo responsable de residuos; se puede empezar por las heces y el pelo de las mascotas."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 14,
+        "pregunta": "¿Qué hacen los jóvenes voluntarios en Morelos contra la especie invasora?",
+        "respuesta": "Se sumergen de noche en pozas para erradicar al acocil australiano, una especie invasora."
+    },
+    {
+        "documento": "México, un eje crítico del tráfico ilegal de fauna silvestre_ 473 especies confiscadas en 20 Años.pdf",
+        "pagina": 14,
+        "pregunta": "¿Cuál es el objetivo del proyecto de ciencia ciudadana mencionado?",
+        "respuesta": "Salvar al cangrejo nativo Pseudothelphusa morelosis."
+    }
+]
