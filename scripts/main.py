@@ -62,48 +62,48 @@ async def ingesta(file: UploadFile = File(...)):
 #----------
 #retrieval
 #----------
-@app.post("/retrieval/") #Se crea el endpoint de retrieval de tipo post para recibir datos del usuario
-async def retrieval(query: str = Form(...)): #Creamos esta funcion asincrona que recibe un query de tipo string desde un formulario
+@app.post("/retrieval/")
+async def retrieval(query: str = Form(...)):
     try:
-        #-->Genera el embedding del query usando OpenAI
-        embedding_response = client.embeddings.create( #Llama a la API de OpenAI para generar el embedding del query
-            model="text-embedding-3-large", #Modelo de embeddings
-            input=query #Texto del query proporcionado por el usuario
+        #--> Generar embedding
+        embedding_response = client.embeddings.create(
+            model="text-embedding-3-large",
+            input=query
         )
-        query_vector = embedding_response.data[0].embedding #Obtiene el vector de embedding del query
+        query_vector = embedding_response.data[0].embedding
 
-        #-->Consulta el índice de Pinecone para recuperar chunks similares
-        index = pc.Index(INDEX_NAME) #Conecta al índice de Pinecone
-        results = index.query( #Realiza la consulta en Pinecone usando el vector del query
-            vector=query_vector, #Vector del query que dio OpenAI del usuario
-            top_k=5, #Número de vectores similares de Pinecone a recuperar
-            include_metadata=True #Muestra la metadata asociada a cada vector recuperado
+        #--> Consulta Pinecone
+        index = pc.Index(INDEX_NAME)
+        results = index.query(
+            vector=query_vector,
+            top_k=10,   # ← subir a 10 para métricas IR como NDCG@10
+            include_metadata=True
         )
 
-        #-->Construye el contexto de la metadata a partir de los chunks (no olvidar, es una tecnica llamada comprension de listas en python)
+        #--> Construir contexto
         context = "\n\n".join([
-            match["metadata"].get("text") 
+            match["metadata"].get("text")
             or match["metadata"].get("preview", "")
-            for match in results["matches"]
+            for match in results.get("matches", [])
         ])
 
-
-        #-->Verifica si se encontró contexto, si es asi manda de respuesta error
-        if not context.strip(): #Verifica si el contexto está vacío
+        if not context.strip():
             return {
                 "query": query,
                 "answer": "No se encontró información relevante en la base vectorial.",
-                "matches_found": 0
+                "matches_found": 0,
+                "context": "",
+                "results": []
             }
 
-        #-->Genera la respuesta usando Responses API (importante da contexto y menciona que es el reemplazo de Completions)
-        response = client.responses.create( #Llama a la API de OpenAI para generar la respuesta basada en el contexto
-            model=llm_model, #Modelo LLM definido en este caso gpt-5-mini
+        #--> Generar respuesta LLM
+        response = client.responses.create(
+            model=llm_model,
             input=[
                 {
                     "role": "system",
                     "content": (
-                        "Eres un asistente que responde preguntas basadas en el contexto proporcionado. "
+                        "Eres un asistente que responde preguntas basadas únicamente en el contexto proporcionado. "
                         "Si la información no está en el contexto, indica que no la conoces."
                     )
                 },
@@ -114,17 +114,32 @@ async def retrieval(query: str = Form(...)): #Creamos esta funcion asincrona que
             ],
         )
 
-        #-->Obtiene la respuesta generada
-        answer = response.output_text #Obtiene el texto de la respuesta generada por OpenAI
+        answer = response.output_text
 
-        #-->Devuelve la respuesta junto con el número de coincidencias encontradas
+        #===========================
+        # NUEVO: estructura completa
+        #===========================
+        retrieval_results = []
+        for i, match in enumerate(results.get("matches", [])):
+            retrieval_results.append({
+                "doc_id": match.get("id"),
+                "score": match.get("score"),
+                "metadata": match.get("metadata", {}),
+                "rank": i + 1
+            })
+
+        #--> Respuesta ampliada (nueva estructura)
         return {
             "query": query,
             "answer": answer,
-            "matches_found": len(results["matches"]),
-            "context": context  
+            "matches_found": len(results.get("matches", [])),
+            "context": context,
+            "results": retrieval_results  # <--- ESTA ES LA PARTE CLAVE PARA IR-METRICS
+    
         }
 
-    #-->Captura errores durante el proceso de retrieval
     except Exception as e:
-        return JSONResponse(status_code=500, content={"error": f"Error durante retrieval: {str(e)}"})
+        return JSONResponse(
+            status_code=500,
+            content={"error": f"Error durante retrieval: {str(e)}"}
+        )

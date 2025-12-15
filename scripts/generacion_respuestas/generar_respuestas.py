@@ -1,61 +1,98 @@
 """
-Solo evalúa las variantes de las preguntas, utilizando el retrival de main.py.
-Guarda: pregunta_original, pregunta_variante, ground_truth, respuesta, contexto, matches.
+Genera resultados_respuestas.json tomando preguntas de preguntas.json
 """
-#-->Importar Librerías
-import json #Para manejar archivos JSON
-import requests #Para hacer solicitudes HTTP
-from pathlib import Path #Para manejar rutas de archivos
+#-->Importar librerias
+import json
+import requests
+from pathlib import Path
 
-#-->Rutas de archivos
-BASE = Path(__file__).resolve().parent 
+#-->Rutas de los archivos
+BASE = Path(__file__).resolve().parent
 PREGUNTAS_PATH = BASE / "preguntas.json"
 OUTPUT_PATH = BASE / "resultados_respuestas.json"
 
-#-->URL del endpoint del backend
+#-->URL del endpoint del retrieval
 API_URL = "http://127.0.0.1:8000/retrieval/"
 
-#-->Función para consultar el endpoint del backend del retrieval
+#-->Funciones auxiliares para extraer doc_id
+def extraer_doc_id(match):
+
+    if "doc_id" in match and match["doc_id"]:
+        return match["doc_id"]
+
+    if "id" in match and match["id"]:
+        return match["id"]
+
+    meta = match.get("metadata", {})
+    posibles = ["id", "doc_id", "chunk_id", "text_id", "source_id", "page_id"]
+
+    for k in posibles:
+        if k in meta and meta[k]:
+            return meta[k]
+
+    return f"unknown_{match.get('score', 0)}"
+
+
+#--------------------------
+# Llamada al endpoint
+#--------------------------
 def consultar_endpoint(query):
     try:
-        response = requests.post(API_URL, data={"query": query}) #Envía la pregunta al endpoint
-        response.raise_for_status() #Verifica si la solicitud fue exitosa
-        return response.json() #Devuelve la respuesta en formato JSON   
-    except Exception as e: #Captura errores y devuelve un mensaje de error
+        response = requests.post(API_URL, data={"query": query})
+        response.raise_for_status()
+        return response.json()
+    except Exception as e:
         return {
-            "answer": f"ERROR al llamar al endpoint: {e}",
+            "answer": f"ERROR: {e}",
             "context": "",
-            "matches_found": 0
+            "matches_found": 0,
+            "results": []
         }
 
-#-->Función principal de la ejecución del script de la generación de respuestas
+
+#--------------------------
+# Script principal
+#--------------------------
 def main():
 
-    with open(PREGUNTAS_PATH, "r", encoding="utf-8") as f: #Abre el archivo de preguntas JSON
-        data = json.load(f) #Carga el contenido del archivo JSON
-    resultados = [] #Lista para almacenar los resultados
- 
-    #-->Procesar bloques de preguntas
+    with open(PREGUNTAS_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    resultados = []
+
+    print("\n=== GENERANDO resultados_respuestas.json ===\n")
+
     for bloque in data:
         seccion = bloque["seccion"]
 
-        #-->Procesar subtemas dentro de cada bloque
         for subtema in bloque["subtemas"]:
             tema = subtema["tema"]
             pregunta_original = subtema["pregunta_original"]
             ground_truth = subtema.get("respuesta_original", "")
 
-            #-->Solo variaciones para evaluar
             for variante in subtema["variaciones"]:
+                print(f"-- Consultando: {variante}")
 
-                print(f"\n-- Consultando variante: {variante}")
                 resultado_api = consultar_endpoint(variante)
+
                 respuesta = resultado_api.get("answer", "")
                 contexto = resultado_api.get("context", "")
                 matches = resultado_api.get("matches_found", 0)
 
-                #-->Guardar resultados en la lista para cada variante
-                resultados.append({ # Guardar: pregunta_original, pregunta_variante, ground_truth, respuesta, contexto, matches para cada variante
+                # AQUÍ SE TOMA LO IMPORTANTE: "results"
+                backend_results = resultado_api.get("results", [])
+
+                retrieval_results = []
+
+                for r in backend_results:
+                    retrieval_results.append({
+                        "doc_id": r.get("doc_id") or extraer_doc_id(r),
+                        "score": r.get("score"),
+                        "rank": r.get("rank")
+                    })
+
+                # Guardar resultados finales
+                resultados.append({
                     "seccion": seccion,
                     "tema": tema,
                     "pregunta_original": pregunta_original,
@@ -63,17 +100,22 @@ def main():
                     "ground_truth": ground_truth,
                     "respuesta": respuesta,
                     "contexto_usado": contexto,
-                    "matches_found": matches
+                    "matches_found": matches,
+
+                    # IMPORTANTE --> Esto sí lo usa IR-métricas
+                    "results": retrieval_results
                 })
 
-    #-->Guarda los resultados en un archivo JSON en la ruta OUTPUT_PATH
+    # Guardar archivo final
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(resultados, f, indent=4, ensure_ascii=False)
 
-    #-->Imprime mensaje de finalización
     print("\n=== TERMINADO ===")
     print(f"Archivo generado: {OUTPUT_PATH}")
 
-#-->Ejecución del script principal
+
+#--------------------------
+# Ejecutar main
+#--------------------------
 if __name__ == "__main__":
     main()

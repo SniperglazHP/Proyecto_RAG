@@ -1,0 +1,122 @@
+{
+    "Tráfico Ilegal De Fauna Silvestre - Grupo más afectado": {
+        "P@10": 0.9,
+        "R@10": 0.45,
+        "nDCG@10": 0.9052116356304493,
+        "AP@10": 0.4077182539682539
+    },
+    "Tráfico Ilegal De Fauna Silvestre - Especies de aves más decomisadas": {
+        "P@10": 1.0,
+        "R@10": 0.5263157894736842,
+        "nDCG@10": 1.0,
+        "AP@10": 0.5263157894736842
+    },
+    "Tráfico Ilegal De Fauna Silvestre - Estado con mayor número de eventos": {
+        "P@10": 0.8,
+        "R@10": 0.38095238095238093,
+        "nDCG@10": 0.8572048559638628,
+        "AP@10": 0.36084656084656086
+    },
+    "Tráfico Ilegal De Fauna Silvestre - Total de especies confiscadas": {
+        "P@10": 1.0,
+        "R@10": 0.5,
+        "nDCG@10": 1.0,
+        "AP@10": 0.5
+    },
+    "Tráfico Ilegal De Fauna Silvestre - Segundo grupo más traficado": {
+        "P@10": 1.0,
+        "R@10": 0.5263157894736842,
+        "nDCG@10": 1.0,
+        "AP@10": 0.5263157894736842
+    },
+    "Tráfico Ilegal De Fauna Silvestre - Reptiles destacados": {
+        "P@10": 0.9,
+        "R@10": 0.47368421052631576,
+        "nDCG@10": 0.9305687780632227,
+        "AP@10": 0.4625730994152047
+    },
+    "Tráfico Ilegal De Fauna Silvestre - Axolote": {
+        "P@10": 1.0,
+        "R@10": 0.47619047619047616,
+        "nDCG@10": 1.0,
+        "AP@10": 0.47619047619047616
+    },
+    "Avances Tecnológicos En México - Industria automotriz": {
+        "P@10": 1.0,
+        "R@10": 0.47619047619047616,
+        "nDCG@10": 1.0,
+        "AP@10": 0.47619047619047616
+    },
+    "Avances Tecnológicos En México - Empresas aeroespaciales": {
+        "P@10": 0.9,
+        "R@10": 0.375,
+        "nDCG@10": 0.9266360779006401,
+        "AP@10": 0.3609953703703704
+    },
+    "Avances Tecnológicos En México - Inversión en infraestructura": {
+        "P@10": 0.9,
+        "R@10": 0.391304347826087,
+        "nDCG@10": 0.9216017310213247,
+        "AP@10": 0.37047964113181503
+    },
+    "Avances Tecnológicos En México - Guadalajara": {
+        "P@10": 1.0,
+        "R@10": 0.5,
+        "nDCG@10": 1.0,
+        "AP@10": 0.5
+    },
+    "Avances Tecnológicos En México - Gastos en ciencia y tecnología": {
+        "P@10": 1.0,
+        "R@10": 0.5263157894736842,
+        "nDCG@10": 1.0,
+        "AP@10": 0.5263157894736842
+    },
+    "Avances Tecnológicos En México - Número de unicornios": {
+        "P@10": 0.9,
+        "R@10": 0.42857142857142855,
+        "nDCG@10": 0.9363792118010483,
+        "AP@10": 0.42857142857142855
+    },
+    "Avances Tecnológicos En México - Unicornio líder": {
+        "P@10": 0.8,
+        "R@10": 0.36363636363636365,
+        "nDCG@10": 0.8482378089219645,
+        "AP@10": 0.3330808080808081
+    },
+    "Desafíos Ambientales En México - Año 2025": {
+        "P@10": 1.0,
+        "R@10": 0.5,
+        "nDCG@10": 1.0,
+        "AP@10": 0.5
+    },
+    "Desafíos Ambientales En México - Fenómenos intensificados": {
+        "P@10": 1.0,
+        "R@10": 0.5,
+        "nDCG@10": 1.0,
+        "AP@10": 0.5
+    },
+    "Desafíos Ambientales En México - Crisis delicadas": {
+        "P@10": 0.9,
+        "R@10": 0.4090909090909091,
+        "nDCG@10": 0.933745776545611,
+        "AP@10": 0.40454545454545454
+    },
+    "Desafíos Ambientales En México - Contaminación en Monterrey": {
+        "P@10": 1.0,
+        "R@10": 0.47619047619047616,
+        "nDCG@10": 1.0,
+        "AP@10": 0.47619047619047616
+    },
+    "Desafíos Ambientales En México - Contradicción económica–ambiental": {
+        "P@10": 1.0,
+        "R@10": 0.4166666666666667,
+        "nDCG@10": 1.0,
+        "AP@10": 0.4166666666666667
+    },
+    "Desafíos Ambientales En México - Tecnologías alternativas": {
+        "P@10": 1.0,
+        "R@10": 0.47619047619047616,
+        "nDCG@10": 1.0,
+        "AP@10": 0.47619047619047616
+    }
+}
