@@ -11,6 +11,7 @@ from scripts.parser_docling import parse_with_docling  # Conversión a Markdown 
 from scripts.chunker_llama import chunk_text  # Divide texto en chunks
 from scripts.embeddings_llama import generate_embeddings  # Genera embeddings usando OpenAI
 from scripts.pinecone_client import pc, INDEX_NAME  # Cliente Pinecone y nombre del índice
+from scripts.agentes.agente_postprocesamiento import ejecutar_agente_postprocesamiento
 
 #-->Carga variables de entorno en el .env
 load_dotenv()
@@ -60,27 +61,24 @@ async def ingesta(file: UploadFile = File(...)):
 
 
 #----------
-#retrieval
+# retrieval
 #----------
 @app.post("/retrieval/")
 async def retrieval(query: str = Form(...)):
     try:
-        #--> Generar embedding
         embedding_response = client.embeddings.create(
             model="text-embedding-3-large",
             input=query
         )
         query_vector = embedding_response.data[0].embedding
 
-        #--> Consulta Pinecone
         index = pc.Index(INDEX_NAME)
         results = index.query(
             vector=query_vector,
-            top_k=10,   # ← subir a 10 para métricas IR como NDCG@10
+            top_k=10,
             include_metadata=True
         )
 
-        #--> Construir contexto
         context = "\n\n".join([
             match["metadata"].get("text")
             or match["metadata"].get("preview", "")
@@ -90,22 +88,18 @@ async def retrieval(query: str = Form(...)):
         if not context.strip():
             return {
                 "query": query,
-                "answer": "No se encontró información relevante en la base vectorial.",
+                "answer": "No se encontró información relevante.",
                 "matches_found": 0,
                 "context": "",
                 "results": []
             }
 
-        #--> Generar respuesta LLM
         response = client.responses.create(
             model=llm_model,
             input=[
                 {
                     "role": "system",
-                    "content": (
-                        "Eres un asistente que responde preguntas basadas únicamente en el contexto proporcionado. "
-                        "Si la información no está en el contexto, indica que no la conoces."
-                    )
+                    "content": "Responde solo con base en el contexto."
                 },
                 {
                     "role": "user",
@@ -114,11 +108,15 @@ async def retrieval(query: str = Form(...)):
             ],
         )
 
-        answer = response.output_text
+        answer_base = response.output_text
 
-        #===========================
-        # NUEVO: estructura completa
-        #===========================
+        # ✅ AHORA SÍ: await correcto
+        answer_mejorada = await ejecutar_agente_postprocesamiento(
+            pregunta=query,
+            contexto=context,
+            respuesta_base=answer_base
+        )
+
         retrieval_results = []
         for i, match in enumerate(results.get("matches", [])):
             retrieval_results.append({
@@ -128,18 +126,20 @@ async def retrieval(query: str = Form(...)):
                 "rank": i + 1
             })
 
-        #--> Respuesta ampliada (nueva estructura)
         return {
             "query": query,
-            "answer": answer,
+            "answer": answer_mejorada,
             "matches_found": len(results.get("matches", [])),
             "context": context,
-            "results": retrieval_results  # <--- ESTA ES LA PARTE CLAVE PARA IR-METRICS
-    
+            "results": retrieval_results
         }
 
     except Exception as e:
+        print("❌ ERROR RETRIEVAL:", e)
         return JSONResponse(
             status_code=500,
-            content={"error": f"Error durante retrieval: {str(e)}"}
+            content={"error": str(e)}
         )
+
+
+
