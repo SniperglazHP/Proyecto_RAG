@@ -1,0 +1,109 @@
+{
+  "kpis": [
+    {
+      "id": "total_pacientes",
+      "titulo": "Total de Pacientes",
+      "valor": 442
+    },
+    {
+      "id": "progression_media_y",
+      "titulo": "Progresión Media General (Y)",
+      "valor": 152.0
+    },
+    {
+      "id": "bmi_medio",
+      "titulo": "Índice de Masa Corporal (BMI) Medio",
+      "valor": 28.7
+    }
+  ],
+  "charts": [
+    {
+      "tipo": "pie",
+      "titulo": "Distribución de Pacientes por Sexo",
+      "x": "Género",
+      "y": "Cantidad",
+      "data": [
+        {
+          "Género": "Hombres",
+          "Cantidad": 212
+        },
+        {
+          "Género": "Mujeres",
+          "Cantidad": 230
+        }
+      ]
+    },
+    {
+      "tipo": "scatter",
+      "titulo": "Progresión de la Condición (Y) vs. Índice de Masa Corporal (BMI)",
+      "x": "BMI",
+      "y": "Y",
+      "data": [
+        { "BMI": 22.1, "Y": 85 },
+        { "BMI": 23.5, "Y": 98 },
+        { "BMI": 24.8, "Y": 110 },
+        { "BMI": 25.0, "Y": 125 },
+        { "BMI": 26.3, "Y": 132 },
+        { "BMI": 27.1, "Y": 140 },
+        { "BMI": 28.0, "Y": 155 },
+        { "BMI": 28.9, "Y": 160 },
+        { "BMI": 29.5, "Y": 168 },
+        { "BMI": 30.2, "Y": 175 },
+        { "BMI": 31.0, "Y": 185 },
+        { "BMI": 32.5, "Y": 192 },
+        { "BMI": 33.1, "Y": 205 },
+        { "BMI": 34.0, "Y": 215 },
+        { "BMI": 35.5, "Y": 228 },
+        { "BMI": 36.0, "Y": 235 },
+        { "BMI": 37.2, "Y": 248 },
+        { "BMI": 38.0, "Y": 255 },
+        { "BMI": 39.1, "Y": 265 },
+        { "BMI": 40.0, "Y": 278 }
+      ]
+    },
+    {
+      "tipo": "bar",
+      "titulo": "Progresión Media (Y) por Sexo",
+      "x": "Género",
+      "y": "Progresión Media (Y)",
+      "data": [
+        {
+          "Género": "Hombres",
+          "Progresión Media (Y)": 148
+        },
+        {
+          "Género": "Mujeres",
+          "Progresión Media (Y)": 156
+        }
+      ]
+    },
+    {
+      "tipo": "bar",
+      "titulo": "Progresión Media (Y) por Rango de Edad",
+      "x": "Rango de Edad",
+      "y": "Progresión Media (Y)",
+      "data": [
+        {
+          "Rango de Edad": "20-30",
+          "Progresión Media (Y)": 120
+        },
+        {
+          "Rango de Edad": "31-40",
+          "Progresión Media (Y)": 140
+        },
+        {
+          "Rango de Edad": "41-50",
+          "Progresión Media (Y)": 160
+        },
+        {
+          "Rango de Edad": "51-60",
+          "Progresión Media (Y)": 180
+        },
+        {
+          "Rango de Edad": "61+",
+          "Progresión Media (Y)": 195
+        }
+      ]
+    }
+  ]
+}

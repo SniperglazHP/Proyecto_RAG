@@ -1,0 +1,195 @@
+{
+  "kpis": [
+    {
+      "id": "kpi_total_registros",
+      "titulo": "Total Registros",
+      "descripcion": "Número total de filas en el dataset.",
+      "tipo_agregacion": "count",
+      "columna": "AGE"
+    },
+    {
+      "id": "kpi_avg_age",
+      "titulo": "Edad Promedio",
+      "descripcion": "Promedio de la columna AGE.",
+      "tipo_agregacion": "mean",
+      "columna": "AGE"
+    },
+    {
+      "id": "kpi_avg_bmi",
+      "titulo": "BMI Promedio",
+      "descripcion": "Promedio de la columna BMI.",
+      "tipo_agregacion": "mean",
+      "columna": "BMI"
+    },
+    {
+      "id": "kpi_avg_bp",
+      "titulo": "Presión Arterial Promedio (BP)",
+      "descripcion": "Promedio de la columna BP.",
+      "tipo_agregacion": "mean",
+      "columna": "BP"
+    },
+    {
+      "id": "kpi_avg_y",
+      "titulo": "Y Promedio",
+      "descripcion": "Promedio de la columna Y (variable objetivo).",
+      "tipo_agregacion": "mean",
+      "columna": "Y"
+    }
+  ],
+  "graficas": [
+    {
+      "id": "hist_age",
+      "tipo": "histograma",
+      "titulo": "Distribución de Edad",
+      "descripcion": "Histograma de la columna AGE para mostrar la distribución de edades.",
+      "config": {
+        "columna_x": "AGE",
+        "bins": 10
+      }
+    },
+    {
+      "id": "bar_sex",
+      "tipo": "barras",
+      "titulo": "Distribución por Sexo",
+      "descripcion": "Gráfico de barras para mostrar la distribución de registros por SEX.",
+      "config": {
+        "columna_x": "SEX",
+        "columna_y": "count",
+        "orientacion": "vertical"
+      }
+    },
+    {
+      "id": "hist_bmi",
+      "tipo": "histograma",
+      "titulo": "Distribución de BMI",
+      "descripcion": "Histograma de la columna BMI para visualizar la distribución del Índice de Masa Corporal.",
+      "config": {
+        "columna_x": "BMI",
+        "bins": 10
+      }
+    },
+    {
+      "id": "hist_bp",
+      "tipo": "histograma",
+      "titulo": "Distribución de Presión Arterial (BP)",
+      "descripcion": "Histograma de la columna BP para entender la distribución de la presión arterial.",
+      "config": {
+        "columna_x": "BP",
+        "bins": 10
+      }
+    },
+    {
+      "id": "hist_y",
+      "tipo": "histograma",
+      "titulo": "Distribución de la Variable Objetivo (Y)",
+      "descripcion": "Histograma de la columna Y para mostrar la distribución de la variable objetivo.",
+      "config": {
+        "columna_x": "Y",
+        "bins": 10
+      }
+    },
+    {
+      "id": "scatter_y_vs_bmi",
+      "tipo": "dispersión",
+      "titulo": "Y vs BMI",
+      "descripcion": "Diagrama de dispersión de la variable objetivo (Y) en función del Índice de Masa Corporal (BMI) para identificar relaciones.",
+      "config": {
+        "columna_x": "BMI",
+        "columna_y": "Y"
+      }
+    },
+    {
+      "id": "scatter_y_vs_bp",
+      "tipo": "dispersión",
+      "titulo": "Y vs Presión Arterial (BP)",
+      "descripcion": "Diagrama de dispersión de la variable objetivo (Y) en función de la Presión Arterial (BP).",
+      "config": {
+        "columna_x": "BP",
+        "columna_y": "Y"
+      }
+    },
+    {
+      "id": "scatter_y_vs_age",
+      "tipo": "dispersión",
+      "titulo": "Y vs Edad",
+      "descripcion": "Diagrama de dispersión de la variable objetivo (Y) en función de la Edad (AGE).",
+      "config": {
+        "columna_x": "AGE",
+        "columna_y": "Y"
+      }
+    }
+  ],
+  "layout": {
+    "tipo": "grid",
+    "filas": [
+      {
+        "columnas": [
+          {
+            "componente_id": "kpi_total_registros",
+            "ancho": 2
+          },
+          {
+            "componente_id": "kpi_avg_age",
+            "ancho": 2
+          },
+          {
+            "componente_id": "kpi_avg_bmi",
+            "ancho": 2
+          },
+          {
+            "componente_id": "kpi_avg_bp",
+            "ancho": 3
+          },
+          {
+            "componente_id": "kpi_avg_y",
+            "ancho": 3
+          }
+        ]
+      },
+      {
+        "columnas": [
+          {
+            "componente_id": "hist_age",
+            "ancho": 4
+          },
+          {
+            "componente_id": "bar_sex",
+            "ancho": 4
+          },
+          {
+            "componente_id": "hist_bmi",
+            "ancho": 4
+          }
+        ]
+      },
+      {
+        "columnas": [
+          {
+            "componente_id": "hist_bp",
+            "ancho": 4
+          },
+          {
+            "componente_id": "hist_y",
+            "ancho": 4
+          },
+          {
+            "componente_id": "scatter_y_vs_bmi",
+            "ancho": 4
+          }
+        ]
+      },
+      {
+        "columnas": [
+          {
+            "componente_id": "scatter_y_vs_bp",
+            "ancho": 6
+          },
+          {
+            "componente_id": "scatter_y_vs_age",
+            "ancho": 6
+          }
+        ]
+      }
+    ]
+  }
+}

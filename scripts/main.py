@@ -110,7 +110,7 @@ async def retrieval(query: str = Form(...)):
 
         answer_base = response.output_text
 
-        # ✅ AHORA SÍ: await correcto
+        #AHORA SÍ: await correcto
         answer_mejorada = await ejecutar_agente_postprocesamiento(
             pregunta=query,
             contexto=context,
@@ -135,7 +135,7 @@ async def retrieval(query: str = Form(...)):
         }
 
     except Exception as e:
-        print("❌ ERROR RETRIEVAL:", e)
+        print("ERROR RETRIEVAL:", e)
         return JSONResponse(
             status_code=500,
             content={"error": str(e)}

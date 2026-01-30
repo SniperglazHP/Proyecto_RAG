@@ -1,0 +1,139 @@
+{
+  "kpis": [
+    {
+      "id": "total_registros",
+      "tipo": "valor_unico",
+      "columna": null,
+      "funcion": "recuento",
+      "nombre": "Total Registros",
+      "descripcion": "Número total de individuos en el estudio."
+    },
+    {
+      "id": "media_progresion_y",
+      "tipo": "valor_unico",
+      "columna": "Y",
+      "funcion": "media",
+      "nombre": "Media de Progresión (Y)",
+      "descripcion": "Valor promedio de la variable objetivo de progresión."
+    },
+    {
+      "id": "media_bmi",
+      "tipo": "valor_unico",
+      "columna": "BMI",
+      "funcion": "media",
+      "nombre": "Media de BMI",
+      "descripcion": "Valor promedio del Índice de Masa Corporal."
+    },
+    {
+      "id": "media_bp",
+      "tipo": "valor_unico",
+      "columna": "BP",
+      "funcion": "media",
+      "nombre": "Media de Presión Arterial",
+      "descripcion": "Valor promedio de la Presión Arterial."
+    }
+  ],
+  "graficas": [
+    {
+      "id": "distribucion_y",
+      "tipo": "histograma",
+      "columna_x": "Y",
+      "columna_y": null,
+      "titulo": "Distribución de la Progresión (Y)",
+      "descripcion": "Muestra la distribución de la variable objetivo de progresión.",
+      "configuracion": {}
+    },
+    {
+      "id": "progresion_por_genero",
+      "tipo": "caja_bigotes",
+      "columna_x": "SEX",
+      "columna_y": "Y",
+      "titulo": "Progresión (Y) por Género (SEX)",
+      "descripcion": "Compara la distribución de la progresión de la enfermedad entre diferentes géneros.",
+      "configuracion": {}
+    },
+    {
+      "id": "distribucion_bmi",
+      "tipo": "histograma",
+      "columna_x": "BMI",
+      "columna_y": null,
+      "titulo": "Distribución del Índice de Masa Corporal (BMI)",
+      "descripcion": "Muestra la distribución del Índice de Masa Corporal entre los individuos.",
+      "configuracion": {}
+    },
+    {
+      "id": "bmi_vs_y",
+      "tipo": "dispersión",
+      "columna_x": "BMI",
+      "columna_y": "Y",
+      "titulo": "BMI vs. Progresión (Y)",
+      "descripcion": "Visualiza la relación entre el Índice de Masa Corporal y la progresión de la enfermedad.",
+      "configuracion": {}
+    },
+    {
+      "id": "age_vs_y",
+      "tipo": "dispersión",
+      "columna_x": "AGE",
+      "columna_y": "Y",
+      "titulo": "Edad vs. Progresión (Y)",
+      "descripcion": "Visualiza la relación entre la edad de los individuos y la progresión de la enfermedad.",
+      "configuracion": {}
+    },
+    {
+      "id": "matriz_correlacion",
+      "tipo": "mapa_calor",
+      "columna_x": null,
+      "columna_y": null,
+      "titulo": "Matriz de Correlación de Variables",
+      "descripcion": "Muestra la correlación entre todas las variables numéricas del dataset, incluyendo las mediciones séricas.",
+      "configuracion": {
+        "data_transform": "correlation"
+      }
+    }
+  ],
+  "layout": {
+    "ncols": 2,
+    "layout": [
+      {
+        "type": "kpi",
+        "id": "total_registros"
+      },
+      {
+        "type": "kpi",
+        "id": "media_progresion_y"
+      },
+      {
+        "type": "kpi",
+        "id": "media_bmi"
+      },
+      {
+        "type": "kpi",
+        "id": "media_bp"
+      },
+      {
+        "type": "grafica",
+        "id": "distribucion_y"
+      },
+      {
+        "type": "grafica",
+        "id": "progresion_por_genero"
+      },
+      {
+        "type": "grafica",
+        "id": "distribucion_bmi"
+      },
+      {
+        "type": "grafica",
+        "id": "bmi_vs_y"
+      },
+      {
+        "type": "grafica",
+        "id": "age_vs_y"
+      },
+      {
+        "type": "grafica",
+        "id": "matriz_correlacion"
+      }
+    ]
+  }
+}
