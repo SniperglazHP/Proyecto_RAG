@@ -1,0 +1,14 @@
+[project]
+name = "agente_google_adk"
+version = "0.1.0"
+
+dependencies = [
+  "google-adk",
+  "google-genai",
+  "pandas",
+  "numpy",
+  "matplotlib"
+]
+
+[tool.adk.agents]
+data_science = "data_science.agent:root_agent"
